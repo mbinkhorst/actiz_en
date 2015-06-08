@@ -1,0 +1,95 @@
+.arrow-button {
+
+	display: inline-block;
+
+	@include title-font;
+
+	text-decoration: none;
+	font-size: em(22px);
+
+	.no-touch & {
+
+		&:before, &:after {
+			@include transition(color 200ms ease-in-out);
+		}
+
+		&:hover:not(.blue) {
+			&:before, &:after {
+				color: $blue;
+			}
+		}
+
+		&.white {
+
+			color: $white;
+
+			&:hover {
+				&:before, &:after {
+					color: $white;
+				}
+			}
+			
+		}
+	}
+
+	&.inline {
+		font-size: inherit;
+	}
+
+
+
+	&.left:before {
+
+		font-size: 0.825em;
+		@extend .icon;
+		@extend .icon-pijl_dik:before;
+
+		padding-right: 0.5em;
+
+
+	}
+	&.right:after {
+
+		font-size: 0.825em;
+		@extend .icon;
+		@extend .icon-pijl_dik_rechts:before;
+
+		padding-left: 0.5em;
+
+	}
+	&.down:after {
+
+		font-size: 0.825em;
+		@extend .icon;
+		@extend .icon-pijl_dik_rechts:before;
+
+		padding-left: 0.5em;
+
+	}
+
+	&.subtle {
+		font-size: inherit;
+		color: inherit;
+		@include body-font;
+		text-transform: none;
+	}
+
+
+
+	&.block {
+		display: block;
+		text-align: center;
+		line-height: 1.8;
+	}
+
+	&.blue {
+
+		background: $blue;
+
+
+
+
+	}
+
+
+}

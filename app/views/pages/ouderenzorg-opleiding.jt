@@ -1,0 +1,22 @@
+<%= Chick.Actiz.SubNavigation.render('ouderenzorg', 2) %>
+
+<article class="content">
+
+	<div class="content">
+		<h2><%= trans('ouderenzorg.opleiding.title') %></h2>
+	</div>
+	
+	<ul class="logo-links five-per-row">
+		
+		<% _.each(I18n.get('ouderenzorg.opleiding.items'), function(item) { %>
+		<li>
+			<a href="<%= Chick.url(item.url) %>" target="_blank" title="<%= item.title %>">
+				<img src="/images/hogescholen/<%= item.image %>" alt="<%= item.title %>">
+			</a>
+		</li>
+		<% }); %>
+
+	</ul>
+
+
+</article>

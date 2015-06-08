@@ -1,0 +1,128 @@
+<%= Chick.Actiz.SubNavigation.render('ouderenzorg', 5) %>
+
+<article class="content">
+
+	
+	<div class="blocks">
+
+		<div class="p58">
+
+			<div class="narrow content">
+				<%= Chick.Actiz.Content.render('ouderenzorg.media.intro') %>
+			</div>
+
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.logo.title') %></h3>
+
+				<div>
+					<img src="/media/logos.png">
+
+					<a href="<%= Chick.url('/media/logo.zip') %>" class="download-button"><%= trans('ouderenzorg.media.logo.button') %></a>
+
+				</div>
+
+			</div>
+
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.posters.title') %></h3>
+
+				<div>
+					<ul>
+						<li><img src="/media/posters.jpg"></li>
+					</ul>
+
+					<a href="<%= Chick.url('/media/posters.zip') %>" class="download-button"><%= trans('ouderenzorg.media.posters.button') %></a>
+
+				</div>
+
+			</div>
+
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.banners.title') %></h3>
+
+				<div>
+
+					<ul class="download links">
+
+						<li>
+								<div class="image block"><img src="<%= Chick.url('/media/vanzand.jpg') %>" width=></div>
+						</li>
+
+						<li>
+								<div class="image block"><img src="<%= Chick.url('/media/davids.jpg') %>"></div>
+						</li>	
+						<li>
+								<div class="image block"><img src="<%= Chick.url('/media/pinas.jpg') %>"></div>
+						</li>
+					</ul>
+					<a href="<%= Chick.url('/media/banners.zip') %>" class="download-button"><%= trans('ouderenzorg.media.banners.subtitle') %></a>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="p42">
+
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.roll-up.title') %></h3>
+				<div>
+
+					<div class="image block"><img src="/media/rollup.jpg"></div>
+
+					<%= trans('ouderenzorg.media.roll-up.button') %>
+
+				</div>
+
+			</div>			
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.trailer.title') %></h3>
+				<div>
+
+					<iframe width="100%" src="https://www.youtube.com/embed/Lr-Ky23iZR4?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+				</div>
+
+			</div>		
+
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.teaser-card.title') %></h3>
+				<div>
+
+					<ul>
+						<li><img src="/media/teaserkaart.jpg"></li>
+					</ul>
+
+					<a href="<%= Chick.url('/media/ACTIZ800-03_teaserkaartje.pdf') %>" target="_blank" class="download-button"><%= trans('ouderenzorg.media.teaser-card.button') %></a>
+
+				</div>
+
+			</div>
+
+			<div class="blue-header narrow content">
+
+				<h3><%= trans('ouderenzorg.media.word.title') %></h3>
+				<div>
+
+					<div class="image block"><a href="<%= Chick.url('/media/Campagnetekst_HBO-V-in-de-ouderenzorg.docx') %>"><img src="<%= Chick.url('/images/media/word-document.png') %>"></a></div>
+
+					<a href="<%= Chick.url('/media/Campagnetekst_HBO-V-in-de-ouderenzorg.docx') %>" class="download-button"><%= trans('ouderenzorg.media.word.button') %></a>
+
+				</div>
+
+			</div>		
+		
+
+		</div>
+
+	</div>
+
+
+<p>&nbsp;</p>
+</article>
+

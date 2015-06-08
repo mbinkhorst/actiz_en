@@ -1,0 +1,53 @@
+<%= Chick.Actiz.SubNavigation.render('praktijk', 0) %>
+
+<article class="content">
+
+	<div class="blocks">
+
+	
+		<div class="p42">
+
+			<ul class="authors">
+				<% authors.each(function(author) { %>
+				<li<% if (author.isGuest()) { %> class="guest"<% } %>>
+					<a href="<%= author.latestPost.get('url') %>">
+						<div class="image">
+							<img src="<%= author.get('imageUrl') %>">\
+						</div>
+
+						<h3><%= author.get('fullname') %></h3>
+						<p><%= author.get('jobTitle') %></p>
+					</a>
+				</li>
+				<% }); %>
+			</ul>
+
+
+		</div>
+
+		<div class="p58">
+
+			<ul class="posts">
+				
+				<% posts.each(function(post) { %>
+				<li<% if (post.get('author').isGuest()) { %> class="guest"<% } %>>
+					<header>
+						<div class="date"><%= post.get('date') %></div>
+						<div class="author"><%= post.get('author.fullname') %></div>
+						<h3><a href="<%= post.get('url') %>"><%= post.get('title') %></a></h3>
+					</header>
+					<p>
+						<%= post.get('teaser') %>
+						<a href="<%= post.get('url') %>" class="inline right arrow-button"><%= trans('praktijk.read-more') %></a>
+					</p>
+				</li>
+				<% }); %>
+
+			</ul>
+				
+		</div>
+
+
+	</div>
+
+</article>

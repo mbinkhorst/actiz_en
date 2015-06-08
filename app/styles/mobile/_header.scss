@@ -1,0 +1,59 @@
+header.site {
+
+	background: $dark-gray;
+	position: absolute;
+	width: 100%;
+	height: $header-height;
+
+
+	button.toggle {
+
+		background: none;
+		outline: none;
+		border: none;
+
+		position: absolute;
+/*		left: 10px; */
+		top: 20px;
+
+		&:before {
+			@extend .icon;
+			@extend .icon-hamburger:before;
+			font-size: 1.75em;
+			color: $blue;
+		}
+
+		&.active:before {
+			@extend .icon-sluiten:before;
+		}
+
+	}
+
+
+	a {
+		text-decoration: none;
+	}
+
+	hgroup {
+		padding: em(15) 0 0 em(60);
+	}
+
+
+	h1 {
+
+		@include body-font-serif;
+		text-transform: none;
+		font-weight: normal;
+		font-size: em(21);
+		margin: 0;
+		
+	}
+	h2 {
+		line-height: 1;
+		margin: 0.125em 0;
+		font-size: em(21);
+	}
+
+
+
+}

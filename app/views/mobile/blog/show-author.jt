@@ -1,0 +1,45 @@
+<section class="content<% if (author.isGuest()) { %> blue<% } %>">
+	
+	<header>
+		<div class="image">
+			<img src="<%= author.get('imageUrl') %>">
+		</div>
+
+		<h3><%= author.get('fullname') %></h3>
+
+	</header>
+
+	<p><span><%= trans('praktijk.author.city') %>:</span> <%= author.get('city') %></p>
+	<p><span><%= trans('praktijk.author.works-as') %>:</span> <%= author.get('worksAs') %></p>
+
+				<% if (author.get('trivia').length > 0) { %>
+				<p><span><%= trans('praktijk.author.trivia') %>:</span> <%= author.get('trivia') %></p>
+				<% } %>
+				
+<!-- 	<p><span><%= trans('praktijk.author.trivia') %></span> <%= author.get('trivia') %></p> -->
+		
+	<a href="#" class="toggle"><%= trans('praktijk.more-about', { name: author.get('firstname') }) %></a>
+
+	<div class="details">
+
+		<p><%= author.get('bio') %></p>
+
+	</div>
+
+		
+</section>
+
+<% author.posts.each(function(post) { %>
+<section class="content<% if (post.get('author').isGuest()) { %> blue<% } %>">
+	<a href="<%= post.get('urlMobile') %>">
+	<header>
+		<h3><%= post.get('title') %></h3>
+	</header>
+	<div class="author"><%= post.get('author.fullname') %>:</div>
+	<p>
+		<%= post.get('teaser') %>
+		<span><%= trans('praktijk.read-more') %></span>
+	</p>
+	</a>
+</section>
+<% }); %>

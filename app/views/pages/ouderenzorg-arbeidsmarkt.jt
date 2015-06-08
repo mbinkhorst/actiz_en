@@ -1,0 +1,48 @@
+<%= Chick.Actiz.SubNavigation.render('ouderenzorg', 3) %>
+
+<article class="content">
+
+	<div class="content">
+		<h2><%= trans('ouderenzorg.arbeidsmarkt.title') %></h2>
+	</div>
+	
+	<div class="blocks">
+
+		<div class="p62">
+
+			<ul class="logo-links three-per-row">
+				
+				<% _.each(I18n.get('ouderenzorg.arbeidsmarkt.links'), function(item) { %>
+				<li>
+					<a href="<%= Chick.url(item.url) %>" target="_blank" title="<%= item.title %>">
+						<img src="<%= item.image %>" alt="<%= item.title %>">
+					</a>
+				</li>
+				<% }); %>
+
+			</ul>
+
+		</div>
+
+		<div class="p38">
+
+			<div class="content blue">
+
+				<h4><%= trans('ouderenzorg.arbeidsmarkt.leden.title') %></h4>
+
+				<a href="<%= Chick.url(I18n.get('ouderenzorg.arbeidsmarkt.leden.url')) %>" target="_blank"><img src="images/actiz-leden-kaart.jpg" alt="<%= trans('ouderenzorg.arbeidsmarkt.leden.title') %>"></a>
+
+				<div class="buttons right">
+					<a href="<%= Chick.url(I18n.get('ouderenzorg.arbeidsmarkt.leden.url')) %>" target="_blank" class="minuscule white simple banner">
+						<span><%= trans('ouderenzorg.arbeidsmarkt.leden.button') %></span>
+					</a>
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+</article>

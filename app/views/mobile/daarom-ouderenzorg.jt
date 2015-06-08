@@ -1,0 +1,33 @@
+<section class="image no-margin">
+	<img src="<%= Chick.url('/images/mobile/3tal.jpg') %>">
+</section>
+<section class="blue content">
+	<h2><%= trans('mobile.daarom-ouderenzorg.intro.title') %></h2>
+	<%= Chick.Actiz.Content.render('mobile.daarom-ouderenzorg.intro.content') %>
+</section>
+
+<section class="blue-title faq paged content">
+
+	<h2><%= trans('mobile.daarom-ouderenzorg.faq.title') %></h2>
+
+	<ul>
+	<% _.each(I18n.get('ouderenzorg.faq.faqs'), function(item,i) { %>
+		<li class="faq">
+			<h3><%= item.title %></h3>
+			<%= Chick.Actiz.Content.render(item.content) %> 
+		</li>
+	<% }); %>
+	</ul>
+
+	<div class="buttons">
+		<a href="#" class="subtle left arrow-button previous"><%= trans('ouderenzorg.docenten.buttons.previous') %></a>
+		<a href="#" class="subtle right arrow-button next"><%= trans('ouderenzorg.docenten.buttons.next') %></a>
+	</div>
+</section>
+
+<!--
+<section class="blue-title content">
+	<h2><%= trans('mobile.daarom-ouderenzorg.docenten.title') %></h2>
+	<%= Chick.Actiz.Content.render('mobile.daarom-ouderenzorg.docenten.content') %>
+</section>
+-->

@@ -1,0 +1,134 @@
+.view[class*="pages-ouderenzorg"] {
+
+	background-image: image-url('cases/van-zand/blurred-background.jpg');
+
+	&:before {
+		content: '';
+		width: 100%;
+		height: calc(100% - 71px);
+		background-color: rgba(#fff, 0.36);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	article.content {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -461px;
+
+		.docenten {
+			
+			a {
+				color:#42b7d0;
+			}
+
+		}
+
+		
+		.content .faq {
+
+			padding-bottom: em(32);
+			margin-bottom: em(32);
+
+			border-bottom: 1px solid $gray;
+			
+			a {
+				color:#42b7d0;
+			}
+			&:last-of-type {
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+
+		}
+
+
+
+		.content.paged {
+
+			padding: 0;
+
+			h3 {
+				font-size: em(20);
+				background: $blue;
+				color: $white;
+				padding: em(8, 20) em(8, 20) em(4, 20);
+			}
+
+		
+			> ul {
+				margin: 0;
+
+				> li {
+
+					padding: em(12);								
+
+				}
+
+
+			}
+
+			.buttons {
+				padding: em(12);
+				height: 3em;
+				margin: 0;
+				color: $blue;
+
+				.left {
+					float: left;
+				}
+				.right {
+					float: right;
+				}
+
+			}
+
+			&.blue {
+				h3 {
+					padding-top: 0.5em;
+				}
+			}
+
+		}
+
+
+	}
+
+}
+
+.view.pages-ouderenzorg-opleiding {
+
+	.content .content {
+
+		h2 {
+
+			margin: 0 0 0.5em;
+
+			font-size: em(24);
+
+		}
+
+	}
+
+
+}
+
+.view.pages-ouderenzorg-arbeidsmarkt {
+
+	.content .content {
+
+		h2 {
+
+			margin: 0 0 0.5em;
+
+			font-size: em(24);
+
+		}
+
+	}
+
+
+}

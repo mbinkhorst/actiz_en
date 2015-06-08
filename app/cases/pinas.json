@@ -1,0 +1,300 @@
+{
+
+	"video": "/cases/pinas.mp4",
+	"poster": "/images/cases/pinas/poster.jpg",
+	"key": "case-pinas",
+	"translations": "experience.pinas",
+
+	"gameDuration": 180,
+
+	"intro": "intro",
+
+	
+	"flow": {
+		"intro": "intro",
+		"skipIntro": "intro-part2",
+		"skipIntro": "main",
+		"main": "main",
+		"gameOver": "game-over",
+		"noCheating": "geen-clues-gevonden"
+	},
+
+	"events": {
+	
+		"foto-overlay": {
+			"type": "text",
+			"text": "experience.pinas.foto-vrouw",
+			"startsAt": "5m15",
+			"endsAt": "5m20"
+		},
+		
+		"telefoon-overlay": {
+			"type": "text",
+			"text": "experience.pinas.telefoon",
+			"startsAt": "5m27",
+			"endsAt": "5m30"
+		}
+	},
+
+	"hotspots": {
+
+		"man": {
+			"scene": "gesprek-man",
+			"topLeft": {
+				"x": "49.86%",
+				"y": "30.15%"
+			},
+			"bottomRight": {
+				"x": "62.5%",
+				"y": "61.41%"
+			}
+		},
+		
+		"foto-vrouw": {
+			"scene": "foto-vrouw",
+			"topLeft": {
+				"x": "75.91%",
+				"y": "14.39%"
+			},
+			"bottomRight": {
+				"x": "81.35%",
+				"y": "31.51%"
+			}
+		},
+
+		"telefoon": {
+			"scene": "telefoon",
+			"topLeft": {
+				"x": "12.99%",
+				"y": "52.85%"
+			},
+			"bottomRight": {
+				"x": "23.32%",
+				"y": "64.14%"
+			}
+		},
+		
+		"medicijnen": {
+			"scene": "medicijnen",
+			"topLeft": {			
+				"x": "70.67%",
+				"y": "68.11%"
+			},
+			"bottomRight": {
+				"x": "81.84%",
+				"y": "79.9%"
+			}
+		},
+		
+		"gordijnen": {
+			"scene": "gordijnen",
+			"topLeft": {			
+				"x": "14.57%",
+				"y": "11.41%"
+			},
+			"bottomRight": {
+				"x": "49.79%",
+				"y": "24.67%"
+			}
+		},
+		
+		"parkiet": {
+			"scene": "parkiet",
+			"topLeft": {			
+				"x": "28.21%",
+				"y": "29.03%"
+			},
+			"bottomRight": {
+				"x": "39.25%",
+				"y": "50%"
+			}
+		},
+		
+		"koelkast": {
+			"scene": "koelkast",
+			"topLeft": {			
+				"x": "43.12%",
+				"y": "74.19%"
+			},
+			"bottomRight": {
+				"x": "53.56%",
+				"y": "90.69%"
+			}
+		}
+	},
+
+	"hints": [
+
+		{
+			"hotspot": "koelkast",
+			"scene": "hint1-voeding"
+		},
+
+		{
+			"hotspot": "medicijnen",
+			"scene": "hint2-medicijnen"
+		},
+
+		{
+			"hotspot": "man",
+			"scene": "hint3-dementie"
+		}
+
+
+	],
+
+	"questions": [
+		
+		{
+			"key": "experience.pinas.question1.question",
+			"answers": ["experience.pinas.question1.answers", 2],
+			"scenes": {
+				"intro": "ik-weet-het",
+				"right": "question1-right",
+				"wrong": "question1-wrong"
+			}
+		},
+		{
+			"key": "experience.pinas.question2.question",
+			"answers": ["experience.pinas.question2.answers", 1],
+			"scenes": {
+				"intro": false,
+				"right": "question2-right",
+				"wrong": "question2-wrong"
+			}
+		},
+		{
+			"key": "experience.pinas.question3.question",
+			"answers": ["experience.pinas.question3.answers", 2],
+			"scenes": {
+				"intro": false,
+				"right": "question3-right",
+				"wrong": "question3-wrong"
+			}
+		}
+
+	],
+
+	"dossier": {
+		"scene": "buurvrouw"
+	},
+
+	"scenes": {
+		"intro": {
+			"startsAt": "0m00",
+			"endsAt": "1m12"
+		},
+
+		"intro-part2": {
+			"startsAt": "0m43",
+			"endsAt": "1m11"
+		},
+
+		"main": {
+			"startsAt": "1m12",
+			"endsAt": "4m23"
+		},
+
+		"game-over": {
+			"startsAt": "4m24",
+			"endsAt": "4m37"
+		},
+
+		"geen-clues-gevonden": {
+			"startsAt": "4m42",
+			"endsAt": "4m47"
+		},
+
+		"gesprek-man": {
+			"startsAt": "4m49",
+			"endsAt": "5m09"
+		},
+
+		"foto-vrouw": {
+			"startsAt": "5m12",
+			"endsAt": "5m20.5"
+		},
+
+		"telefoon": {
+			"startsAt": "5m23",
+			"endsAt": "5m31"
+		},
+
+		"medicijnen": {
+			"startsAt": "5m33",
+			"endsAt": "5m41"
+		},
+
+		"koelkast": {
+			"startsAt": "5m43.300",
+			"endsAt": "5m55"
+		},
+
+		"parkiet": {
+			"startsAt": "5m58",
+			"endsAt": "6m04"
+		},
+
+		"gordijnen": {
+			"startsAt": "6m06",
+			"endsAt": "6m09.500"
+		},
+
+		"buurvrouw": {
+			"startsAt": "6m12",
+			"endsAt": "6m52"
+		},
+
+		"hint1-voeding": {
+			"startsAt": "6m55",
+			"endsAt": "7m03.500"
+		},
+
+		"hint2-medicijnen": {
+			"startsAt": "7m05",
+			"endsAt": "7m12"
+		},
+
+		"hint3-dementie": {
+			"startsAt": "7m15",
+			"endsAt": "7m26"
+		},
+
+		"ik-weet-het": {
+			"startsAt": "7m28.500",
+			"endsAt": "7m34"
+		},
+
+		"question1-wrong": {
+			"startsAt": "7m36",
+			"endsAt": "7m47"
+		},
+
+		"question1-right": {
+			"startsAt": "7m49.600",
+			"endsAt": "8m01"
+		},
+
+		"question2-wrong": {
+			"startsAt": "8m02",
+			"endsAt": "8m14.500"
+		},
+
+		"question2-right": {
+			"startsAt": "8m15.600",
+			"endsAt": "8m34"
+		},
+
+		"question3-wrong": {
+			"startsAt": "8m35.500",
+			"endsAt": "8m46.000"
+		},
+
+		"question3-right": {
+			"startsAt": "8m47.000",
+			"endsAt": "9m05"
+		}
+
+	}
+
+}

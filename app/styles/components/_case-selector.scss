@@ -1,0 +1,52 @@
+.case-selector {
+
+	width: 100%;
+	height: 100%;
+
+	> .case {
+
+	
+		position: absolute;
+		top: 0;
+		height: 100%;
+
+		.banner-container {
+
+			display: block;
+			text-align: center;
+			position: relative;
+			width: 100%;
+
+			.banner {
+				@include transform-origin(center bottom);
+				opacity: 0;
+
+				
+				text-align: left;
+				
+				margin-bottom: $nav-height;
+
+				span {
+					text-decoration: none;
+				}
+				
+			}
+				.pinas {
+					width: 460px;
+				}
+				
+				.davids {
+					width: 455px;
+				}
+				
+				.van-zand {
+					width: 520px;
+				}				
+
+		}
+
+
+	}
+
+
+}

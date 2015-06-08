@@ -1,0 +1,37 @@
+<article data-position="x: center, y: bottom">
+	
+
+
+	<div class="content">
+
+		<div class="<%= trans(translations + '.pictures').length === 2 ? 'two' : 'one' %> pictures">
+			<% _.each(trans(translations + '.pictures'), function(image) { %>
+			<div class="image"><img src="<%= image %>"></div>
+			<% }); %>
+		</div>
+		
+		<div class="text">
+		
+			<h4><%= trans(translations + '.plan.title') %></h4>
+
+			<% _.each(trans(translations + '.plan.content'), function(p) { %>
+			<% if (typeof p === 'string') { %>
+			<p><%= p %></p>
+			<% } else { %>
+			<ul>
+				<% _.each(p, function(i) { %>
+				<li><%= i %></li>
+				<% }); %>
+			</ul>
+			<% } %>
+			<% }); %>
+
+			<div class="buttons">
+				<a href="#" class="continue arrow-button right"><%= trans('experience.buttons.continue') %></a>
+			</div>
+		</div>
+
+	</div>
+
+
+</article>

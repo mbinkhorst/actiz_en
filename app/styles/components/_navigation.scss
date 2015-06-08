@@ -1,0 +1,121 @@
+
+#main > nav,
+.view[class*="experience-"] > header {
+
+	position: absolute;
+	
+	z-index: 10;
+
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+
+	height: $nav-height;
+	border-top: 2px solid rgba($white, 0.2);
+
+	background: $black-transparent;
+
+	>ul,
+	nav > ul {
+
+
+		height: 100%;
+
+		> li {
+
+			@include transform-origin(center center);
+			@include transform-style(preserve-3d);
+
+
+			display: inline-block;
+
+			float: left;
+
+			background: none;
+
+
+			height: 100%;
+
+
+			a {
+			
+				display: table;
+				height: 100%;
+
+				@include title-font;
+				text-decoration: none;
+
+				position: relative;
+				
+				padding: 4px 0 0 15px;
+
+				span {
+					display: table-cell;
+					vertical-align: middle;
+				}
+
+				.title {
+					padding-right: 15px;
+				}
+
+				.icon:before {
+					font-size: 27px;
+					padding-right: 8px;
+					position: relative;
+					top: -2px;					
+				}
+
+
+			}
+
+			@include transition(background 0.2s ease-in-out);
+
+			.no-touch &:hover, &.active {
+				cursor: pointer;
+				background: $blue-transparent
+			}
+
+			&.disabled {
+				opacity: 0.2;
+
+				pointer-events: none;
+
+			}
+
+
+		}
+
+
+	}
+
+
+}
+
+#main > nav {
+
+	text-align: center;
+
+	ul {
+
+		display: inline-block;
+		margin: 0 auto;
+
+		>li {
+
+			text-align: left;
+
+			a {
+				.title {
+					padding-right: 3em;
+					@media (max-width: 1050px) {
+						padding-right: 1.65em;
+					}
+				}
+			}
+		}
+
+	}
+
+
+}

@@ -1,0 +1,52 @@
+<%= Chick.Actiz.SubNavigation.render('ouderenzorg', 0) %>
+
+<article class="content">
+
+	<div class="blocks">
+
+		<div class="p58">
+
+			<div class="content">
+
+				<h3><%= trans('ouderenzorg.hbo-v.title') %></h3>
+
+				<%= Chick.Actiz.Content.render('ouderenzorg.hbo-v.content') %> 
+
+			</div>			
+
+		</div>
+
+		<div class="p42">
+
+			<div class="blue content newsletter subscribe">
+
+				<p class="intro"><%= trans('newsletter.subscribe.intro') %></p>
+				<form action="<%= Chick.app.backendUrl('/newsletter/subscribe') %>">
+					<input type="email" name="email" placeholder="<%= trans('newsletter.subscribe.form.email') %>">
+
+					<button type="submit"><%= trans('newsletter.subscribe.form.submit') %></button>
+				</form>
+				
+			</div>
+
+			<div class="social">
+				
+				<ul>
+					<% _.each(trans('ouderenzorg.social'), function(item) { %>
+					<li>
+						<a href="<%= item.url %>" target="_blank">
+							<span class="icon <%= item.icon %>"></span>
+							<div class="caption"><%= item.caption %></div>
+						</a>
+					</li>
+					<% }); %>
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+</article>

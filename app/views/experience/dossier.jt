@@ -1,0 +1,29 @@
+<article data-position="x: center, y: bottom">
+	
+	<div class="content">
+
+		<div class="<%= trans(translations + '.pictures').length === 2 ? 'two' : 'one' %> pictures">
+			<% _.each(trans(translations + '.pictures'), function(image) { %>
+			<div class="image"><img src="<%= image %>"></div>
+			<% }); %>
+		</div>
+		
+		
+		<div class="text">
+		
+			<h3><%= trans(translations + '.dossier.title') %></h3>
+
+			<% _.each(trans(translations + '.dossier.paragraphs'), function(p) { %>
+			<h4><%= p.title %></h4>
+			<p><%= p.text %></p>			
+			<% }); %>
+
+		</div>
+
+	</div>
+
+
+	<a href="#" class="close"><%= trans('experience.buttons.close') %><span class="icon-sluiten"></span></a>
+
+
+</article>

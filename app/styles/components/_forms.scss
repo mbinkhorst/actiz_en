@@ -1,0 +1,46 @@
+form {
+
+	&.busy {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	input[type=text], input[type=email] {
+
+		border: none;
+		border-radius: none;
+		outline: none;
+
+		background: $input-bg;
+
+		font-size: em(14);
+		@include body-font;
+
+		padding: 4px;
+
+
+		@include placeholder {
+			font-style: italic;
+		}
+
+	}
+
+	button {
+
+		background: $white;
+		color: $blue;		
+		border: none;
+		outline: none;
+
+		@include body-font;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: em(14);
+
+		padding: 2px 6px;
+
+
+	}
+
+}
+

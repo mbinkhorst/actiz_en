@@ -1,0 +1,1265 @@
+{
+  "navigation" : [
+    {
+      "caption" : "Daarom ouderenzorg",
+      "url" : "/waarom-ouderenzorg/hbo-v",
+      "icon" : "HBO-V"
+    },
+    {
+      "caption" : "Doe de experience",
+      "url" : "/experience",
+      "icon" : "Experience"
+    },
+    {
+      "caption" : "Kijk in de praktijk",
+      "url" : "/praktijk",
+      "icon" : "praktijk"
+    },
+    {
+      "caption" : "Test je kennis",
+      "url" : "/test-je-kennis",
+      "icon" : "quickscan"
+    },
+    {
+      "caption" : "Het netwerk",
+      "url" : "/het-netwerk/testimonials",
+      "icon" : "netwerk"
+    }
+  ],
+  "sub-navigation" : {
+    "ouderenzorg" : [
+      {
+        "caption" : "HBO-V",
+        "url" : "/waarom-ouderenzorg/hbo-v"
+      },
+      {
+        "caption" : "FAQ",
+        "url" : "/waarom-ouderenzorg/faq"
+      },
+      {
+        "caption" : "Hogescholen",
+        "url" : "/waarom-ouderenzorg/hogescholen"
+      },
+      {
+        "caption" : "Arbeidsmarkt",
+        "url" : "/waarom-ouderenzorg/arbeidsmarkt"
+      },
+      {
+        "caption" : "Docenten",
+        "url" : "/waarom-ouderenzorg/docenten"
+      },
+      {
+        "caption" : "Media",
+        "url" : "/waarom-ouderenzorg/media"
+      }
+    ],
+    "praktijk" : [
+      {
+        "caption" : "Praktijkverhalen",
+        "url" : "/praktijk"
+      },
+      {
+        "caption" : "Docent mee op stage",
+        "url" : "/praktijk/mee-op-stage"
+      }
+    ],
+    "het-netwerk" : [
+      {
+        "caption" : "Testimonials",
+        "url" : "/het-netwerk/testimonials"
+      },
+      {
+        "caption" : "Partners &amp; Links",
+        "url" : "/het-netwerk/partners-en-links"
+      },
+      {
+        "caption" : "Evenementen",
+        "url" : "/het-netwerk/evenementen"
+      }
+    ]
+  },
+  "site" : {
+    "title" : "HBO-V in de ouderenzorg",
+    "subtitle" : "Daar zit meer achter"
+  },
+  "home" : {
+    "call-to-action" : {
+      "title" : "Overzie jij de situatie?",
+      "content" : "Ontdek ’t zelf"
+    }
+  },
+  "ouderenzorg" : {
+    "hbo-v" : {
+      "title" : "Jij overziet, jij beslist<br>De ouderenzorg heeft HBO-verpleegkundigen nodig",
+      "content" : [
+        "Binnen de ouderenzorg liggen misschien wel de grootste uitdagingen. Ouderenzorg is nooit simpel en standaard. Bovendien neemt het aantal ouderen snel toe. Ouderen hebben vaak meervoudige problemen. Ook sociale aspecten spelen een grote rol. Daardoor loop je elke dag tegen complexe situaties aan. Situaties die bijna niemand kan overzien. Jij wel. <br><br>Als HBO-verpleegkundige speel je een centrale, leidende rol in de ouderenzorg. Jij coördineert de zorg thuis, stemt af met de familie en overlegt met de huisarts en andere collega’s in de zorg. Iedereen verwacht van jou dat jij problemen signaleert en aanpakt. Dat maakt het werk van HBO-verpleegkundige in de zorg thuis, wijkverpleging of in een verpleeghuis bijzonder boeiend. <br><br>Eerst zien, dan geloven, denk je nu misschien. Dat kan. Ontdek het zelf in 3 interactieve verhalen. Of kijk en lees mee over de schouder van mensen uit de praktijk. En als je denkt dat je er al helemaal klaar voor bent of je bent benieuwd wat er nog meer bij komt kijken… Test je kennis."
+      ]
+    },
+    "faq" : {
+      "faqs" : [
+        {
+          "key" : "faq1",
+          "title" : "Wat is ouderenzorg?",
+          "content" : [
+            "Bij het ouder worden krijgen mensen meer last van verschillende aandoeningen. Ouderenzorg (zorg thuis, wijkverpleging, verpleeg-/verzorgingshuis) ondersteunt ouderen, zowel op geestelijk als lichamelijk gebied. Het doel is om ouderen zo lang mogelijk zelfstandig te laten functioneren en een prettige oude dag te geven. Wanneer dit niet meer gaat, kunnen mensen terecht in een woonzorgcentrum of verpleeghuis."
+          ]
+        },
+        {
+          "key" : "faq2",
+          "title" : "Waarom zijn er meer HBO-verpleegkundigen nodig in de ouderenzorg?",
+          "content" : [
+            "Ouderen blijven steeds langer thuis wonen. Situaties worden complexer. De verpleegkundige in de wijk heeft een belangrijke rol. Tegelijkertijd moet de wijkverpleegkundige toegerust worden op haar nieuwe taken. Ook neemt de complexiteit van de zorg in verpleeghuizen toe, waardoor ook hier meer vraag ontstaat naar HBO-verpleegkundigen."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Hoeveel instellingen voor ouderenzorg zijn er in Nederland?",
+          "content" : [
+            "Er zijn ongeveer 2000 locaties waar zorg voor ouderen wordt aangeboden, zowel verpleeg- als verzorgingshuizen. Op zo’n 900 locaties wordt verpleeghuiszorg aangeboden. Veel organisaties bieden meerdere vormen van zorg aan."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Hoeveel mensen werken er in de ouderenzorg (zorg thuis en verpleeghuiszorg)?",
+          "content" : [
+            "In de verpleeg- en verzorgingshuizen en zorg thuis werken circa 435.000 mensen. Het overgrote deel van hen werkt in deeltijd. Gemiddeld gezien ligt de deeltijdfactor op 0,56 FTE (bron: PFZW, juli 2014)."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Hoe groot is het tekort aan HBO-Verpleegkundigen in de ouderenzorg? En wat is de verwachting voor de komende jaren?",
+          "content" : [
+            "Een berekening van ActiZ en BTN (Branchebelang Thuiszorg Nederland) uit 2014 laat zien dat er in 2015 ruim 2.300 extra HBO-verpleegkundigen nodig zijn. De komende jaren zal dit aantal verder oplopen. Prognoses van het onderzoeksprogramma Arbeidsmarkt  Zorg en Welzijn (2013) laten een tekort zien van 5.800 HBO-verpleegkundigen in 2017."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "In de media lees, hoor en zie ik veel over problemen in de ouderenzorg. Waarom zou ik daar willen werken?",
+          "content" : [
+            "Natuurlijk kan er nog veel verbeterd worden in de ouderenzorg. Gelukkig zijn er veel goede voorbeelden waar geen gebrek aan tijd en geld is en waar goede kwaliteit zorg geboden wordt. In opdracht van ActiZ is door PwC een onderzoek uitgevoerd: <a href='http://www.actiz.nl/benchmark-in-de-zorg' target='_blank'>De Benchmark in de Zorg</a>. Dit onderzoek geeft inzicht in de cliëntentevredenheid en de medewerkerstevredenheid. De resultaten van dit onderzoek geven een zeer goed beeld van de huidige ouderen- en thuiszorg in Nederland. Voor verbetering van de ouderenzorg zijn hoger opgeleide verpleegkundigen nodig. Daarom voeren ActiZ en V&VN deze campagne voor HBO-verpleegkundigen in de ouderenzorg. Een deel van het probleem kunnen we echter niet oplossen. Het is nu eenmaal zo dat oud worden met gebreken komt. De ziektes en gebreken kunnen we niet voorkomen, hoe adequaat de verzorging ook is. Lees <a href='http://www.actiz.nl/nieuwsberichten/website/nieuws/2015/verbeterplan-vws-lost-rafelige-randen-van-het-leven-niet-op' target='_blank\">hier</a> het eerlijke verhaal door ActiZ."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Is er verschil in salaris voor een HBO-verpleegkundige in de ouderenzorg of in bijvoorbeeld een ziekenhuis? ",
+          "content" : [
+            "Het salaris voor een verpleegkundige op HBO-niveau is afhankelijk van de precieze functie die je uitoefent. Wel zijn er in het algemeen verschillen tussen de werkvelden. In de gehandicaptenzorg ligt het salaris over het algemeen een schaal lager en in de GGZ een schaal hoger dan in de ouderenzorg. In het ziekenhuis is het salaris over het algemeen hetzelfde en op termijn een schaal hoger als je verdere opleidingen volgt."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Wat zijn mijn mogelijkheden als HBO-Verpleegkundige in de ouderenzorg?",
+          "content" : [
+            "In de ouderenzorg zijn verschillende functies waar je als HBO-verpleegkundige aan de slag kunt. In de zorg thuis werk je als wijkverpleegkundige. In het verpleeghuis kun je naast de verpleegkundige handelingen projecten uitvoeren om de zorg over verschillende teams heen te verbeteren. Ook kun je in de kwaliteitszorg aan de slag. Ook zijn er functies voor HBO-verpleegkundigen op de geriatrische revalidatiezorg waar je geriatrische cliënten helpt te revalideren na bijvoorbeeld een CVA. Ten slotte kun je met de specialisatie HBO-VGG doorleren voor verpleegkundig specialist."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Met welke scholingsmogelijkheden kan ik mijzelf specialiseren richting ouderenzorg? ",
+          "content" : [
+            "Je kan je zowel tijdens als na de HBO-V opleiding specialiseren richting de ouderenzorg. De HBO Verpleegkundige Geriatrie Gerontologie (VGG'er) is de differentiatie binnen de bachelor opleiding HBO-V richting ouderenzorg. Deze differentiatie kun je volgen bij Hogeschool Windesheim, Zuyd Hogeschool, Saxion en de NHL. Daarnaast zijn er meerdere hogescholen die een minor aanbieden in de richting geriatrie of ouderenzorg. Vraag het na bij je eigen opleiding of kijk op <a href='http://www.kiesopmaat.nl' target='_blank'>Kies op maat</a>. Heb je al een opleiding HBO-V gevolgd? Dan kun je voor een post-HBO leergang VGG terecht bij onder andere Hogeschool Utrecht, Saxion en NHL. "
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Hoe kom ik aan een uitdagende stage in de ouderenzorg?",
+          "content" : [
+            "Je hebt verschillende opties om aan een stage te komen. Uiteraard kun je via het stagebureau van je school vragen welke stageplaatsen ze hebben in de ouderenzorg. Heeft je opleiding een minor gericht op wijkverpleging of geriatrie, dan heeft de docent vaak contacten met het werkveld. Ook als je school een post-HBO opleiding gericht op wijkverpleging of geriatrie aanbiedt, zijn er vaak studenten al werkzaam in de ouderenzorg. Je kunt via hen vragen naar informatie of wellicht een meeloopdag doen. Tenslotte kun je via beroepsvereniging V&VN in contact komen met <a href='http://geriatrie.venvn.nl/' target='_blank'>V&VN Geriatrie Verpleegkunde</a> en <a href='http://mgz.venvn.nl' target='_blank'>V&VN Verpleegkundigen Maatschappij & Gezondheid</a>. Via deze afdelingen kun je in contact komen met verpleegkundigen in de ouderenzorg en hen vragen naar stagemogelijkheden."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Ik ben HBO-Verpleegkundige en werk in een andere zorgsector. Hoe kan ik in de ouderenzorg aan de slag?",
+          "content" : [
+            "Als HBO-verpleegkundige ben je een echte generalist. Juist in de ouderenzorg ga je aan de slag met al je rollen als verpleegkundige. Het kan best een overgang zijn; het is handig om een goede inwerkperiode met een ervaren HBO-verpleegkundige in de ouderenzorg af te spreken.\n"
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Wat is het verschil tussen het werk van een MBO- en een HBO-Verpleegkundige in de ouderenzorg?",
+          "content" : [
+            "Een MBO-Verpleegkundige kan heel goed voorspelbare en planbare zorg bieden. Bij meer complexe en onvoorspelbare zorg zijn HBO-Verpleegkundigen nodig. De kwaliteit van zorg wordt beter als er meer HBO-verpleegkundigen in een zorginstelling werken, blijkt uit wetenschappelijk onderzoek. HBO-verpleegkundigen werken nauw samen met andere zorgverleners om de beste zorg te bieden."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Wat maakt ouderenzorg zo interessant?",
+          "content" : [
+            "Ouderenzorg heeft aan de ene kant een grote medische complexiteit. Ouderen hebben vaak meerdere (gerelateerde) aandoeningen. Aan de andere kant werk je niet alleen met ouderen, maar ook met familie en de omgeving. Bovendien werk je samen met diverse zorgverleners. De complexiteit en veelzijdigheid maken het werken in de ouderenzorg aantrekkelijk."
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Is ouderenzorg niet vooral ADL zorg (algemene dagelijkse levensverrichtingen)?",
+          "content" : [
+            "Bij ouderen met meerdere aandoeningen is de zorg complex. Het gaat dus niet alleen om wassen, maar juist ook om verpleegtechnische handelingen, zoals wondzorg. Ook zelfmanagementondersteuning en welzijn vallen onder ouderenzorg. "
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Wat doe ik eigenlijk als HBO-verpleegkundige in de ouderenzorg?",
+          "content" : [
+            "Als HBO-verpleegkundige in de ouderenzorg doe je meer dan alleen verpleegkundige handelingen. In de wijkverpleging zorg je dat mensen zo lang mogelijk zelfstandig thuis kunnen blijven wonen. Je stelt de verpleegkundige diagnose en een zorgleefplan op samen met de cliënt en zijn sociale netwerk. Je zorgt dat er budget komt voor de uitvoering van de zorg. Je coacht collega’s, vrijwilligers en mantelzorgers bij de uitvoering van de zorg. Je voert de regie binnen en buiten de organisatie, zoals overleg met de huisarts, het ziekenhuis en andere zorgverleners.<br><br>In een verpleeghuis zorg je naast de verpleegkundige taken voor de kwaliteit van de zorg. Je voert projecten uit waarbij je knelpunten over meerdere afdelingen analyseert, een oplossing bedenkt en doorvoert. Je coacht collega verpleegkundigen, de verzorgenden en de vrijwilligers. Je bent gesprekspartner en samenwerkingspartner voor de specialist ouderengeneeskunde.\n"
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Wat zijn doorgroeimogelijkheden in de ouderenzorg?",
+          "content" : [
+            "Je kunt in de ouderenzorg beginnen als zorghulp en doorgroeien naar verzorgende in de individuele gezondheidszorg. Wil je verder in de verpleging, dan word je MBO-verpleegkundige en kun je doorgroeien naar HBO-verpleegkundige. Je kunt zelfs verder studeren tot <a href='http://www.verpleegkundigspecialismen.nl' target='_blank'>verpleegkundig specialist ouderenzorg<a/>.\n"
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Ik lees over het coachen en begeleiden van verzorgenden in de ouderenzorg. Word ik leidinggevende?",
+          "content" : [
+            "Als HBO-verpleegkundige is het ook je taak om collega verpleegkundigen en verzorgenden te coachen en begeleiden. Dit wil niet zeggen dat je altijd de leidinggevende bent. Jij bent degene die de verpleegkundige diagnose stelt en/of het zorgleefplan opstelt. Er wordt van je verwacht dat jij je collega’s zover krijgt dat ze de zorg ook uitvoeren zoals is afgesproken. Dit vraagt om coachvaardigheden en goede communicatie, maar ook om te willen leren van diezelfde collega’s. Samen weet je meer! "
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Kan ik na het werken in de ouderenzorg nog overstappen naar een andere werkplek zoals de ziekenhuizen?",
+          "content" : [
+            "Overstappen kan altijd. Je ervaring is een pre, want 70% van de patiënten in het ziekenhuis is een oudere. Op een andere werkplek mis je vaak je regierol en komen niet al je verpleegkundige taken aan bod.\n"
+          ]
+        },
+        {
+          "key" : "faq3",
+          "title" : "Wat zijn de werktijden in de ouderenzorg?",
+          "content" : [
+            "Verpleeghuiszorg is 24/7-zorg. Hetzelfde geldt voor de zorg thuis. Bij een voltijdsdienstverband werk je gemiddeld 36 uur per week in zes maanden. In de nieuwe cao VVT wordt gekeken naar zelfroosteren.\n"
+          ]
+        }
+      ]
+    },
+    "hogescholen" : [
+      {
+        "url" : "http://www.han.nl/",
+        "title" : "Hogeschool van Arnhem en Nijmegen",
+        "image" : "arnhem.png"
+      },
+      {
+        "url" : "http://www.avans.nl/",
+        "title" : "Avans Hogeschool",
+        "image" : "avans.png"
+      },
+      {
+        "url" : "http://www.che.nl/OnePage/index.html",
+        "title" : "Christelijke Hogeschool Ede",
+        "image" : "che.png"
+      },
+      {
+        "url" : "http://fontys.nl/",
+        "title" : "Fontys Hogescholen",
+        "image" : "fontys.png"
+      },
+      {
+        "url" : "http://www.hva.nl/",
+        "title" : "Hogeschool van Amsterdam",
+        "image" : "ha.png"
+      },
+      {
+        "url" : "http://www.dehaagsehogeschool.nl/",
+        "title" : "Haagse Hogeschool",
+        "image" : "haagse.png"
+      },
+      {
+        "url" : "https://www.hanze.nl/nld",
+        "title" : "Hanzehogeschool Groningen",
+        "image" : "hanze.png"
+      },
+      {
+        "url" : "http://www.hu.nl/",
+        "title" : "Hogeschool Utrecht",
+        "image" : "hu.png"
+      },
+      {
+        "url" : "http://hz.nl/nl/Pages/Homepage.aspx",
+        "title" : "HZ University of Applied Sciences",
+        "image" : "hz.png"
+      },
+      {
+        "url" : "http://www.inholland.nl/",
+        "title" : "Hogeschool INHOLLAND Rotterdam",
+        "image" : "inholland.png"
+      },
+      {
+        "url" : "http://www.hsleiden.nl/",
+        "title" : "Hogeschool Leiden",
+        "image" : "leiden.png"
+      },
+      {
+        "url" : "http://www.nhl.nl/nhl/14/home.html",
+        "title" : "NHL Hogeschool",
+        "image" : "nhl.png"
+      },
+      {
+        "url" : "http://www.hogeschoolrotterdam.nl/",
+        "title" : "Hogeschool Rotterdam",
+        "image" : "rotterdam.png"
+      },
+      {
+        "url" : "http://www.saxion.nl/",
+        "title" : "Saxion Hogeschool",
+        "image" : "saxion.png"
+      },
+      {
+        "url" : "http://www.viaa.nl/",
+        "title" : "Gereformeerde Hogeschool Zwolle",
+        "image" : "viaa.png"
+      },
+      {
+        "url" : "//hogeschool-rotterdam.nl",
+        "title" : "Windesheim Hogeschool",
+        "image" : "windesheim.png"
+      },
+      {
+        "url" : "http://www.zuyd.nl/",
+        "title" : "Hogeschool Zuyd",
+        "image" : "zuyd.png"
+      }
+    ],
+    "arbeidsmarkt" : {
+      "links" : [
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        },
+        {
+          "url" : "//hogeschool-rotterdam.nl",
+          "title" : "Hogeschool Rotterdam",
+          "image" : "/images/gfx/logo-hogeschool.png"
+        }
+      ],
+      "leden" : {
+        "title" : "Actiz leden",
+        "button" : "Actiz ledenpagina",
+        "url" : "http://www.actiz.nl/ledenkaart"
+      }
+    },
+    "docenten" : {
+      "intro" : "Inspireer elkaar!<br>Vind hier suggesties en bronnen die je kunt gebruiken voor inspirerende lessen over ouderenzorg."
+    },
+    "banners" : {
+      "open-dag" : {
+        "title" : "Open dag <span>24-10-15</span>",
+        "content" : "In alle zorginstellingen in Nederland"
+      },
+      "hogescholen" : {
+        "title" : "Hoge- scholen",
+        "content" : "Hier kan je studeren:"
+      },
+      "arbeidsmarkt" : {
+        "title" : "Arbeids- markt",
+        "content" : "Hoe vind ik een baan?"
+      },
+      "faq" : {
+        "title" : "FAQs",
+        "content" : "Wat is het werken in de ouderenzorg en hoe weet ik dat het bij mij past?"
+      }
+    }
+  },
+  "het-netwerk" : {
+    "testimonials" : [
+      {
+        "title" : "Aad Koster",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/aad.jpg"
+      },
+      {
+        "title" : "Anke Huizenga",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/anke.jpg"
+      },
+      {
+        "title" : "Anneke Francke",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/anneke.jpg"
+      },
+      {
+        "title" : "Evelyn Finnema",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/evelyn.jpg"
+      },
+      {
+        "title" : "Henk Bakker",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/henk.jpg"
+      },
+      {
+        "title" : "Robbert Gobbens",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/robbert.jpg"
+      },
+      {
+        "title" : "Sabine Uitslag",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/sabine.jpg"
+      },
+      {
+        "title" : "Ton Bakker",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/ton.jpg"
+      },
+      {
+        "title" : "Wilna Wind",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/wilna.jpg"
+      },
+      {
+        "title" : "Wim de Vrie",
+        "content" : "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veni am, quis nostrud",
+        "image" : "/images/testimonials/wim.jpg"
+      }
+    ],
+    "partners" : [
+      {
+        "title" : "Actiz",
+        "subtitle" : "",
+        "image" : "/images/partners/actiz.png",
+        "url" : "//www.actiz.nl"
+      },
+      {
+        "title" : "Ministerie VWS",
+        "subtitle" : "",
+        "image" : "/images/partners/vws.png",
+        "url" : "http://www.rijksoverheid.nl/ministeries/vws"
+      },
+      {
+        "title" : "V&VN",
+        "subtitle" : "",
+        "image" : "/images/partners/vvn.png",
+        "url" : "//www.venvn.nl"
+      }
+    ],
+    "evenementen" : {
+      "title" : "Agenda",
+      "items" : [
+        {
+          "date" : "19-03-2015",
+          "title" : "Naam evenement",
+          "image" : "/images/gfx/evenementen/image.png",
+          "url" : "//actiz.nl/evenement"
+        },
+        {
+          "date" : "19-03-2015",
+          "title" : "Naam evenement",
+          "image" : "/images/gfx/evenementen/image.png",
+          "url" : "//actiz.nl/evenement"
+        },
+        {
+          "date" : "19-03-2015",
+          "title" : "Naam evenement",
+          "image" : "/images/gfx/evenementen/image.png",
+          "url" : "//actiz.nl/evenement"
+        },
+        {
+          "date" : "19-03-2015",
+          "title" : "Naam evenement",
+          "image" : "/images/gfx/evenementen/image.png",
+          "url" : "//actiz.nl/evenement"
+        }
+      ],
+      "jouw-evenement" : {
+        "title" : "Voor jouw evenement",
+        "content" : [
+          "We helpen je graag om het verhaal van HBO-verpleegkundige in de ouderenzorg zo goed mogelijk te vertellen.",
+          "Dus... sta je binnenkort op een evenement?",
+          "Vraag dan de handige roll-up banner aan. Bovenien hebben wij ook posters en teaserkaartjes (met onze social pagina’s) beschikbaar."
+        ],
+        "button" : "Vraag aan",
+        "url" : "//actiz.nl/jouw-evenement"
+      }
+    }
+  },
+  "test-je-kennis" : {
+    "intro" : {
+      "title" : "Test je kennis<br>Hoeveel weet jij al van zorg aan ouderen?",
+      "text" : [
+        "Het werk als HBO-verpleegkundige in de ouderenzorg is uitdagend. Kun jij het aan? Past het bij jou? Ontdek meer in deze korte test over wat je al weet, maar ook over wat er nog meer komt kijken bij het werken in de ouderenzorg. Laat je niet afschrikken. Misschien loop je hier fluitend doorheen. En anders…? Is er nog veel moois te leren en te ontdekken over de zorg aan ouderen. Let’s go! <br><br>Liever eerst even rondkijken?<br> Ontdek het zelf in 3 echte verhalen uit de praktijk."
+      ],
+      "button" : "Test je kennis!"
+    },
+    "question" : "Vraag :question",
+    "explanation" : "Toelichting",
+    "next-question" : "Volgende",
+    "finish-quiz" : "Ga verder",
+    "your-score" : "Jouw score",
+    "questions" : [
+      {
+        "title" : "In welke opzicht verschilt geriatrie van andere medische specialismen?",
+        "category" : "Geriatrie",
+        "answers" : [
+          "Geriatrie maakt onderscheid tussen leeftijdgerelateerde en ziektegerelateerde  aandoeningen bij ouderen. ",
+          "Geriatrie richt zich op preventie van leeftijdgerelateerde aandoeningen bij ouderen. ",
+          "Geriatrie werkt aanvullend op medische interventies bij ouderen door andere specialismen. ",
+          "Geriatrie maakt onderscheid tussen vermijdbare en niet-vermijdbare risico’s bij ouderen. "
+        ],
+        "correct" : 0,
+        "explanation" : [
+          "Het onderscheid tussen leeftijdgerelateerde en ziektegerelateerde veranderingen op latere leeftijd is essentieel binnen de geriatrie. De behandeling van ziektebeelden of symptomen is vaak gekoppeld aan de vermindering van de capaciteit van verschillende organen. Dat maakt de geriatrie een zeer complex specialisme. Preventie van leeftijd gerelateerde functiestoornissen is het gehele leven aan de orde door een gezonde leefstijl. Als men al oud is, is het daarvoor te laat. Geriatrische interventies zijn niet aanvullend maar voorwaardelijk voor interventies door andere specialisten, met name als het gaat om kwetsbare ouderen. Het laatste alternatief geldt voor alle specialismen. ",
+          "<a href='http://www.nvkg.nl/patienten/wat-is-klinische-geriatrie' target='_blank'>Lees meer over klinische geriatrie.</a>"
+        ]
+      },
+      {
+        "title" : "Wat is de definitie van 'kwetsbare ouderen'?\r",
+        "subtitle" : "1. Ouderen met een risico op functieverlies door een (chronische) ziekte dat leidt tot een afnemend vermogen tot zelf het eigen leven regelen, zich zelfstandig voortbewegen, zelf de eigen persoonlijke zorg en de eigen huishouding uitvoeren. <br><br>\r2. Ouderen met een risico op verminderde zelfredzaamheid door een combinatie van: langdurige gezondheidsproblemen, een laag inkomen, een gebrekkigen woonsituatie en een zwak sociaal netwerk.  ",
+        "category" : "Geriatrie",
+        "answers" : [
+          "1 is juist, 2 is niet juist. ",
+          "1 is niet juist, 2 is juist. ",
+          "1 en 2 zijn beide juist. ",
+          "1 en 2 zijn beide niet juist. "
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Beide definities worden gehanteerd. In feite onderscheiden we twee groepen van kwetsbare ouderen, te weten: ouderen met functieverlies die daardoor niet in staat zijn de regie over het eigen leven te blijven voeren (denk aan ouderen met cognitieve functiestoornissen) en ouderen die lichamelijk achteruitgaan en in een sociaaleconomisch zwakke positie verkeren. ",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        ]
+      },
+      {
+        "title" : "Voor welk vervolgtraject komt mevrouw Z. in aanmerking?",
+        "subtitle" : "Mevrouw Z. is 84 jaar. Zij heeft diabetes mellitus. Ze wordt ook behandeld voor hypertensie. Ze heeft al enkele malen een TIA gehad. Mevrouw woont zelfstandig met ondersteuning van haar dochter. Mevrouw is in het ziekenhuis behandeld vanwege een collumfractuur. De operatie is geslaagd, de post-acute fase is mevrouw goed doorgekomen en haar toestand is gestabiliseerd. Mevrouw wil graag terug naar haar eigen huis. Het geriatrisch behandelteam acht dit doel wel haalbaar. ",
+        "category" : "Geriatrie",
+        "answers" : [
+          "Voor specialistische revalidatiezorg. \r",
+          "Voor geriatrische revalidatiezorg. \r",
+          "Voor herstelzorg. \r",
+          "Voor op reactivering gerichte verpleeghuiszorg. "
+        ],
+        "correct" : 1,
+        "explanation" : [
+          "Mevrouw komt niet in aanmerking voor specialistische revalidatiezorg. Bij haar is er immers sprake van multimorbiditeit. Zij is daardoor lager belastbaar en niet in staat een intensief revalidatieprogramma te volgen Mevrouw komt ook niet in aanmerking voor herstelzorg, want er is sprake van een meervoudige problematiek. Herstelzorg is gericht op enkelvoudige problematiek. Door middel van op reactivering gerichte verpleeghuiszorg wordt het gestelde doel niet bereikt. ",
+          "<a href='http://www.zorgkennis.net/downloads/kennisbank/ZK-kennisbank-Triage-instrument-revalidatiezorg-1121.pdf' target='_blank'>Lees meer over voorwaarden om voor geriatrische revalidatiezorg in aanmerking te komen.</a>"
+        ]
+      },
+      {
+        "title" : "Wat is ‘rationele polifarmacie’ bij kwetsbare ouderen met chronische pijnklachten? ",
+        "subtitle" : "",
+        "category" : "Geriatrie",
+        "answers" : [
+          "Het voorschrijven van een combinatie van pijnstillers i.p.v. één pijnstiller in een hogere dosering. \r\r",
+          "Het voorschrijven van één pijnstiller in een hogere dosering i.p.v. een combinatie van pijnstillers. \r",
+          "Het voorschrijven van dagelijkse afwisseling tussen enkele effectieve pijnstillers (wisselmedicatie) i.p.v. elke dag dezelfde pijnstiller of combinatie van pijnstillers. \r",
+          "Het voorschrijven van telkens een aanvullende pijnstiller net zo lang tot de pijn onder controle is. "
+        ],
+        "correct" : 0,
+        "explanation" : [
+          "Bij kwetsbare ouderen ontstaat er snel overdosering. Daarom is het beter een combinatie van pijnstillers voor te schrijven in een lagere dosering dan één pijnstiller in een hogere dosering. Wat betreft alternatief c; bij de huidige stand van de wetenschap is niet aangetoond dat afwisseling tussen pijnstillers effectief zou zijn. Bij alternatief d is er eerder sprake van irrationele polyfarmacie. ",
+          "<a href='http://www.verenso.nl/wat-doen-wij/vakinhoudelijke-producten/richtlijnen/pijn/' target='_blank'>Lees meer over Richtlijn Pijn.</a>"
+        ]
+      },
+      {
+        "title" : "Welke ziekten veroorzaken bij ouderen het grootste verlies aan gezonde levensjaren? ",
+        "subtitle" : "",
+        "category" : "Geriatrie",
+        "answers" : [
+          "Parkinson, multipele sclerose, hartklepinsufficiëntie en kanker. \r",
+          "Coronaire hartziekte, CVA, artrose en diabetes mellitus. \r",
+          "Nierinsufficiëntie, hartfalen, COPD en osteoporose. \r",
+          "Reumatoïde artritis, hypertensie, heupfractuur en luchtweginfectie. \r"
+        ],
+        "correct" : 1,
+        "explanation" : [
+          "Statistisch gezien vormen coronaire hartziekte, CVA, artrose en diabetes mellitus het grootste verlies aan gezonde levensjaren. Ouderen met deze aandoeningen hoeven lang niet altijd beperkt te zijn in hun functioneren en ervaren zichzelf lang niet altijd als ziek. De helft van de 65+ers in Nederland lijdt aan één of meer chronische ziekten, daarvan ervaart tweederde géén beperkingen in het dagelijks functioneren.  ",
+          "<a href='http://www.rivm.nl/bibliotheek/rapporten/270462001.pdf' target='_blank'>Lees meer over gezond ouder worden in Nederland.</a>"
+        ]
+      },
+      {
+        "title" : "Welke stelling over sociale kwetsbaarheid is juist? ",
+        "subtitle" : "1.  Sociale kwetsbaarheid komt vaker voor onder oudere vrouwen dan onder oudere mannen. <br>\r2.  Oudere mannen overlijden vaker zonder sociaal kwetsbaar geweest te zijn dan oudere vrouwen.",
+        "category" : "Sociale gerontologie",
+        "answers" : [
+          "1 is juist, 2 is niet juist. \r\r",
+          "1 is niet juist, 2 is juist. \r",
+          "1 en 2 zijn beide juist. \r",
+          "1 en 2 zijn beide niet juist. "
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Beide stellingen zijn waar en hangen ook met elkaar samen. Vrouwen hebben een grotere kans hun partner te verliezen dan mannen. Het verlies van de partner is een belangrijke determinant voor tijdelijke of blijvende sociale kwetsbaarheid. Mannen overlijden vaker aan een min of meer acuut ziektebeeld terwijl vrouwen vaker een chronische ziekte ontwikkelen. Fysieke kwetsbaarheid leidt via psychische kwetsbaarheid tot sociale kwetsbaarheid. ",
+          "<a href='http://www.scp.nl/Publicaties/Alle_publicaties/Publicaties_2011/Kwetsbare_ouderen' target='_blank'>Lees meer over kwetsbare ouderen.</a>"
+        ]
+      },
+      {
+        "title" : "Wat is een ecogram? ",
+        "subtitle" : "",
+        "category" : "Sociale gerontologie",
+        "answers" : [
+          "Een grafisch beeld van de ecologische situatie waarin de oudere leeft. \r\r",
+          "Een grafisch beeld van de familierelaties van de oudere. \r",
+          "Een grafisch beeld van de economische situatie van de oudere. \r",
+          "Een grafisch beeld van het sociale netwerk van de oudere. "
+        ],
+        "correct" : 3,
+        "explanation" : [
+          "Een ecogram laat in één oogopslag de omvang en de kwaliteit van het sociale netwerk van de oudere zien. Het is een techniek die wordt toegepast om de mantelzorgmogelijkheden rond de oudere in kaart te brengen en deze te stimuleren. Naast het ecogram is er ook het genogram. Dit is bedoeld om de omvang en kwaliteit van het primaire sociale netwerk / familie van de oudere in beeld te brengen. ",
+          "<a href='http://www.expertisecentrummantelzorg.nl/em/instrument-een-ecogram-maken-de-omgeving.html' target='_blank'>Lees meer over een ecogram.</a>"
+        ]
+      },
+      {
+        "title" : "Voor welke van de hieronder genoemde groepen is het risico op sociale uitsluiting het grootst? ",
+        "subtitle" : "",
+        "category" : "Sociale gerontologie",
+        "answers" : [
+          "Voor oudere vrouwen. \r",
+          "Voor alleenstaande ouderen \r",
+          "Voor iedereen met een slechte gezondheidstoestand. \r",
+          "Voor iedereen die een te laag inkomen heeft. \r"
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Uit onderzoek blijkt dat een slechte gezondheidstoestand het sterkst samenhangt met sociale uitsluiting. Doordat ouderen, met name oudere vrouwen vaker een slechte gezondheidstoestand hebben lopen zij risico, niet door hun leeftijd. Armoede is wel een risicofactor voor sociale uitsluiting maar het verband tussen slechte gezondheidstoestand en sociale uitsluiting is sterker. ",
+          "<a href='http://www.scp.nl/Publicaties/Alle_publicaties/Publicaties_2004/Sociale_uitsluiting_in_Nederland/Persbericht_Sociale_uitsluiting_in_Nederland' target='_blank'>Lees meer over sociale uitsluiting in Nederland.</a>"
+        ]
+      },
+      {
+        "title" : "Welk van de hier onder genoemde technologische interventies biedt veelbelovende perspectieven op het gebied van ‘healthy aging’? ",
+        "subtitle" : "",
+        "category" : "Sociale gerontologie",
+        "answers" : [
+          "De inzet van zorgtechnologie. \r",
+          "De inzet van sociale media. \r",
+          "De inzet van serious gaming. \r",
+          "De inzet van domotica. \r"
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "serious gaming kan vele doelen dienen die samenhangen met healthy aging. Zo zijn er games die het cognitief functioneren verbeteren, games die het aangaan van sociale relatie ondersteunen, games die aanzetten tot bewegen ect. Het belangrijkste aspect van gaming is dat het  mensen motiveert omdat het spel leuk is. Het concept ‘homo ludens’ (de spelende mens’) geeft aan dat de mens in wezen een spelend individu is. Dit geldt voor alle leeftijdscategorieën. Alternatief a is hier niet relevant, alternatief b is eenzijdig gericht op het sociale vlak, alternatief d is eenzijdig gericht op comfort veiligheid en vergroting van de zelfredzaamheid. ",
+          "<a href='http://stt.nl/wp/wp-content/uploads/2013/01/STT_SG_senioren_def.pdf' target='_blank'>Lees meer over serious gaming voor senioren.</a>"
+        ]
+      },
+      {
+        "title" : "Wat is generatieve socialisatie?",
+        "subtitle" : "",
+        "category" : "Sociale gerontologie",
+        "answers" : [
+          "Het ontwikkelen van (nieuwe) aspecten van de eigen sociale identiteit door middel van leerprocessen via contacten met andere generaties.\r",
+          "Het versterken van de eigen sociale identiteit door middel van leerprocessen via contacten met generatiegenoten.\r",
+          "De bereidheid van oudere generaties om kennis over te dragen aan jongere generaties.\r",
+          "De bereidheid van jongere generaties om kennis over te dragen aan oudere generaties.\r"
+        ],
+        "correct" : 0,
+        "explanation" : [
+          "De essentie van generatieve socialisatie is ‘social learning’’ door contact met andere generaties (intergenerationele contacten). Het gaat daarbij in principe om tweerichting verkeer. Ouderen veranderen door contacten met jongeren en jongeren door contacten met ouderen. Alternatief b valt dus af omdat het daarbij gaat om intra-generationele contacten. Alternatief c en d vallen af omdat het daarbij gaat om eenrichtingverkeer. ",
+          "<a href='http://stt.nl/wp/wp-content/uploads/2013/01/STT_SG_senioren_def.pdf' target='_blank'>Lees meer over serious gaming voor senioren.</a>"
+        ]
+      },
+      {
+        "title" : "In welk type cognitieve vaardigheden zijn ouderen beter dan jongeren? ",
+        "subtitle" : "",
+        "category" : "Psychogerontologie",
+        "answers" : [
+          "In vloeiende cognitieve vaardigheden. \r",
+          "In gekristalliseerde cognitieve vaardigheden. \r",
+          "In metacognitieve vaardigheden. \r",
+          "In creatieve cognitieve vaardigheden. \r"
+        ],
+        "correct" : 1,
+        "explanation" : [
+          "R. Cattell maakt onderscheid tussen ‘fluid intelligence’ en ‘cristallized intelligence’. Fluid intelligence is het vermogen om nieuwe oplossingen te vinden voor (bestaande) problemen. Cristallized intelligence is het vermogen bestaande oplossingen accuraat uit te voeren. Ouderen zijn daar beter in dan jongeren, ervaring speelt hierin een belangrijke rol. Ouderen kunnen, evenals jongeren door training in metacognitieve vaardigheden hun leervermogen verbeteren. Alternatief d is een voorbeeld van een vloeiende cognitieve vaardigheid. Jongeren zijn daar beter in dan ouderen. ",
+          "<a href='http://www.matthijsbal.com/articles/Schalk_Bal_2013.pdf' target='_blank'>Lees meer over cognitieve vaardigheden.</a>"
+        ]
+      },
+      {
+        "title" : "Wat zijn identiteitsherinneringen? ",
+        "subtitle" : "",
+        "category" : "Psychogerontologie",
+        "answers" : [
+          "Herinneringen die laten zien wie men is en hoe men die persoon geworden is. \r",
+          "Herinneringen aan de eigen identiteit in eerdere levensfasen. \r",
+          "Vertekende herinneringen die laten zien wie men had willen worden.\r",
+          "Vertekende herinneringen die het gevoel van identiteit bemoeilijken. \r"
+        ],
+        "correct" : 0,
+        "explanation" : [
+          "De term ‘identiteitsherinneringen’ is een term die wordt gebruikt in de narratieve onderzoekstraditie binnen de psychogerontologie. Het verhaal dat men vertelt over de eigen ontwikkeling tot de persoon die men nu is, staat hierin centraal. ",
+          "<a href='http://www.levensverhalenlab.nl/site/Onderzoek/Narratieve%20zorg/' target='_blank'>Lees meer over narratieve zorg.</a>"
+        ]
+      },
+      {
+        "title" : "Welke van de hieronder genoemde interventies is het meest geschikt om het emotioneel welbevinden op latere leeftijd te bevorderen? ",
+        "subtitle" : "",
+        "category" : "Psychogerontologie",
+        "answers" : [
+          "Voorlichting over het belang van mentaal actief blijven. \r",
+          "Geheugentraining. \r",
+          "Terugblikken. \r\r",
+          "Training sociale vaardigheden. "
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Uit onderzoek blijkt dat terugblikken op het eigen leven en betekenis geven aan levensgebeurtenissen het meest effectief is om depressieve gevoelens bij ouderen tegen te gaan. ",
+          "<a href='http://gerontologist.oxfordjournals.org/content/50/4/541.short ' target='_blank'>Lees meer over deze interventie.</a>"
+        ]
+      },
+      {
+        "title" : "Welke stelling over coping strategieën is waar? ",
+        "subtitle" : "1.  In vergelijking met jongeren passen ouderen vaker responsgerichte coping strategieën toe. <br><br>\r2.  In vergelijking met oudere vrouwen maken oudere mannen meer gebruik van emotiegerichte coping strategieën \r",
+        "category" : "Psychogerontologie",
+        "answers" : [
+          "1 is juist, 2 is niet juist. \r",
+          "1 is niet juist, 2 is juist. \r",
+          "1 en 2 zijn beide juist. \r",
+          "1 en 2 zijn beide niet juist. \r"
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Ouderen maken vaker dan jongeren gebruik van responsgerichte coping, waarbij de gevolgen van een tegenslag worden verminderd door bijvoorbeeld meditatie of religie. Oudere mannen maken vaker gebruik van emotiegerichte coping waarbij pijnlijke gevolgen van een tegenslag worden ontlopen of verdrongen, bijvoorbeeld door overmatig alcoholgebruik.",
+          "<a href='http://essay.utwente.nl/58851/' target='_blank'> Lees meer over coping.</a>"
+        ]
+      },
+      {
+        "title" : "Welke van de hieronder genoemde kenmerken is bij ouderen de meest betrouwbare voorspeller van het optreden van dementie? ",
+        "subtitle" : "",
+        "category" : "Psychogerontologie",
+        "answers" : [
+          "Sociale isolatie. \r",
+          "Lage zelfwaardering. \r",
+          "Gevoelens van eenzaamheid. \r",
+          "Laag opleidingsniveau.\r"
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Ouderen die zich eenzaam voelen terwijl zij wel sociale contacten hebben, hebben een grotere kans om dementie te ontwikkelen dan ouderen die zich niet eenzaam voelen en in sociale isolatie leven. Dat blijkt uit onderzoek. Er is geen verband gevonden tussen een lage zelfwaardering en het ontwikkelen van dementie. onder lager opgeleiden komt wel vaker dementie voor dan onder hoger opgeleiden. Waarschijnlijk is dit een indirect verband. Een lager opleidingsniveau gaat vaak gepaard met mentale inactiviteit op latere leeftijd. Mentale inactiviteit leidt tot cognitief verval op lagere leeftijd. ",
+          "<a href='http://essay.utwente.nl/58851/' target='_blank'> Lees meer over coping.</a>"
+        ]
+      },
+      {
+        "title" : "Als ouderen in korte tijd aanzienlijk gewichtsverlies vertonen, waarvoor er géén fysieke oorzaak kan worden gevonden, dan kan dat een voorbode zijn van:",
+        "subtitle" : "",
+        "category" : "Psychogeriatrie / gerontopsychiatrie",
+        "answers" : [
+          "dementie. \r\r",
+          "een depressie. \r",
+          "een delier. \r",
+          "heeft dat niets met eventuele psychische ziektebeelden te maken. "
+        ],
+        "correct" : 0,
+        "explanation" : [
+          "Onverklaard gewichtsverlies kan een aanwijzing zijn dat iemand dementie gaat ontwikkelen. Ook bij een depressie kan gewichtsverlies voorkomen maar dat kan worden verklaard door een verminderde eetlust. Bovendien is het gewichtsverlies hierbij geen voorbode maar een symptoom. Wat een delier betreft zijn er geen voorbodes bekend, wel risicofactoren. ",
+          "<a href='https://www.nhg.org/standaarden/volledig/nhg-standaard-dementie' target='_blank'>Lees meer over dementie.</a>"
+        ]
+      },
+      {
+        "title" : "Wat is bekend over het leervermogen van mensen met dementie? ",
+        "subtitle" : "",
+        "category" : "Psychogeriatrie / gerontopsychiatrie",
+        "answers" : [
+          "Zij kunnen geen nieuwe vaardigheden meer leren. \r",
+          "Zij kunnen nieuwe vaardigheden leren als deze gekoppeld zijn aan positieve emoties (emotionele conditionering). \r",
+          "Zij kunnen nieuwe vaardigheden leren als zij de juiste prikkels krijgen aangeboden. (klassieke conditionering). \r",
+          "Zij kunnen nieuwe vaardigheden leren wanneer deze steeds worden bekrachtigd (operante conditionering). \r"
+        ],
+        "correct" : 1,
+        "explanation" : [
+          "Mensen met dementie kunnen nieuwe vaardigheden leren of vergeten vaardigheden opnieuw aanleren wanneer deze worden gekoppeld aan positieve emoties. Dit is een vorm van leren die veel wordt toegepast in de reclamewereld. De impact ervan is sterk. Klassieke conditionering is soms wel geschikt om gewenst gedrag bij mensen met dementie op te roepen. De juiste stimuli in de omgeving roepen passend gedrag op. Een voorbeeld is dat een persoon met dementie in een restaurant met keurig gedekte tafel eerder correcte tafelmanieren zal laten zien dan in een onduidelijke eetsituatie. Operante conditionering is niet van toepassing op mensen met dementie vanwege stoornissen in het korte termijn geheugen. ",
+          "<a href='http://www.opnieuwgeleerdoudgedaan.nl/' target='_blank'>Lees meer over het lerend vermogen van mensen met dementie.</a>"
+        ]
+      },
+      {
+        "title" : "Wat is een ‘dementelcoach’? ",
+        "subtitle" : "",
+        "category" : "Psychogeriatrie / gerontopsychiatrie",
+        "answers" : [
+          "Een vrijwilliger die thuiswonende mensen met dementie regelmatig bezoekt. \r",
+          "Een vrijwilliger die mantelzorg verleent aan mensen met dementie. \r",
+          "Een professionele zorgverlener die een Alzheimercafé runt. \r",
+          "Een professionele zorgverlener die telefonische contacten onderhoudt met mantelzorgers van thuiswonende mensen met dementie.\r"
+        ],
+        "correct" : 3,
+        "explanation" : [
+          "Een dementelcoach geeft professionele ondersteuning aan naasten van mensen met dementie. Gebleken is dat deze vorm van mantelzorgondersteuning effectief is. Mantelzorgers van thuiswonende mensen met dementie ontvangen instrumentele ondersteuning ( in de vorm van tips en adviezen) en emotionele ondersteuning van de dementelcoach. Dat geeft hun het gevoel er niet alleen voor te staan. ",
+          "<a href='http://www.opnieuwgeleerdoudgedaan.nl/' target='_blank'>Lees meer over het lerend vermogen van mensen met dementie.</a>"
+        ]
+      },
+      {
+        "title" : "Welke stelling(en) is of zijn juist?",
+        "subtitle" : "1.  Er zijn wetenschappelijk vastgestelde aanwijzingen voor het bestaan van een positief verband tussen insulineresistentie (diabetes type 2) en Alzheimerdementie. <br><br>\r2.  Wetenschappelijk is aangetoond dat er een positief verband is tussen lichamelijke activiteit en het cognitief functioneren van mensen met dementie. \r",
+        "category" : "Psychogeriatrie / gerontopsychiatrie",
+        "answers" : [
+          "1 is juist, 2 is niet juist. \r",
+          "1 is niet juist, 2 is juist. \r",
+          "1 en 2 zijn beide juist. \r",
+          "1 en 2 zijn beide niet juist. \r"
+        ],
+        "correct" : 2,
+        "explanation" : [
+          "Toelichting stelling 1: Amerikaans wetenschappers hebben een positief verband aangetoond tussen insulineresistentie en Alzheimerdementie, in Nederland zijn er twijfels.<br><br>\nToelichting stelling 2: Het cognitief functioneren van mensen met dementie gaat minder snel achteruit wanneer zij lichamelijk actief zijn.\n",
+          "<a href='http://www.wetenschap24.nl/programmas/labyrint/nieuws/2013/Snacken/Diabetes-type-3--Alzheimer.html' target='_blank'>Lees meer over het verband tussen insulineresistentie en Alzheimerdementie.</a>\n<br>\n<a href='http://www.youtube.com/watch?v=BsABLwvqemY' target='_blank'>Lees meer over de relatie tussen beweging, gedrag en mentale gezondheid.</a>"
+        ]
+      },
+      {
+        "title" : "Op grond van welke observaties kan onderscheid gemaakt worden tussen een depressie bij ouderen en een beginnende dementie? ",
+        "subtitle" : "",
+        "category" : "Psychogeriatrie / gerontopsychiatrie",
+        "answers" : [
+          "Bij depressie treden geheugenproblemen op als gevolg van apathie, bij dementie treedt apathie op als gevolg van geheugenproblemen. \r\r",
+          "Bij depressie is de oudere niet geïnteresseerd in zelfzorg, bij dementie maakt de oudere fouten bij de zelfzorg. \r",
+          "Bij depressie staan aandachts- en concentratiestoornissen meer op de voorgrond dan geheugenstoornissen, bij dementie staan geheugenstoornissen meer op de voorgrond dan aandachts- en concentratiestoornissen. \r",
+          "Alle drie de verschillen zijn van toepassing. "
+        ],
+        "correct" : 3,
+        "explanation" : [
+          "Alle drie de beschreven verschillen zijn inderdaad juist. Daarnaast zijn er nog meer opvallende verschillen. Zo is de depressieve oudere meestal in de avond op zijn best en bij dementie is de oudere meestal in de ochtend op zijn best. ",
+          "<a href='http://www.wetenschap24.nl/programmas/labyrint/nieuws/2013/Snacken/Diabetes-type-3--Alzheimer.html' target='_blank'>Lees meer over het verband tussen insulineresistentie en Alzheimerdementie.</a>\n<br>\n<a href='http://www.youtube.com/watch?v=BsABLwvqemY' target='_blank'>Lees meer over de relatie tussen beweging, gedrag en mentale gezondheid.</a>"
+        ]
+      }
+    ],
+    "results" : [
+      {
+        "min" : 0,
+        "max" : 5,
+        "caption" : "Dat kan beter!"
+      },
+      {
+        "min" : 5,
+        "max" : 10,
+        "caption" : "Niet slecht!"
+      },
+      {
+        "min" : 10,
+        "max" : 20,
+        "caption" : "Goed gedaan"
+      }
+    ]
+  },
+  "social" : {
+    "linkedin" : {
+      "caption" : "",
+      "icon" : "icon-linkedin",
+      "url" : "https://www.linkedin.com/company/9305797?trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1425313624810%2Ctas%3Adaar+zit+meer+achter"
+    },
+    "twitter" : {
+      "caption" : "",
+      "icon" : "icon-twitterlogo",
+      "url" : "https://twitter.com/Daarzitmeer8er"
+    },
+    "facebook" : {
+      "caption" : "",
+      "icon" : "icon-facebooklogo",
+      "url" : "https://www.facebook.com/daarzitmeerachter"
+    },
+    "mail" : {
+      "caption" : "",
+      "icon" : "icon-mailinglist newsletter"
+    }
+  },
+  "newsletter": {
+    "subscribe": {
+      "intro": "Op de hoogte blijven van onze activiteiten? Meld u dan aan voor onze nieuwsbrief.",
+      "form": {
+        "email": "E-mailadres",
+        "submit": "Aanmelden"
+      },
+      "footnote": "Vragen en/of opmerkingen?<br>Mail naar <a href=\"mailto:campagnedzma@actiz.nl\">campagnedzma@actiz.nl</a>.",
+
+      "success": "Bedankt voor je inschrijving!",
+      "errors": {
+        "ValidationError": "Het e-mailadres is niet geldig: controleer of je het goed hebt ingevuld en probeer het opnieuw.",
+        "Invalid_ApiKey": "Server fout! Probeer later opnieuw.",
+        "User_Disabled": "Server fout! Probeer later opnieuw.",
+        "User_InvalidRole": "Server fout! Probeer later opnieuw.",
+        "Too_Many_Connections": "Server fout! Probeer later opnieuw.",
+        "User_UnderMaintenance": "Server fout! Probeer later opnieuw.",
+        "User_InvalidAction": "Server fout! Probeer later opnieuw."
+      }
+    }
+  },
+
+  "praktijk" : {
+    "read-more" : "Lees verder",
+    "more-from-this-blogger" : "Meer van deze blogger",
+    "more-about" : "Meer over :name",
+    "author" : {
+      "city" : "Uit",
+      "works-as" : "Werkt als",
+      "trivia" : "Verder"
+    },
+    "mee-op-stage": {
+      "title": "Docent mee op stage",
+      "content": [
+        "Lorusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim kon missu. Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolo",
+        "r sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+      ]
+    }
+  },
+  "experience" : {
+    "intro" : {
+      "title" : "Jij overziet, jij beslist",
+      "content" : "In de ouderenzorg zit vaak meer achter een situatie.<br>Je hebt 3 minuten om te ontdekken wat er écht <br>aan de hand is. Luister goed naar het verhaal,<br>kijk en klik rond in de kamer en leg je oor te luisteren.<br><br> <strong>Let op:</strong> zelfs de kleinste dingen <br>kunnen een belangrijke aanwijzing zijn. <br>Vraag om een hint als je het even niet weet. <br><br>Succes!",
+      "button" : "Ga verder"
+    },
+    "clues" : {
+      "alt" : "Clue :index"
+    },
+    "navigation" : {
+      "i-want-a-hint" : "Ik wil een hint",
+      "i-know" : "Ik weet het!",
+      "help" : "Uitleg",
+      "dossier" : "Dossier",
+      "share" : "Share",
+      "disclaimer" : "Disclaimer"
+    },
+    "leave" : {
+      "tooltip" : "Weet je zeker dat je :name wilt verlaten? Straks moet je opnieuw beginnen."
+    },
+    "buttons" : {
+      "skip-intro" : "Bekend verhaal? Ga gelijk verder!",
+      "back" : "Ga terug",
+      "try-again" : "Probeer opnieuw",
+      "back-to-cases" : "Terug naar cases",
+      "back-to-situation" : "Terug naar de situatie",
+      "back-to-site" : "Terug naar de website",
+      "back-home" : "Terug naar home",
+      "retry" : "Probeer opnieuw",
+      "close" : "Sluit",
+      "share" : "Deel deze experience",
+      "continue" : "Ga verder"
+    },
+    "game-over" : {
+      "title" : "Bijna goed! Maar je tijd zit er op."
+    },
+    "game-won" : {
+      "title" : "Goed gedaan!",
+      "your-time" : "Je tijd:",
+      "clues" : "Clues:",
+      "share" : {
+        "link": "http://www.daarzitmeerachter.nl",
+        "title" : "Deel dit & daag ook anderen uit",
+        "options": {
+          "linkedin": { 
+            "icon": "icon-linkedin"
+          },
+          "facebook": { 
+            "icon": "icon-facebooklogo"
+          },
+          "twitter": { 
+            "icon": "icon-twitterlogo"
+          }
+        }
+      }
+    },
+    "paused" : {
+      "title" : "Pauze",
+      "click-to-continue" : "Klik om verder te gaan"
+    },
+    "van-zand" : {
+      "title" : "familie Van Zand",
+      "question1" : {
+        "question" : "Wat doe je nu als eerste?",
+        "answers" : [
+          "In overleg met de cliënten een afspraak met de huisarts maken voor meneer zijn COPD.",
+          "In overleg met de cliënten een afspraak met de huisarts maken voor mevrouw haar zere arm.",
+          "Je ruimt het huis op."
+        ]
+      },
+      "question2" : {
+        "question" : "Wat is het echte probleem?",
+        "answers" : [
+          "De COPD van meneer.",
+          "De botontkalking van mevrouw.",
+          "Hun zelfredzaamheid."
+        ]
+      },
+      "question3" : {
+        "question" : "Wat is je plan voor de lange termijn?",
+        "answers" : [
+          "Meneer aanmelden voor een verpleeghuis.",
+          "Mevrouw verbieden het huishouden te doen.",
+          "Zorgplan opstellen en de juiste zorgprofessionals inschakelen."
+        ]
+      },
+      "ehbo" : "Het werk van een HBO-verpleegkundige is veelzijdig. Je bent niet alleen het aanspreekpunt,<br> maar bijvoorbeeld ook verantwoordelijk voor wondverzorging.",
+      "kalender" : "Als HBO-verpleegkundige ben je baas in eigen agenda.<br> Je plant zelf de afspraken met je cliënten in.",
+      "apparaat" : "Ouderen hebben vaak meerdere aandoeningen die vaak met elkaar te maken hebben.",
+      "pictures" : [
+        "images/cases/van-zand/profile1.jpg",
+        "images/cases/van-zand/profile2.jpg"
+      ],
+      "dossier" : {
+        "title" : "Dossier Familie van Zand",
+        "paragraphs" : [
+          {
+            "title" : "Familie van Zand",
+            "text" : "Meneer (81 jaar) en mevrouw Van Zand (79 jaar) wonen al 40 jaar samen in hetzelfde huis. Iedereen in de buurt kennen ze dan ook goed. Hun zoon woont al die jaren al in New York, waardoor meneer en mevrouw van Zand erg op zichzelf zijn. Mevrouw van Zand verzorgt haar man, die last heeft van reuma en COPD. Zelf heeft ze ernstige botontkalking. Mevrouw Van Zand doet de dingen graag zelf en kan eigenwijs zijn. Ze zorgt er voor dat meneer van Zand zijn medicijnen krijgt, houdt het huis schoon en zet elke avond het eten op tafel. Het stel, maar vooral mevrouw van Zand, accepteert zelden hulp in huis. De verpleegkundige komt een keer per week langs en controleert dan gelijk de medicatie-inname."
+          }
+        ]
+      },
+      "plan" : {
+        "title" : "Plan voor het vervolg",
+        "content" : [
+          "Meneer en mevrouw Van Zand hebben blijvend extra hulp in het huishouden nodig. Samen met hen kijk je naar de mogelijkheden en stel je het plan op. Je staat in elk geval stil bij wat zij belangrijk vinden en hoe hun netwerk eruit ziet.",
+          "Denk bij het opstellen van het plan ook aan:",
+          [
+            "Een risicoanalyse in huis: de kans op vallen;",
+            "De botontkalking van mevrouw Van Zand",
+            "De mogelijkheden om extra huishoudelijke hulp, familie en buren in te schakelen",
+            "De inzet van hulpmiddelen",
+            "Signalering: inplannen van bezoeken en evaluatiemomenten"
+          ]
+        ]
+      },
+      "share": {
+        "link": "/familie-van-zand",
+        "twitter-message": "Twitter bericht voor familie van Zand. :clues :time"
+      }
+    },
+    "pinas" : {
+      "title" : "meneer Pinas",
+      "question1" : {
+        "question" : "Wat doe je als eerste?",
+        "answers" : [
+          "De huisarts waarschuwen.",
+          "De apotheek bellen.",
+          "Vertrouwen winnen."
+        ]
+      },
+      "question2" : {
+        "question" : "Wat mankeert meneer Pinas?",
+        "answers" : [
+          "Zijn dementie is acuut verergerd. Je belt de huisarts.",
+          "Hij heeft een delier. Je belt de huisarts.",
+          "Hij heeft last van bijwerkingen. Je neemt contact op met de apotheker."
+        ]
+      },
+      "question3" : {
+        "question" : "Wat is je plan voor het vervolg?",
+        "answers" : [
+          "Meneer Pinas is de tijd kwijt, je laat de buurvrouw een klok kopen.",
+          "In overleg met de huisarts laat je meneer Pinas opnemen.",
+          "Je stelt een zorgplan op om hem de komende dagen te monitoren."
+        ]
+      },
+      "foto-vrouw" : "Oudere mensen hebben veel levenservaring. Ze vertellen je vaak de mooiste verhalen.",
+      "telefoon" : "Jij overziet, jij beslist. Dus ook of gespecialiseerde zorg nodig is en wie je daarvoor inschakelt. ",
+      "pictures" : [
+        "images/cases/pinas/profile.jpg"
+      ],
+      "plan" : {
+        "title" : "Plan voor het vervolg",
+        "content" : [
+          "Meneer Pinas heeft een verhoogde kans op delier. Hoe voorkom je dat? Je stelt samen met hem een plan op. Daarbij kijk je naar wat hij belangrijk vindt en hoe zijn netwerk eruit ziet.",
+          "Denk bij het opstellen van het plan ook aan:",
+          [
+            "Aandacht voor regelmaat en dagritme, zoals slimme planning zorgmomenten, afspraken met de buurvrouw en dagbesteding",
+            "Maaltijdvoorziening",
+            "Signalering: inplannen van bezoeken en evaluatiemomenten",
+            "De mogelijkheden om extra huishoudelijke hulp in te schakelen van familie en buren of thuishulp"
+          ]
+        ]
+      },
+      "share": {
+        "link": "/meneer-pinas",
+        "twitter-message": "Twitter bericht voor meneer Pinas."
+      }
+    },
+    "davids" : {
+      "title" : "meneer Davids",
+      "question1" : {
+        "question" : "Wat zit hier achter?",
+        "answers" : [
+          "Meneer Davids heeft last van zijn pijnstillers.",
+          "Meneer Davids heeft een hypo.",
+          "Meneer Davids heeft een hyper."
+        ]
+      },
+      "question2" : {
+        "question" : "Wat doe je nu?",
+        "answers" : [
+          "Je geeft hem wat druivensuiker of een boterham plus ranja.",
+          "Je geeft hem een insuline shot.",
+          "Je geeft hem meer pijnstillers."
+        ]
+      },
+      "question3" : {
+        "question" : "Hoe kunnen we dit in de toekomst voorkomen?",
+        "answers" : [
+          "Gebakjes van de afdeling verbannen.",
+          "In overleg met meneer en de hoofdbehandelaar observeren of hij zelf nog kan meten.",
+          "Meneer Davids krachtig toespreken om goed op te letten."
+        ]
+      },
+      "kaart-txt" : "Jij bent de spil tussen familie, arts en cliënt. Je luistert, overlegt en beslist.",
+      "foto-txt" : "Als HBO-verpleegkundige werk je samen met huisartsen, specialisten en de familie.",
+      "pictures" : [
+        "images/cases/davids/profile.jpg"
+      ],
+      "dossier" : {
+        "title" : "Meneer Davids",
+        "paragraphs" : [
+          {
+            "title" : "Dossier meneer Davids",
+            "text" : "Meneer Davids (87 jaar) is een goedgehumeurde man. Zijn vrouw is drie jaar geleden overleden; de vier kinderen en negen kleinkinderen ziet hij regelmatig. Onlangs is meneer Davids geopereerd aan zijn heup. Inmiddels is hij ontslagen uit het ziekenhuis en ligt hij op de revalidatie-afdeling in het verpleeghuis. Hij gebruikt diverse pijnstillers. Daarnaast lijdt meneer Davids aan ouderdomssuiker (diabetes type 2) en is hij insulineafhankelijk. Meneer Davids controleert zelf regelmatig zijn bloedsuiker. De waarden van zijn bloedsuiker noteert hij in zijn schriftje."
+          }
+        ]
+      },
+      "plan" : {
+        "title" : "Plan voor het vervolg",
+        "content" : [
+          "Kan meneer Davids in de toekomst nog zelf zijn diabetes reguleren? Bespreek eerst met hem wat er is gebeurd: zijn meting is beïnvloed door de zoetigheid van de tompouce. Vervolgens bekijk je samen met meneer Davids en zijn hoofdbehandelaar of observatie zinvol is.",
+          "Tijdens de observatie kan gekeken worden naar:",
+          [
+            "De bloedsuikerwaarde en het spuiten van de insuline",
+            "De informatiebehoefte bij meneer Davids",
+            "Aanleren van de juiste methode om de bloedsuikerwaarde te meten",
+            "Samen met meneer Davids en de hoofdbehandelaar maak je hierover afspraken en stel je hierover een plan op."
+          ]
+        ]
+      },
+      "share": {
+        "link": "/meneer-davids",
+        "twitter-message": "Twitter bericht voor meneer Davids."
+      }
+    },
+    "social" : {
+      "twitter" : {
+        "caption" : "Delen op Twitter",
+        "url" : "https://twitter.com",
+        "icon" : "icon-twitterlogo"
+      },
+      "facebook" : {
+        "caption" : "Delen op Facebook",
+        "url" : "https://facebook.com",
+        "icon" : "icon-facebooklogo"
+      }
+    },
+    "not-seen-dossier" : {
+      "title" : "Je weet het?",
+      "content" : "In de ouderenzorg wordt niet gegokt en mag je alleen een beslissing nemen nadat je het dossier hebt bekeken.",
+      "view-dossier" : "Bekijk nu het dossier"
+    },
+    "help" : [
+      {
+        "x" : "100px",
+        "y" : "75px",
+        "anchor" : "center/top",
+        "text" : "De aanwijzingen in deze situatie.<br>Hoeveel heb jij er al gevonden?",
+        "icon" : "icon-pijl_clues",
+        "type" : "up"
+      },
+      {
+        "x" : "290px",
+        "y" : "75px",
+        "rotate" : "-60deg",
+        "anchor" : "center/top",
+        "text" : "De tijd tikt. Je hebt hooguit 3 minuten.<br>Als je het weet, stopt de tijd.",
+        "icon" : "icon-pijl_tijd",
+        "type" : "up"
+      },
+      {
+        "x" : "46%",
+        "y" : "75px",
+        "rotate" : "20deg",
+        "anchor" : "center/top",
+        "align" : "center",
+        "text" : "Zie je het even niet? We geven je graag een hint.",
+        "icon" : "icon-pijl_hints",
+        "type" : "up"
+      },
+      {
+        "x" : "52%",
+        "y" : "75px",
+        "rotate" : "0deg",
+        "anchor" : "left/top",
+        "align" : "left",
+        "text" : "Opgelost?<br>Kies je antwoord.",
+        "icon" : "icon-pijl_weet",
+        "type" : "up"
+      },
+      {
+        "x" : "-228px",
+        "y" : "75px",
+        "rotate" : "-10deg",
+        "anchor" : "center/top",
+        "align" : "center",
+        "text" : "Hier ben je nu.",
+        "icon" : "icon-pijl_tijd",
+        "type" : "up"
+      },
+      {
+        "x" : "-80px",
+        "y" : "75px",
+        "rotate" : "-30deg",
+        "anchor" : "center/top",
+        "align" : "center",
+        "text" : "In het dossier lees je meer over de cliënt in deze situatie.",
+        "icon" : "icon-pijl_dossier",
+        "type" : "up"
+      },
+      {
+        "x" : "40px",
+        "y" : "-75px",
+        "anchor" : "left/bottom",
+        "align" : "left",
+        "text" : "Klaar? Hier kun je terug naar de site.",
+        "icon" : "icon-pijl_menu",
+        "type" : "down"
+      },
+      {
+        "hotspot" : true,
+        "rotate" : "31deg",
+        "anchor" : "center/bottom",
+        "align" : "center",
+        "text" : "Hier valt meer te ontdekken",
+        "icon" : "icon-pijl_spot",
+        "type" : "down"
+      }
+    ]
+  },
+  "cases" : [
+    {
+      "title" : "De boodschappen van meneer Pinas",
+      "content" : "<span>Wat een koelkast je kan vertellen</span>",
+      "key" : "pinas",
+      "background" : "images/cases/pinas/background.jpg",
+      "thumbnail" : "images/cases/pinas/thumb.jpg"
+    },
+    {
+      "title" : "Op de koffie bij meneer Davids",
+      "content" : "<span>Je krijgt het niet op een schoteltje</span>",
+      "key" : "davids",
+      "background" : "images/cases/davids/background.jpg",
+      "thumbnail" : "images/cases/davids/thumb.jpg"
+    },
+    {
+      "title" : "Het huishouden van de familie Van Zand",
+      "content" : "<span>Een woonkamer waar meer achter zit</span>",
+      "key" : "van-zand",
+      "background" : "images/cases/van-zand/background.jpg",
+      "thumbnail" : "images/cases/van-zand/thumb.jpg"
+    }
+  ]
+}

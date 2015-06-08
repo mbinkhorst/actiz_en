@@ -1,0 +1,252 @@
+.banner {
+
+	background: $blue-transparent;
+
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+
+	display: inline-block;
+	position: relative;
+	
+	padding: 17px 25px 0;
+	margin-bottom: 17px;
+
+	.non-ie & {
+		padding-top: 25px;
+	}
+
+	&:after, &:before {
+
+		display: inline-block;
+		content: '';
+		position: absolute;
+		bottom: -17px;
+
+	}
+
+	&:after {
+
+		height: 17px;
+		left: 0;
+		width: calc(100% - 17px);
+		background: $blue-transparent;
+
+	}
+	&:before {
+		right: 0;
+		width: 0;
+		border-bottom: 17px solid transparent;
+		border-left: 17px solid $white;
+	}
+
+
+	&.simple {
+		&:after {
+			width: 100% !important;
+		}
+		&:before {
+			display: none;
+		}
+	}
+
+
+
+
+
+
+	&.blue { 
+		&, &:after { background: $blue-light; }
+		color: $white;
+		h2,h3,h4 {
+			span {
+				color: $gray-text;
+			}
+		}
+	}
+	&.gray { 
+		&, &:after { background: $gray; }
+		h2,h3,h4 {
+			span {
+				color: $blue;
+			}
+		}
+	}
+	&.white { 
+		&, &:after { background: $white; }
+		&:before {
+			border-left-color: $blue;
+		}
+		color: $blue;
+		p {
+			color: $black;
+		}
+		h2,h3,h4 {
+		}
+	}
+
+
+	&.text p {
+		font-size: em(16);
+		text-transform: none;
+	}
+
+	&.text p.grey {
+		font-size: em(16);
+		text-transform: none;
+		color:#000000;
+	}
+
+
+	h1, h2 {
+
+		margin: 0;
+		font-size: em(52);
+		line-height: 0.91;
+
+	}
+
+
+	p {
+		margin: 0;
+		@include body-font-serif;
+		font-size: em(32);
+		line-height: 1;
+
+	}
+
+	&.call-to-action {
+
+		padding: 1.25em 1em 0.3em;
+
+		p {
+			text-transform: none;
+		}
+
+	}
+
+
+	&.small {
+		font-size: em(24px);
+
+		padding: 16px 16px 0;
+
+		&:after {
+			height: 14px;
+			width: calc(100% - 14px);
+		}
+		&:before {
+			border-width: 14px;
+		}
+		&:after, &:before {
+			bottom: -14px;
+		}
+	}
+
+	&.large {
+		
+		&:after {
+			height: 32px;
+			width: calc(100% - 32px);
+		}
+		&:before {
+			border-width: 32px;
+		}
+		&:after, &:before {
+			bottom: -32px;
+		}
+	}
+
+	&.tiny {
+
+		font-size: em(20px);
+
+		padding: 13px 12px 0 8px;
+
+		&:after {
+			height: 8px;
+			width: calc(100% - 8px);
+		}
+		&:before {
+			border-width: 8px;
+		}
+		&:after, &:before {
+			bottom: -8px;
+		}
+
+	}
+
+	&.minuscule {
+
+		font-size: em(18px);
+
+		padding: 9px 12px 0 8px;
+
+		&:after {
+			height: 6px;
+			width: calc(100% - 6px);
+		}
+		&:before {
+			border-width: 6px;
+		}
+		&:after, &:before {
+			bottom: -6px;
+		}
+
+	}
+
+}
+
+button.banner,
+a.banner {
+
+	border: none;
+	outline: none;
+
+	@include title-font;
+	font-size: em(40);
+	line-height: 0.71em;
+
+}
+
+.button.banner,
+button.banner,
+a.banner {
+
+	.no-touch & {
+
+		&:not(.text):hover {			
+
+			&, &:after {
+				@include transition(all 200ms ease-in-out);
+				background: $black-transparent;
+				color: $white;
+			}
+
+		}
+		&.text:hover { 
+			
+			h4 { 
+				@include transition(all 200ms ease-in-out);
+				color: $gray;
+			}
+			&.gray {
+				h4 {
+					color: $blue;
+				}
+			}
+
+		}
+
+	}
+
+
+
+}
+
+a.banner {
+	text-decoration: none;
+}
+
+.banner a {
+	text-decoration: none;
+}

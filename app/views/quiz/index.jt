@@ -1,0 +1,10 @@
+<article data-position="x: center, anchor: center/top">
+
+	<h2><%= trans('test-je-kennis.intro.title') %></h2>
+
+	<%= Chick.Actiz.Content.render('test-je-kennis.intro.text') %>
+
+	<a href="<%= Chick.url('test-je-kennis/start') %>" class="tiny gray banner"><%= trans('test-je-kennis.intro.button') %></a>
+
+
+</article>

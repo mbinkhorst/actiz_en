@@ -1,0 +1,332 @@
+{
+
+	"video": "/cases/davids.mp4",
+	"poster": "/images/cases/davids/poster.jpg",
+	"key": "case-davids",
+	"translations": "experience.davids",
+
+	"gameDuration": 180,
+
+	"intro": "intro",
+		
+	"flow": {
+		"intro": "intro",
+		"skipIntro": "intro-part2",
+		"skipIntro": "main",
+		"main": "main",
+		"gameOver": "game-over",
+		"noCheating": "geen-clues-gevonden"
+	},
+	"share": {
+		"images": {
+			"facebook": "/images/cases/davids/facebook.jpg"
+		}
+	},
+
+	"events": {
+
+		"kaart-txt-overlay": {
+			"type": "text",
+			"text": "experience.davids.kaart-txt",
+			"startsAt": "5m54",
+			"endsAt": "5m57"
+		},
+		
+		"foto-txt-overlay": {
+			"type": "text",
+			"text": "experience.davids.foto-txt",
+			"startsAt": "6m13",
+			"endsAt": "6m16.300"
+		}
+
+	},
+
+	"hotspots": {
+
+		"insulinepen": {
+			"scene": "insulinepen",
+			"topLeft": {
+				"x": "34.36%",
+				"y": "59.94%"
+			},
+			"bottomRight": {
+				"x": "40.58%",
+				"y": "66.25%"
+			}
+		},
+		
+		"koffie": {
+			"scene": "koffie",
+			"topLeft": {
+				"x": "55.87%",
+				"y": "50.28%"
+			},
+			"bottomRight": {
+				"x": "62.02%",
+				"y": "58.96%"
+			}
+		},
+		
+		"eten": {
+			"scene": "eten",
+			"topLeft": {			
+				"x": "43.58%",
+				"y": "55.04%"
+			},
+			"bottomRight": {
+				"x": "53.74%",
+				"y": "64.29%"
+			}
+		},
+
+		"handen": {
+			"scene": "handen",
+			"topLeft": {			
+				"x": "21.28%",
+				"y": "51.28%"
+			},
+			"bottomRight": {
+				"x": "32.62%",
+				"y": "64.99%"
+			}
+		},
+		
+		"man": {
+			"scene": "gesprek-man",
+			"topLeft": {			
+				"x": "26.03%",
+				"y": "29.13%"
+			},
+			"bottomRight": {
+				"x": "38.22%",
+				"y": "50.42%"
+			}
+		},
+
+		"ballon": {
+			"scene": "ballon",
+			"topLeft": {
+				"x": "48.62%",
+				"y": "10.22%"
+			},
+			"bottomRight": {
+				"x": "57.92%",
+				"y": "24.65%"
+			}
+		},
+
+		"kaart-txt": {
+			"scene": "kaart-txt",
+			"topLeft": {			
+				"x": "7.64%",
+				"y": "26.33%"
+			},
+			"bottomRight": {
+				"x": "19.23%",
+				"y": "43.28%"
+			}
+		},
+
+		"schrift": {
+			"scene": "schrift",
+			"topLeft": {
+				"x": "84.32%",
+				"y": "70.59%"
+			},
+			"bottomRight": {
+				"x": "91.41%",
+				"y": "80.39%"
+			}
+		},
+		
+		"foto": {
+			"scene": "foto-txt",
+			"topLeft": {			
+				"x": "15.21%",
+				"y": "10.05%"
+			},
+			"bottomRight": {
+				"x": "25.69%",
+				"y": "23.11%"
+			}
+		}
+	},
+
+	"hints": [
+
+		{
+			"hotspot": "handen",
+			"scene": "hint1-eten"
+		},
+
+		{
+			"hotspot": "schrift",
+			"scene": "hint2-schrift"
+		},
+
+		{
+			"hotspot": "insulinepen",
+			"scene": "hint3-insulinepen"
+		}
+
+
+	],
+
+	"questions": [
+		
+		{
+			"key": "experience.davids.question1.question",
+			"answers": ["experience.davids.question1.answers", 1],
+			"scenes": {
+				"intro": "ik-weet-het",
+				"right": "question1-right",
+				"wrong": "question1-wrong"
+			}
+		},
+		{
+			"key": "experience.davids.question2.question",
+			"answers": ["experience.davids.question2.answers", 0],
+			"scenes": {
+				"intro": false,
+				"right": "question2-right",
+				"wrong": "question2-wrong"
+			}
+		},
+		{
+			"key": "experience.davids.question3.question",
+			"answers": ["experience.davids.question3.answers", 1],
+			"scenes": {
+				"intro": false,
+				"right": "question3-right",
+				"wrong": "question3-wrong"
+			}
+		}
+
+	],
+
+	"dossier": "view",
+
+	"scenes": {
+		"intro": {
+			"startsAt": "0m00",
+			"endsAt": "0m35"
+		},
+
+		"intro-part2": {
+			"startsAt": "0m35",
+			"endsAt": "0m36"
+		},
+
+		"main": {
+			"startsAt": "0m36",
+			"endsAt": "3m35"
+		},
+
+		"game-over": {
+			"startsAt": "3m35.500",
+			"endsAt": "3m49"
+		},
+
+		"geen-clues-gevonden": {
+			"startsAt": "3m53.950",
+			"endsAt": "3m57"
+		},
+
+		"gesprek-man": {
+			"startsAt": "3m59.500",
+			"endsAt": "4m18"
+		},
+
+		"handen": {
+			"startsAt": "4m51",
+			"endsAt": "5m01"
+		},
+
+		"eten": {
+			"startsAt": "6m01",
+			"endsAt": "6m06"
+		},
+
+		"insulinepen": {
+			"startsAt": "5m04",
+			"endsAt": "5m15"
+		},
+
+		"schrift": {
+			"startsAt": "5m16",
+			"endsAt": "5m27.500"
+		},
+		
+		"koffie": {
+			"startsAt": "5m30",
+			"endsAt": "5m37"
+		},		
+
+		"ballon": {
+			"startsAt": "5m39",
+			"endsAt": "5m45"
+		},
+
+		"kaart-txt": {
+			"startsAt": "5m47",
+			"endsAt": "5m58"
+		},
+		
+		"foto-txt": {
+			"startsAt": "6m09",
+			"endsAt": "6m17"
+		},
+
+		"hint1-eten": {
+			"startsAt": "4m21",
+			"endsAt": "4m31"
+		},
+
+		"hint2-schrift": {
+			"startsAt": "4m33",
+			"endsAt": "4m41"
+		},
+
+		"hint3-insulinepen": {
+			"startsAt": "4m43",
+			"endsAt": "4m49"
+		},
+
+		"ik-weet-het": {
+			"startsAt": "6m20.500",
+			"endsAt": "6m28"
+		},
+
+		"question1-wrong": {
+			"startsAt": "6m31",
+			"endsAt": "6m39.500"
+		},
+
+		"question1-right": {
+			"startsAt": "6m43",
+			"endsAt": "6m56"
+		},
+
+		"question2-wrong": {
+			"startsAt": "7m00.500",
+			"endsAt": "7m15.600"
+		},
+
+		"question2-right": {
+			"startsAt": "7m17.500",
+			"endsAt": "7m28"
+		},
+
+		"question3-wrong": {
+			"startsAt": "7m33.500",
+			"endsAt": "7m43.100"
+		},
+
+		"question3-right": {
+			"startsAt": "7m43.500",
+			"endsAt": "7m58"
+		}
+
+	}
+
+}

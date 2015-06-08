@@ -1,0 +1,462 @@
+.view[class*="blog-"],
+.view.pages-praktijk-mee-op-stage {
+
+	background-image: image-url('cases/davids/blurred-background.jpg');
+
+
+	&:before {
+		content: '';
+		width: 100%;
+		height: calc(100% - 71px);
+		background-color: rgba(#fff, 0.26);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	article {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -461px;
+	}
+
+
+	// Some basics for all
+	ul.authors > li,
+	ul.posts > li,
+	.content.author,
+	.content.post {
+
+		background: $white;
+		color: $gray;
+
+		&.guest {
+			background: $blue;
+
+			h3, h4 {
+				color: $white;
+			}
+		}
+
+	}
+
+
+	ul.posts > li,
+	.content.post {
+
+		display: block;
+
+		padding: em(16) em(20);
+ 		margin: 0 0 em(20);
+
+		h3,h4 {
+			color: $blue;
+			font-size: em(20);
+			margin: 0.125em 0 0.5em;
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+		}
+
+		p {
+			margin: 0;
+		}
+
+		.date, .author {
+			display: inline-block;
+			color: $gray;
+			@include title-font-light;
+		}
+
+		.author {
+			font-style: italic;
+			&:before {
+				content: ' - ';
+			}
+		}
+
+		.arrow-button {
+			color: $blue;
+
+		}
+		&.guest .arrow-button {
+			&, .no-touch &:hover {
+				&, &:after {
+					color: $white;
+				}
+			}
+		}
+
+
+		footer.share {
+
+			color: $black;
+			margin: 2em 0 0;
+
+			h4, a {
+				color: inherit;
+			}
+			h4 {
+				font-size: 1.4em;
+				margin: 0 0 0.125em;
+			}
+
+			ul {
+
+				>li {
+					display: inline-block;
+					font-size: 1.5em;
+					margin: 0 0.25em 0 0;
+					a  {
+						text-decoration: none;
+						@include blue-hover;
+
+					}
+				}
+			}
+
+
+		}
+
+
+
+
+
+	}
+
+}
+
+.view.blog-index {
+
+	ul.authors {
+
+		font-size: 0;
+
+		>li {
+
+			@include title-font;
+
+			font-size: 16px;
+			vertical-align: top;
+
+			a {
+				display: inline-block;
+				width: 106px;
+				height: 148px;
+				color: inherit;
+				text-decoration: none;
+			}
+
+			position: relative;
+			overflow: hidden;
+
+			margin: 0 em(5) em(10);
+
+			&:nth-child(3n+3) {
+				margin-right: 0;
+			}
+			&:nth-child(3n+1) {
+				margin-left: 0;
+			}
+
+			h3,h4,p {
+				text-transform: uppercase;
+
+				padding: 0 6px 0 4px;
+				margin: 2px 0;
+
+			}
+
+			h3, h4 {
+				font-size: em(12);
+				margin-top: 6px;
+			}
+			p {
+				font-size: em(10);
+				line-height: 1;
+				font-weight: 100;
+			}
+
+
+			.image {
+				position: relative;
+				overflow: hidden;
+				height: 0;
+				padding-top: 75%;
+
+				img {
+					width: 100%;
+					position: absolute;
+					top: -12.5%;
+				}
+			}
+
+		}
+
+	}
+
+
+
+
+
+
+
+}
+
+
+
+.view.blog-show {
+
+	article.content .blocks {
+
+		.content.post {
+
+			padding: 20px;
+
+			h3 {
+				margin-top: 0.25em;
+				font-size: em(20);
+			}
+
+			h4 {
+				color: $black;
+				@include body-font;
+				text-transform: none;
+				font-weight: bold;
+				font-size: 1em;
+
+				margin: 1.5em 0 0.25em;
+
+				& + p {
+					margin-top: 0.25em;
+				}
+			}
+
+			&.guest {
+				p, .date {
+					color: $white;
+				}
+
+				a {
+					color: $white;
+					text-decoration: underline;
+				}
+			}
+
+				footer.share {
+					&.guest {
+
+						ul {
+
+							>li {
+									a  {
+									color: $black;
+									@include white-hover;
+										text-decoration: none;
+									}
+								}
+							}
+					}
+				}
+
+			p {
+
+
+				a {
+					color: $blue;
+					text-decoration: underline;
+				}
+
+				margin: 1em 0;
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+			}
+
+
+		}
+
+		.author {
+
+			padding: 12px;
+
+			&.profile {
+
+				padding-left: 100px;
+				position: relative;
+				min-height: 100px;
+				margin-bottom: 0;
+
+				img {
+					width: 80px;
+					height: 80px;
+					position: absolute;
+					left: 10px;
+					top: 10px;
+				}
+
+				h3,h4 {
+					margin: 0;
+				}
+
+				p {
+
+					@include title-font-light;
+					margin: 0;
+					font-size: em(13);
+
+					color: $gray;
+					line-height: 1.2;
+
+					span {
+						font-weight: normal;
+						text-transform: uppercase;
+						&:after {
+							content: ':';
+						}
+					}
+
+					a {
+						font-weight: 100;
+					}
+
+				}
+
+				&.guest {
+					p {
+						color: $white;
+					}
+
+					a {
+						color: $white;
+					}
+				}
+
+			}
+
+
+			&.bio {
+
+				margin-top: 0;
+				padding: 0;
+
+				.toggle {
+					font-size: em(16);
+					text-align: left;
+					padding-left: 100px;
+				}
+
+				.details {
+
+					display: none;
+					overflow: hidden;
+
+					padding: em(10);
+
+					p {
+						font-size: em(13);
+						padding-right: 1em;
+						&:first-child {
+							margin-top: 0;
+						}
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+
+				}
+
+				&.open {
+
+					.toggle {
+						display: none;
+					}
+					.details {
+						display: block;
+					}
+
+				}
+
+				&.guest .details {
+					color: $white;
+				}
+
+
+
+			}
+
+
+			&.other-posts {
+
+				ul {
+					>li {
+						display: block;
+						font-size: em(14);
+						margin: 1em 0 0;
+
+						a {
+							@include title-font;
+							text-decoration: none;
+							color: $blue;
+
+						}
+
+						.date {
+							color: $gray;
+							@include title-font-light;
+						}
+
+						>* {
+							display: inline;
+						}
+
+					}
+				}
+
+				&.guest ul > li a {
+					color: $white;
+					text-decoration: none;
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+}
+
+
+.view.pages-praktijk-mee-op-stage {
+
+	article.content {
+
+		.content {
+
+			h2 {
+				color: $blue;
+				font-size: em(38);
+				margin: 0 0 0.25em;
+
+			}
+
+			a {
+				color: #42b7d0;
+			}
+
+		}
+
+	}
+
+}
+
+
+#disqus_thread {
+	margin-top:-25px;
+
+}

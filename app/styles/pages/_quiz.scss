@@ -1,0 +1,293 @@
+.view[class*="quiz-"] {
+
+	background-image: image-url('cases/van-zand/blurred-background.jpg');
+
+	&:before {
+		content: '';
+		width: 100%;
+		height: calc(100% - 71px);
+		background-color: rgba(#fff, 0.36);
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+}
+
+.view.quiz-index {
+
+	article {
+
+		position: absolute;
+		top: 136px;
+
+		width: 520px;
+		padding: em(24);
+
+		background: $white;
+		color: $black;		
+
+		h2,h3 {
+			color: $blue;
+			margin: 0 0 0.25em;
+			font-size: em(40);
+		}
+
+		p {
+			font-size: em(15);
+			&:last-of-type {
+				margin-bottom: 3em;
+			}
+			a {
+				color: $blue;
+				font-weight: bold;
+			}
+		}
+
+		.banner {
+			font-size: em(24);			
+		}
+
+	}
+
+}
+
+.view.quiz-start {
+
+
+	article.result {
+
+		display: none;
+
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin: 136px 0 0 -260px;
+
+		padding: 0;
+		background: $white;
+		color: $black;
+		width: 520px;
+
+		header {
+
+			background: $blue;
+
+			h3 {
+				color: $white;
+			}
+
+		}
+
+		h3 {
+
+			color: $blue;
+			text-align: center;
+			font-size: em(36);
+			margin: 0;
+			line-height: 2;
+
+		}
+		
+		
+		.categories {
+
+			>li {
+				display: block;
+
+				padding: 0 100px 0 0;
+				margin: 1em;
+				position: relative;
+
+				@include title-font;
+				font-size: em(28);
+				color: $gray;
+
+				.score {
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					color: $blue;
+				}
+
+				&:first-child {
+					margin-top: 0.5em;
+				}
+
+			}
+
+		}
+
+	}
+
+	article.question {
+
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin: 0 0 0 -461px;
+		
+		width: $content-width;
+		padding: 0 20px;
+
+		overflow: auto;
+
+		.touch & {
+			overflow-y: scroll; /* has to be scroll, not auto */
+  			-webkit-overflow-scrolling: touch;
+  		}
+
+
+		border-width: 136px 0 $nav-height;
+		border-style: solid;
+		border-color: transparent;
+
+		height: 100%;
+
+		header {
+
+			background: $gray;
+			padding: em(20) em(120);
+
+			text-align: center;
+
+			h3 {
+				color: $blue;
+				font-size: em(20);
+				margin: 0 0 0.25em;
+			}
+			h2 { 
+				font-size: em(28);
+				margin: 0.25em 0 0;
+			}
+			h4 {
+				text-align: center;
+				font-size: em(18);
+				@include body-font;
+				text-transform: none;
+				line-height: 1.45;
+				
+			}			
+
+		}
+
+		.answers {
+
+			>li {
+				display: block;
+				margin: 1.25em 0;
+				padding: 0.35em 1em;
+
+				background: $white;
+				color: $gray;
+
+				font-size: em(15);
+				position: relative;
+
+				.letter {
+					
+					font-weight: bold;
+					color: $blue;
+					font-size: em(28, 15);
+					position: absolute;
+					top: 8px;
+
+				}
+
+				.answer {
+					padding: em(8) em(40);
+					min-height: 2.75em;
+				}
+
+				>span {
+					display: inline-block;
+				}
+
+
+				&.correct { background: $green; }
+				&.incorrect { background: $red; }
+
+				&.correct, &.incorrect {
+					> span {
+						color: $white;
+					}
+				}
+
+			}
+
+		}
+
+		.answers.choose {
+
+			>li {
+
+				.no-touch & {
+					@include transition(all 200ms ease-in-out);
+					>span {	@include transition(color 200ms ease-in-out); }
+					&:hover {
+						cursor: pointer;
+						background: $blue;
+						>span {
+							color: $white;
+						}
+					}
+				}
+
+			}
+		}
+
+
+		.result {
+			display: none;
+			position: relative;
+
+			.explanation {
+				background: $white;
+				color: $gray;
+
+				width: 700px;
+				padding: em(14);
+				font-size: em(16);
+
+				a {
+					color: #42b7d0;
+				}
+				
+				h4 {
+					@include body-font;
+					font-size: 1em;
+					font-weight: bold;
+					text-transform: none;
+					margin: 0 0 0.25em;
+				}
+
+				p:first-of-type {
+					margin-top: 0;
+				}
+				p:last-child {
+					margin-bottom: 0;
+				}
+
+			}
+
+		}
+
+
+
+		button.next,
+		button.finish {
+			font-size: em(24);
+			
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			margin-bottom: 8px;
+		}
+
+
+
+
+
+	}
+
+}

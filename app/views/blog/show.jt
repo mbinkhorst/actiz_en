@@ -1,0 +1,95 @@
+<%= Chick.Actiz.SubNavigation.render('praktijk', 0) %>
+
+<article class="content">
+
+	<div class="blocks">
+
+	
+		<div class="p42">
+
+			
+			<div class="author profile content<% if (post.get('author').isGuest()) { %> guest<% } %>">
+
+				<img src="<%= post.get('author.imageUrl') %>">	
+
+				<h4><%= post.get('author.fullname') %></h4>
+				
+				<p><span><%= trans('praktijk.author.city') %></span> <%= post.get('author.city') %></p>
+				<p><span><%= trans('praktijk.author.works-as') %></span> <%= post.get('author.worksAs') %></p>
+
+				<% if (post.get('author.trivia').length > 0) { %>
+				<p><span><%= trans('praktijk.author.trivia') %></span> <%= post.get('author.trivia') %></p>
+				<% } %>
+				
+				<% console.log(post.get('author')); %>
+				<% if (post.get('author.profiles').length > 0) { %>
+				<p><span><%= trans('praktijk.author.links') %></span> <%= post.get('author.profiles') %></p>
+				<% } %>
+					
+				
+
+			</div>
+			<div class="author bio content<% if (post.get('author').isGuest()) { %> guest<% } %>">
+
+				<a href="#" class="blue block toggle arrow-button down"><%= trans('praktijk.more-about', { name: post.get('author.firstname') }) %></a>				
+
+				<div class="details">
+
+					<p><%= post.get('author.bio') %></p>
+
+				</div>
+	
+
+			</div>
+
+			<% if (otherPosts.count() > 0) { %>
+
+			<div class="author other-posts content<% if (post.get('author').isGuest()) { %> guest<% } %>">
+
+				<h4><%= trans('praktijk.more-from-this-blogger') %></h4>
+
+				<ul>
+					<% otherPosts.each(function(post) { %>
+					<li>
+						<a href="<%= post.get('url') %>"><%= post.get('title') %></a>
+						<div class="date"><%= post.get('date') %></div>
+					</li>
+					<% }); %>
+				</ul>
+
+			</div>
+
+			<% } %>
+
+		</div>
+
+		<div class="p58">
+
+			<div class="content post<% if (post.get('author').isGuest()) { %> guest<% } %>">
+
+				<header>
+					<div class="date"><%= post.get('date') %></div>
+					<h3><%= post.get('title') %></h3>
+				</header>
+
+				<p><%= post.get('body') %></p>
+
+				<footer class="share <% if (post.get('author').isGuest()) { %> guest<% } %>">
+					<h4><%= trans('praktijk.share.title') %></h4>
+					<ul>
+						<li><a href="#" data-share="linkedin"><span class="icon icon-linkedin-circle"></span></a></li>
+						<li><a href="#" data-share="twitter"><span class="icon icon-twitter-circle"></span></a></li>
+						<li><a href="#" data-share="facebook"><span class="icon icon-facebook-circle"></span></a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+			<div id="disqus_thread" class="content"></div>
+			
+		</div>
+
+
+	</div>
+
+</article>

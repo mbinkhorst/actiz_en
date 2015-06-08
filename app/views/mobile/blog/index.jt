@@ -1,0 +1,14 @@
+<% posts.each(function(post) { %>
+<section class="content<% if (post.get('author').isGuest()) { %> blue<% } %>">
+	<a href="<%= post.get('urlMobile') %>">
+	<header>
+		<h3><%= post.get('title') %></h3>
+	</header>
+	<div class="author"><%= post.get('author.fullname') %>:</div>
+	<p>
+		<%= post.get('teaser') %>
+		<span><%= trans('praktijk.read-more') %></span>
+	</p>
+	</a>
+</section>
+<% }); %>

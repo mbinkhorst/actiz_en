@@ -1,0 +1,54 @@
+<% _.each(I18n.get('test-je-kennis.questions'), function(question, index) { %>
+
+<article class="question">
+
+	<header>
+		<h3><%= trans('test-je-kennis.question', { question: index + 1 }) %></h3>
+		<h2><%= question.title %></h2>
+		<h4><%= question.subtitle %></h4>
+	</header>
+
+
+	<ul class="choose answers">
+		<% _.each(question.answers, function(answer, index) { %>
+		<li>
+			<span class="letter"><%= String.fromCharCode(index + 65) %></span>
+			<span class="answer"><%= answer %></span>
+		</li>
+		<% }); %>
+	</ul>
+
+	<ul class="show answers">
+
+	</ul>
+	<div class="result">
+
+
+		<div class="explanation">
+			<h4><%= trans('test-je-kennis.explanation') %></h4>
+			<%= Chick.Actiz.Content.render(question.explanation) %>
+		</div>
+
+		<% if (index === I18n.get('test-je-kennis.questions').length - 1) { %>
+		<button class="tiny banner finish"><%= trans('test-je-kennis.finish-quiz') %></button>
+		<% } else { %>
+		<button class="tiny banner next"><%= trans('test-je-kennis.next-question') %></button>
+		<% } %>
+
+	</div>
+
+</article>
+
+<% }); %>
+
+<article class="result">
+
+	<header><h3></h3></header>
+
+	<h3><%= I18n.get('test-je-kennis.your-score') %></h3>
+
+	<ul class="categories">
+
+	</ul>
+	
+</article>

@@ -1,0 +1,449 @@
+.view {
+
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	position: relative;
+
+	.subtitle {
+		@include title-font;
+		font-size: 2em;
+	}
+
+
+	article {
+
+
+		&.content {
+
+			width: $content-width;
+			padding: 0 20px;
+			margin: 0 auto;
+
+			overflow: auto;
+
+			.touch & {
+				overflow-y: scroll; /* has to be scroll, not auto */
+  				-webkit-overflow-scrolling: touch;
+  			}
+
+
+			border-width: 136px 0 $nav-height;
+			border-style: solid;
+			border-color: transparent;
+
+			height: 100%;
+
+			.blocks {
+
+				font-size: 0;
+
+				>* {
+					display: inline-block;
+					vertical-align: top;
+					font-size: 16px;
+
+					border-style: solid;
+					border-color: transparent;
+					border-width: 0 12px;
+
+					&:first-child {
+						border-left: none;
+					}
+					&:last-child {
+						border-right: none;
+					}
+				
+					> .content {
+
+						background: $white;
+						color: $black;
+
+						p a {
+							color: $blue;
+							font-weight: bold;
+						}
+
+						.image.block {
+							display: block;
+							margin: 0.5em 0;
+							&:first-child {
+								margin-top: 0;
+							}
+						}
+
+						
+						padding: em(25);
+
+						margin-bottom: 1.5em;
+						&:last-child {
+							margin-bottom: 0;
+						}
+
+						h3 {
+							font-size: em(38);
+						}
+						h4 {
+							font-size: em(21);
+						}
+
+						h3, h4 {
+							color: $blue;
+							margin: 0 0 0.5em;
+							line-height: 0.95;
+						}
+
+						&.blue {
+							background: $blue;
+							color: $white;
+
+							h3, h4 {
+								color: inherit;
+							}
+
+							p a {
+								color: $white;
+							}
+						}
+
+
+						&.narrow {
+							padding: em(12);
+
+							h2 {
+								margin: 0 0 0.25em;
+								color: $blue;
+								font-size: em(38);
+							}
+
+							h3,h4 {
+								font-size: em(20);
+							}
+
+							p:first-child {
+								margin-top: 0;
+							}
+							p:last-child {
+								margin-bottom: 0;
+							}
+
+						}
+
+
+						&.blue-header {
+							background: $white;
+							color: $black;
+							padding: 0;
+
+							h3, h4 {
+								color: $white;
+								background: $blue;
+								margin: 0;
+								padding: em(8, 20) em(8, 20) em(4, 20);
+							}
+
+							>div {
+								padding: em(12);
+							}
+						}
+
+
+						&.paged {
+
+
+							>ul {
+
+								>li {
+
+									h4 {
+										text-transform: none;
+										font-size: 1.1em;
+										margin: 0;
+									}
+									p {
+										margin-top: 0.25em;
+										font-size: em(15);
+									}
+
+									display: none;
+									&:first-child {
+										display: block;
+									}
+
+
+
+								}
+
+								&.image {
+
+									>li {
+									
+										h4 {
+											margin-bottom: 0.5em;
+										}
+
+										img {
+											background: $gray;
+											display: block;
+											width: 100%;
+											min-height: 150px;
+										}
+
+									}
+
+								}
+
+
+							}
+
+						}
+
+						&.title-only {
+							h3,h4 {
+								margin-bottom: 0;
+							}
+						}
+
+						&.newsletter {
+
+							padding: em(16);
+
+						}
+
+
+					}
+
+					.social {
+
+						ul {
+							display: inline-block;
+							font-size: 0;
+
+							>li {
+								width: 50%;
+								font-size: 16px;
+								vertical-align: top;
+
+								border-style: solid;
+								border-color: transparent;
+								border-width: 0 0.25em 0.5em;
+
+								&:nth-child(2n + 1) {
+									border-left: none;
+								}
+								&:nth-child(2n + 2) {
+									border-right: none;
+								}
+								a {
+									
+									display: block;
+									@include title-font;
+									text-decoration: none;
+									background: $white;
+									padding: em(10);
+									color: $blue;
+									position: relative;
+
+									.caption span {
+										//@include title-font-light;
+
+									}
+
+									.caption {
+										padding-left: em(40, 15);
+										font-size: 0.85em;
+									}
+
+									.icon {
+										position: absolute;
+										left: em(10, 32);
+										top: em(10, 32);
+										font-size: em(32);
+
+									}
+
+									.no-touch & {
+
+										@include transition(all 250ms ease-in-out);
+										&:hover {
+											background: $blue;
+											color: $white;
+										}
+									}
+
+								}
+
+								
+							}
+						}
+
+					}
+
+
+
+				}
+
+				> .p19 { width: 19%; }
+				> .p20 { width: 20%; }
+				
+				> .p38 { width: 38%; }
+				> .p62 { width: 62%; }
+				
+				> .p40 { width: 40%; }
+				> .p60 { width: 60%; }
+
+				> .p35 { width: 35%; }
+				> .p65 { width: 65%; }
+
+				> .p42 { width: 42%; }
+				> .p58 { width: 58%; }
+
+				> .p50 { width: 50%; }
+
+				.columns {
+
+					font-size: 0;
+
+					>* {
+						display: inline-block;
+						vertical-align: top;
+						font-size: 16px;
+
+						border-style: solid;
+						border-color: transparent;
+						border-width: 0 6px;
+
+						&:first-child {
+							border-left: none;
+						}
+						&:last-child {
+							border-right: none;
+						}
+
+					}
+
+					&.two > * {
+						width: 50%;
+
+						.banner {
+							margin-bottom: 1.6em;
+						}
+
+					}
+
+				}
+
+
+
+
+			}
+
+
+			.banner.text {
+
+				font-size: 1em;
+				padding: 12px 8px 0;
+				margin: 0 0 2.3em;
+
+				h4 {
+					font-size: em(30);
+					line-height: 0.95;
+					margin: 0;
+
+				}
+
+				word-break: normal;
+
+			}
+
+			.right {
+				text-align: right;
+			}
+
+			.buttons {
+				margin: 1em 0 0;
+				> * {
+					margin-bottom: 0;
+				}
+			}
+
+
+			.download.links {
+
+				font-size: 0;
+
+
+				>li {
+					font-size: 16px;
+					color: $blue;
+
+					display: inline-block;
+					vertical-align: top;
+
+					width: 33%;
+
+					border-width: 0 5px;
+					border-style: solid;
+					border-color: transparent;
+					&:first-child { border-left: 0; }
+					&:last-child { border-right: 0; }
+
+
+					a {
+						display: inline-block;
+						text-align: center;
+						width: 100%;
+
+						color: inherit;
+						text-decoration: none;
+						.icon {
+							font-size: 1.25em;
+						}
+						img {
+							width: 100%;
+						}
+					}
+
+				}
+
+			}
+
+
+			.anchor-menu {
+
+				display: block;
+				background: $blue;
+
+				padding: em(6) em(12);
+
+				> li {
+
+					font-size: em(14);
+					line-height: 1;
+
+					margin: 0.5em 0;
+
+					&:nth-child(2n) {
+						a {
+							color: $gray;
+						}
+					}
+
+					a {
+						@include title-font;
+						text-decoration: none;
+					}
+
+				}
+
+			}
+
+
+		}
+
+
+	}
+
+
+}

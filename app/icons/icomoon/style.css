@@ -1,0 +1,193 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-yy8yc6');
+	src:url('fonts/icomoon.eot?#iefix-yy8yc6') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-yy8yc6') format('woff'),
+		url('fonts/icomoon.ttf?-yy8yc6') format('truetype'),
+		url('fonts/icomoon.svg?-yy8yc6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hamburger:before {
+	content: "\e627";
+}
+
+.icon-docent:before {
+	content: "\e628";
+}
+
+.icon-mailmobile:before {
+	content: "\e629";
+}
+
+.icon-download:before {
+	content: "\e623";
+}
+
+.icon-facebook-circle:before {
+	content: "\e624";
+}
+
+.icon-linkedin-cirle:before {
+	content: "\e625";
+}
+
+.icon-twitter-circle:before {
+	content: "\e626";
+}
+
+.icon-bloggerpijl:before {
+	content: "\e622";
+}
+
+.icon-linkedin:before {
+	content: "\e620";
+}
+
+.icon-normalscreen:before {
+	content: "\e621";
+}
+
+.icon-sluiten:before {
+	content: "\e61e";
+}
+
+.icon-fullscreen:before {
+	content: "\e61f";
+}
+
+.icon-pijl_dik_rechts:before {
+	content: "\e61d";
+}
+
+.icon-lamp:before {
+	content: "\e605";
+}
+
+.icon-lamp1:before {
+	content: "\e61b";
+}
+
+.icon-lamp2:before {
+	content: "\e619";
+}
+
+.icon-lamp3:before {
+	content: "\e61a";
+}
+
+.icon-lamp_rollover:before {
+	content: "\e61c";
+}
+
+.icon-dossier:before {
+	content: "\e600";
+}
+
+.icon-events:before {
+	content: "\e601";
+}
+
+.icon-Experience:before {
+	content: "\e602";
+}
+
+.icon-facebooklogo:before {
+	content: "\e603";
+}
+
+.icon-HBO-V:before {
+	content: "\e604";
+}
+
+.icon-mailinglist:before {
+	content: "\e606";
+}
+
+.icon-netwerk:before {
+	content: "\e607";
+}
+
+.icon-ovaal_on:before {
+	content: "\e608";
+}
+
+.icon-Pauze:before {
+	content: "\e609";
+}
+
+.icon-pijl_clues:before {
+	content: "\e60a";
+}
+
+.icon-pijl_dik:before {
+	content: "\e60b";
+}
+
+.icon-pijl_dossier:before {
+	content: "\e60c";
+}
+
+.icon-pijl_hints:before {
+	content: "\e60d";
+}
+
+.icon-pijl_menu:before {
+	content: "\e60e";
+}
+
+.icon-pijl_share:before {
+	content: "\e60f";
+}
+
+.icon-pijl_spot:before {
+	content: "\e610";
+}
+
+.icon-pijl_tijd:before {
+	content: "\e611";
+}
+
+.icon-pijl_uitleg:before {
+	content: "\e612";
+}
+
+.icon-pijl_weet:before {
+	content: "\e613";
+}
+
+.icon-Play:before {
+	content: "\e614";
+}
+
+.icon-praktijk:before {
+	content: "\e615";
+}
+
+.icon-quickscan:before {
+	content: "\e616";
+}
+
+.icon-twitterlogo:before {
+	content: "\e617";
+}
+
+.icon-uitleg:before {
+	content: "\e618";
+}
+

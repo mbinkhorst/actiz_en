@@ -1,0 +1,9 @@
+<a href="<%= Chick.url('/experience') %>" class="call-to-action large banner" data-position="y: 40%" data-scale="height: 30%, max: 1.5">
+
+	<h2><%= trans('home.call-to-action.title') %></h2>
+
+	<p>
+		<%= trans('home.call-to-action.content') %>
+	</p>
+
+</a>

@@ -1,0 +1,356 @@
+{
+
+	"video": "/cases/van-zand.mp4",
+	"poster": "/images/cases/van-zand/poster.jpg",
+	"key": "case-van-zand",
+	"translations": "experience.van-zand",
+
+	"gameDuration": 180,
+
+	"intro": "intro",
+		
+	"flow": {
+		"intro": "intro",
+		"skipIntro": "intro-part2",
+		"skipIntro": "main",
+		"main": "main",
+		"gameOver": "game-over",
+		"noCheating": "geen-clues-gevonden"
+	},
+
+	"events": {
+
+		"ehbo-overlay": {
+			"type": "text",
+			"text": "experience.van-zand.ehbo",
+			"startsAt": "5m52",
+			"endsAt": "5m56"
+		},
+		
+		"kalender-overlay": {
+			"type": "text",
+			"text": "experience.van-zand.kalender",
+			"startsAt": "5m27",
+			"endsAt": "5m32"
+		},
+
+		"apparaat-overlay": {
+			"type": "text",
+			"text": "experience.van-zand.apparaat",
+			"startsAt": "5m13",
+			"endsAt": "5m20"
+		}		
+
+	},
+
+	"hotspots": {
+
+		"arm": {
+			"scene": "arm",
+			"topLeft": {
+				"x": "30.66%",
+				"y": "50.74%"
+			},
+			"bottomRight": {
+				"x": "43.51%",
+				"y": "65.26%"
+			},
+			"rotate": "0"
+		},
+		"man": {
+			"scene": "gesprek-man",
+			"topLeft": {
+				"x": "63.27%",
+				"y": "32.38%"
+			},
+			"bottomRight": {
+				"x": "72%",
+				"y": "57.44%"
+			}
+		},
+
+		"vrouw": {
+			"scene": "gesprek-vrouw",
+			"topLeft": {
+				"x": "33.52%",
+				"y": "30.4%"
+			},
+			"bottomRight": {
+				"x": "40.64%",
+				"y": "46.53%"
+			}
+		},
+
+		
+
+		"wasmand": {
+			"scene": "wasmand",
+			"topLeft": {
+				"x": "6.01%",
+				"y": "57.32%"
+			},
+			"bottomRight": {
+				"x": "17.95%",
+				"y": "71.59%"
+			}
+		},
+		
+		"apparaat": {
+			"scene": "apparaat",
+			"topLeft": {
+				"x": "82.68%",
+				"y": "60.79%"
+			},
+			"bottomRight": {
+				"x": "91.41%",
+				"y": "83.5%"
+			}
+		},
+
+		"kalender": {
+			"scene": "kalender",
+			"topLeft": {
+				"x": "87.29%",
+				"y": "18.49%"
+			},
+			"bottomRight": {
+				"x": "95.04%",
+				"y": "33%"
+			}
+		},
+
+		"radio": {
+			"scene": "radio",
+			"topLeft": {
+				"x": "46.58%",
+				"y": "24.32%"
+			},
+			"bottomRight": {
+				"x": "53.91%",
+				"y": "34.62%"
+			}
+		},
+
+		"ehbo": {
+			"scene": "ehbo",
+			"topLeft": {
+				"x": "51.26%",
+				"y": "39.33%"
+			},
+			"bottomRight": {
+				"x": "58.66%",
+				"y": "46.14%"
+			}
+		},
+		
+		"paracetamol": {
+			"scene": "paracetamol",
+			"topLeft": {
+				"x": "41.2%",
+				"y": "70.35%"
+			},
+			"bottomRight": {
+				"x": "47.21%",
+				"y": "76.92%"
+			}
+		},
+		
+		"afwas": {
+			"scene": "afwas",
+			"topLeft": {
+				"x": "55.1%",
+				"y": "23.82%"
+			},
+			"bottomRight": {
+				"x": "68.44%",
+				"y": "30.02%"
+			}
+		}
+			
+	},
+
+	"hints": [
+
+		{
+			"hotspot": "arm",
+			"scene": "hint1-arm"
+		},
+
+		{
+			"hotspot": "vrouw",
+			"scene": "hint2-gesprek-vrouw"
+		},
+
+		{
+			"hotspot": "wasmand",
+			"scene": "hint3-wasmand"
+		}
+
+
+	],
+
+	"questions": [
+		
+		{
+			"key": "experience.van-zand.question1.question",
+			"answers": ["experience.van-zand.question1.answers", 1],
+			"scenes": {
+				"intro": "ik-weet-het",
+				"right": "question1-right",
+				"wrong": "question1-wrong"
+			}
+		},
+		{
+			"key": "experience.van-zand.question2.question",
+			"answers": ["experience.van-zand.question2.answers", 2],
+			"scenes": {
+				"intro": false,
+				"right": "question2-right",
+				"wrong": "question2-wrong"
+			}
+		},
+		{
+			"key": "experience.van-zand.question3.question",
+			"answers": ["experience.van-zand.question3.answers", 2],
+			"scenes": {
+				"intro": false,
+				"right": "question3-right",
+				"wrong": "question3-wrong"
+			}
+		}
+
+	],
+
+	"dossier": {
+		"view": "experience/van-zand/dossier"
+	},
+
+	"scenes": {
+		"intro": {
+			"startsAt": "0m00",
+			"endsAt": "0m55"
+		},
+
+		"intro-part2": {
+			"startsAt": "0m33",
+			"endsAt": "0m55.500"
+		},
+
+		"main": {
+			"startsAt": "0m57",
+			"endsAt": "4m00"
+		},
+
+		"game-over": {
+			"startsAt": "4m00",
+			"endsAt": "4m16"
+		},
+
+		"geen-clues-gevonden": {
+			"startsAt": "4m21",
+			"endsAt": "4m24"
+		},
+
+		"gesprek-man": {
+			"startsAt": "4m27",
+			"endsAt": "4m50"
+		},
+
+		"gesprek-vrouw": {
+			"startsAt": "4m53.500",
+			"endsAt": "5m08"
+		},
+
+		"apparaat": {
+			"startsAt": "5m12",
+			"endsAt": "5m21"
+		},
+
+		"kalender": {
+			"startsAt": "5m24",
+			"endsAt": "5m33"
+		},
+
+		"radio": {
+			"startsAt": "5m36.500",
+			"endsAt": "5m43"
+		},
+
+		"ehbo": {
+			"startsAt": "5m46",
+			"endsAt": "5m57"
+		},
+
+		"arm": {
+			"startsAt": "6m00",
+			"endsAt": "6m07.500"
+		},
+
+		"wasmand": {
+			"startsAt": "6m10.500",
+			"endsAt": "6m22"
+		},
+
+		"paracetamol": {
+			"startsAt": "6m27",
+			"endsAt": "6m32"
+		},
+
+		"afwas": {
+			"startsAt": "6m34.500",
+			"endsAt": "6m40"
+		},
+
+		"hint1-arm": {
+			"startsAt": "6m44.500",
+			"endsAt": "6m49"
+		},
+
+		"hint2-gesprek-vrouw": {
+			"startsAt": "6m52.500",
+			"endsAt": "7m01"
+		},
+
+		"hint3-wasmand": {
+			"startsAt": "7m04",
+			"endsAt": "7m12"
+		},
+
+		"ik-weet-het": {
+			"startsAt": "7m15",
+			"endsAt": "7m24"
+		},
+
+		"question1-wrong": {
+			"startsAt": "7m29",
+			"endsAt": "7m38"
+		},
+
+		"question1-right": {
+			"startsAt": "7m42",
+			"endsAt": "7m59"
+		},
+
+		"question2-wrong": {
+			"startsAt": "8m04",
+			"endsAt": "8m14"
+		},
+
+		"question2-right": {
+			"startsAt": "8m15",
+			"endsAt": "8m28"
+		},
+
+		"question3-wrong": {
+			"startsAt": "8m35.500",
+			"endsAt": "8m46.500"
+		},
+
+		"question3-right": {
+			"startsAt": "8m47.500",
+			"endsAt": "9m11"
+		}
+
+	}
+
+}

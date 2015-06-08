@@ -1,0 +1,98 @@
+<%= Chick.Actiz.SubNavigation.render('ouderenzorg', 4) %>
+
+<article class="content">
+
+	<div class="blocks">
+
+		<div class="p58">
+
+			<div class="narrow content">
+
+<!-- 				<h2><%= trans('ouderenzorg.docenten.intro.title') %></h2> -->
+				<%= Chick.Actiz.Content.render('ouderenzorg.docenten.intro.content') %>
+
+			</div>	
+
+			
+			<div class="narrow blue paged content">
+				<h3><%= trans('ouderenzorg.docenten.tips.title') %></h3>
+				<ul>
+				<% var items = trans('ouderenzorg.docenten.tips.items');
+				_.each(items, function(item, index) { %>
+					<li>
+						<h4><%= index + 1 %>/<%= items.length %> <%= item.title %></h4>
+						<%= Chick.Actiz.Content.render(item.content) %>
+					</li>
+				<% }); %>
+				</ul>
+				<div class="buttons">
+					<a href="#" class="subtle white left arrow-button previous"><%= trans('ouderenzorg.docenten.buttons.previous') %></a>
+					<a href="#" class="subtle white right arrow-button next"><%= trans('ouderenzorg.docenten.buttons.next') %></a>
+				</div>
+			</div>
+
+			<div class="narrow blue paged content">
+				<h3><%= trans('ouderenzorg.docenten.videos.title') %></h3>
+				<ul class="image">
+				<% var items = trans('ouderenzorg.docenten.videos.items');
+				_.each(items, function(item, index) { %>
+					<li>
+						<b><%= index + 1 %>/<%= items.length %> <%= item.title %></b><br><br>
+						<a href="<%= item.url %>" target="_blank"><img src="<%= Chick.url(item.image) %>"></a>
+					</li>
+				<% }); %>
+				</ul>
+				<div class="buttons">
+					<a href="#" class="subtle white left arrow-button previous"><%= trans('ouderenzorg.docenten.buttons.previous') %></a>
+					<a href="#" class="subtle white right arrow-button next"><%= trans('ouderenzorg.docenten.buttons.next') %></a>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="p42">
+
+		<div class="narrow paged content">
+				<h3><%= trans('ouderenzorg.docenten.links.title') %></h3>
+				<ul>
+				<% var items = trans('ouderenzorg.docenten.links.items');
+				_.each(items, function(item, index) { %>
+					<li>
+						<h4><%= index + 1 %>/<%= items.length %> <%= item.title %></h4>
+						<%= Chick.Actiz.Content.render(item.content) %>
+						<a href="<%= item.url %>" target="_blank" class="minuscule simple banner"><%= item.button %></a>
+					</li>
+				<% }); %>
+				</ul>
+				<div class="buttons">
+					<a href="#" class="subtle left arrow-button previous"><%= trans('ouderenzorg.docenten.buttons.previous') %></a>
+					<a href="#" class="subtle right arrow-button next"><%= trans('ouderenzorg.docenten.buttons.next') %></a>
+				</div>
+			</div>
+
+
+			<div class="narrow paged content">
+				<h3><%= trans('ouderenzorg.docenten.downloads.title') %></h3>
+				<ul>
+				<% var items = trans('ouderenzorg.docenten.downloads.items');
+				_.each(items, function(item, index) { %>
+					<li>
+						<h4><%= index + 1 %>/<%= items.length %> <%= item.title %></h4>
+						<%= Chick.Actiz.Content.render(item.content) %>
+						<a href="<%= item.url %>" target="_blank" class="minuscule simple banner"><%= item.button %></a>
+					</li>
+				<% }); %>
+				</ul>
+				<div class="buttons">
+					<a href="#" class="subtle left arrow-button previous"><%= trans('ouderenzorg.docenten.buttons.previous') %></a>
+					<a href="#" class="subtle right arrow-button next"><%= trans('ouderenzorg.docenten.buttons.next') %></a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+</article>

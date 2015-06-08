@@ -1,0 +1,4 @@
+<section class="blue content">
+	<h2><%= trans('mobile.docent-mee.intro.title') %></h2>
+	<%= Chick.Actiz.Content.render('mobile.docent-mee.intro.content') %>
+</section>

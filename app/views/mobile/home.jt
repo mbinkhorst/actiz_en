@@ -1,0 +1,24 @@
+<section class="blue content">
+
+	<h2><%= trans('mobile.home.intro.title') %></h2>
+	<%= Chick.Actiz.Content.render('mobile.home.intro.content') %>
+
+</section>
+
+<section class="video">
+
+	<iframe width="100%" height="200" src="https://www.youtube.com/embed/LgpUdFjXeHo?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+</section>
+
+<section class="mail-link white content form">
+
+	<h2><%= trans('mobile.experience.linkmail.title') %></h2>
+ 	<%= Chick.Actiz.Content.render('mobile.experience.linkmail.intro') %> 
+
+	<form action="<%= Chick.app.backendUrl('/send-link') %>">
+		<input type="email" name="email" placeholder="<%= trans('mobile.experience.linkmail.input') %>">
+
+		<button type="submit"><%= trans('mobile.experience.linkmail.button') %></button>
+	</form>
+			

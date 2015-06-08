@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="nl" class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<base href="/">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<title>HBO-V in de ouderenzorg - Daar zit meer achter</title>
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+		<!-- build:css styles/vendor-mobile.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- build:css styles/main-mobile.css -->
+		<link rel="stylesheet" href="styles/mobile.css">
+		<!-- endbuild -->
+
+		<!-- build:js scripts/modernizr.js -->
+		<script src="../bower_components/modernizr/modernizr.js"></script>
+		<!-- endbuild -->
+
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@Daarzitmeer8er">
+		<meta name="twitter:title" content="HBO-V in de ouderenzorg - Daar zit meer achter">
+		<meta name="twitter:description" content="algemene sharing tekst, 200 characters.">
+		<meta name="twitter:creator" content="@Daarzitmeer8er">
+		<meta name="twitter:image:src" content="http://www.daarzitmeerachter.nl/images/social/facebook/facebook.jpg">
+		<meta name="twitter:domain" content="daarzitmeerachter.nl">
+		
+		<meta property="og:title" content="HBO-V in de ouderenzorg - Daar zit meer achter"/>
+		<meta property="og:image" content="http://www.daarzitmeerachter.nl/images/social/facebook/facebook.jpg"/>
+		<meta property="og:site_name" content="Daarzitmeerachter.nl"/>
+		<meta property="og:url" content="http://www.daarzitmeerachter.nl"/>
+		<meta property="og:description" content="algemene sharing tekst"/>
+		
+
+		<script> 
+			var $buoop = {vs:{i:8,f:15,o:12.1,s:5.1},c:2}; 
+			function $buo_f(){ 
+				var e = document.createElement("script"); 
+				e.src = "//browser-update.org/update.js"; 
+				document.body.appendChild(e);
+			};
+			try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+			catch(e){window.attachEvent("onload", $buo_f)}
+		</script> 
+
+
+		<script>
+
+			// Mobile?
+			(function(i){var e=/iPhone/i,n=/iPod/i,o=/iPad/i,t=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,r=/Android/i,d=/BlackBerry/i,s=/Opera Mini/i,a=/IEMobile/i,b=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,h=RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),c=function(i,e){return i.test(e)},l=function(i){var l=i||navigator.userAgent;this.apple={phone:c(e,l),ipod:c(n,l),tablet:c(o,l),device:c(e,l)||c(n,l)||c(o,l)},this.android={phone:c(t,l),tablet:!c(t,l)&&c(r,l),device:c(t,l)||c(r,l)},this.other={blackberry:c(d,l),opera:c(s,l),windows:c(a,l),firefox:c(b,l),device:c(d,l)||c(s,l)||c(a,l)||c(b,l)},this.seven_inch=c(h,l),this.any=this.apple.device||this.android.device||this.other.device||this.seven_inch},v=i.isMobile=new l;v.Class=l})(window);
+
+            if (!(isMobile.apple.phone || isMobile.android.phone || isMobile.phone)) {
+
+            	// Check whether current uri exists on desktop as well
+            	var uri = document.location.pathname.replace(/^\/m/, ''),
+            		url = '';
+            	if (/^\/(praktijk)/.test(uri)) {
+            		url += uri;
+
+            	// Or maybe only the top-level-page exists?
+				} else {
+
+					var firstPart = uri.split('/')[2];
+					if (firstPart === 'experience' || firstPart === 'daarom-ouderenzorg'
+						|| firstPart === 'het-netwerk') {
+						url += '/' + firstPart;
+					}
+				}
+
+				// Go there.
+				window.location = url;
+				
+			}
+
+
+		</script>
+
+	</head>
+
+	<body>
+
+
+		<div id="main">
+
+
+			<header class="site">				
+				<script type="text/html">
+
+					<button class="toggle"></button>
+
+					<hgroup>
+						<h1><%= trans('site.title') %></h1>
+						<h2><%= trans('site.subtitle') %></h2>
+					</hgroup>
+				</script>
+			</header>
+
+
+			<div class="slider">
+
+				<nav>
+					<script type="text/html">
+					
+						<ul>
+							<% _.each(I18n.get('mobile.navigation'), function(item) { %>
+							<li>
+								<a href="<%= item.url %>">
+									<span class="icon icon-<%= item.icon %>"></span>
+									<span class="title"><%= item.caption %></span>
+								</a>
+							</li>
+							<% }); %>
+						</ul>
+
+					</script>
+				</nav>
+
+
+				<div class="actiz-interface">
+					<div class="view-container">
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+		<script type="text/html" class="sub-navigation">
+
+			<nav class="sub">
+				<ul>
+					<% _.each(items, function(item, index) { %>
+						<li<% if (index === activeIndex) { %> class="active"<% } %>>
+							<a href="<%= item.url %>"><%= item.caption %></a>
+						</li>
+					<% }); %>
+				</ul>
+			</nav>
+
+		</script>
+
+
+
+
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+			
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-60281104-1']);
+			
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+		<!-- build:js scripts/vendor-mobile.js -->
+
+		
+		<!-- bower:js -->
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/underscore/underscore.js"></script>
+		<script src="../bower_components/inflection/lib/inflection.js"></script>
+		<script src="../bower_components/moment/moment.js"></script>
+		<script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+		<script src="../bower_components/jquery.hotkeys/jquery.hotkeys.js"></script>
+		<script src="../bower_components/hammer.js/hammer.js"></script>
+		<script src="../bower_components/gsap/src/uncompressed/TweenMax.js"></script>
+		<script src="../bower_components/jwplayer/jwplayer.js"></script>
+		<script src="../bower_components/screenfull/dist/screenfull.js"></script>
+		<script src="../bower_components/fastclick/lib/fastclick.js"></script>
+		<!-- endbower -->
+
+		<script src="../bower_components/history.js/scripts/bundled-uncompressed/html4+html5/jquery.history.js"></script>
+		<script src="../bower_components/moment/locale/nl.js"></script>
+		<script src="../bower_components/gsap/src/uncompressed/TweenLite.js"></script>
+		<script src="../bower_components/gsap/src/uncompressed/plugins/CSSPlugin.js"></script>
+		<script src="../bower_components/gsap/src/uncompressed/plugins/ScrollToPlugin.js"></script>
+		<script src="../bower_components/gsap/src/uncompressed/easing/EasePack.js"></script>
+
+
+		<script src="../bower_components/chick/dist/chick.js"></script>
+		<!-- endbuild -->
+
+		<!-- build:js scripts/main-mobile.js -->
+
+		<script src="scripts/Components/Content.js"></script>		
+		<script src="scripts/Components/PagedContent.js"></script>		
+		<script src="scripts/Components/NewsletterSubscribe.js"></script>		
+		
+		<script src="scripts/Layout/SiteHeader.js"></script>		
+
+		<script src="scripts/Models/Post.js"></script>
+		<script src="scripts/Models/Author.js"></script>
+
+		<script src="scripts/Mobile/Layout/Navigation.js"></script>
+
+		<script src="scripts/Mobile/Components/MailLink.js"></script>
+
+		<script src="scripts/Mobile/Controllers/PageController.js"></script>
+		<script src="scripts/Mobile/Controllers/BlogController.js"></script>
+
+		
+		<script src="scripts/main-mobile.js"></script>
+		<!-- endbuild -->
+</body>
+</html>

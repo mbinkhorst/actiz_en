@@ -1,0 +1,53 @@
+.download-button {
+
+	margin: 0.75em 0 2em;
+
+	&:last-child {
+		margin-bottom: 0.25em;
+	}
+
+	position: relative;
+	&:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		@extend .icon;
+		@extend .icon-download:before;
+
+		font-size: 1.5em;
+		color: $blue;
+	}
+	padding: 0 0 0 32px;
+
+	display: block;
+	text-decoration: none;
+
+	color: $black;
+
+	.no-touch & {
+		@include transition(color 250ms ease-in-out);
+		&:hover {
+			color: $blue;
+		}
+	}
+
+	.blue &, &.blue {
+
+		&, &:before {
+			color: $white;
+		}
+		.no-touch & {
+			&:before {
+				@include transition(color 250ms ease-in-out);
+			}
+			&:hover {
+				color: $white;
+				&:before {
+					color: $black;
+				}
+			}
+		}
+
+	}
+
+}

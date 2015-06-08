@@ -1,0 +1,51 @@
+.newsletter.subscribe {
+
+	background: $blue;
+	color: $black;
+
+	padding: 1em;
+
+	form {
+
+		text-align: right;
+
+		input {
+			display: block;
+			margin: 0 0 0.5em;
+			width: 100%;
+		}
+
+	}
+
+	p, input {
+		color: $black;
+	}
+
+	p:first-child { margin-top: 0; }
+	p:last-child { margin-bottom: 0; }
+
+	.footnote {
+		font-size: em(13);
+	}
+
+	.result {
+
+		font-weight: bold;
+		padding: 12px;				
+
+		&.success {
+
+			background: $white;
+			color: $blue;
+
+		}
+
+		&.error {
+			background: $red;
+			color: $white;
+		}
+
+	}
+
+}
+

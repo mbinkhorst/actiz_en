@@ -1,0 +1,51 @@
+header.site {
+
+	padding: em(20) em(40);
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	h1, h2 {
+// 		text-shadow: 1px 1px rgba(#000, 0.2);
+	}
+
+	// Hoekje linksboven
+	&:after {
+		width: 0;
+		height: 0;
+		display: inline-block;
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+	
+		border-left: 17px solid $white;
+		border-bottom: 17px solid $blue;
+
+	}
+
+	a {
+		text-decoration: none;		
+	}
+
+
+	h1 {
+
+		@include body-font-serif;
+		text-transform: none;
+		font-weight: normal;
+		font-size: em(26);
+		margin: 0;
+
+	}
+
+	h2 {
+
+		margin: 0.25em 0;
+		font-size: em(22);
+
+	}
+
+
+
+}

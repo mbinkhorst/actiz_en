@@ -1,0 +1,25 @@
+<%= Chick.Actiz.SubNavigation.render('praktijk', 1) %>
+
+<article class="content">
+
+	<div class="blocks">
+
+		<div class="p50">
+
+			<div class="content">
+				<h2><%= trans('praktijk.mee-op-stage.title') %></h2>
+
+				<%= Chick.Actiz.Content.render('praktijk.mee-op-stage.content') %>
+
+			</div>
+		
+		</div>
+		<div class="p50">
+
+		<img src="/images/docentmee.jpg" width="251" height="355" alt="">
+		
+		</div>
+
+	</div>
+
+</article>

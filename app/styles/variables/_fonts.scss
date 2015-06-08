@@ -1,0 +1,40 @@
+$title-font: 'Avenir Next';
+$body-font: 'Droid Sans';
+$body-font-serif: 'Droid Serif'; 
+
+@include font-face($body-font-serif, '../fonts/droidserif-webfont');
+@include font-face($body-font-serif, '../fonts/droidserif-bold-webfont', bold);
+@include font-face($body-font-serif, '../fonts/droidserif-italic-webfont', normal, italic);
+@include font-face($body-font-serif, '../fonts/droidserif-bolditalic-webfont', bold, italic);
+
+@include font-face($body-font, '../fonts/DroidSans-webfont', normal);
+
+@include font-face($title-font, '../fonts/AvenirNextLTPro-MediumCn', 100);				
+@include font-face($title-font, '../fonts/AvenirNextLTPro-MediumCnIt', 100, italic);	
+
+@include font-face($title-font, '../fonts/AvenirNextLTPro-BoldCn', normal);				
+@include font-face($title-font, '../fonts/AvenirNextLTPro-BoldCnIt', normal, italic);	
+
+@include font-face($title-font, '../fonts/AvenirNextLTPro-HeavyCn', bold);
+@include font-face($title-font, '../fonts/AvenirNextLTPro-HeavyCnIt', bold, italic);
+
+
+@mixin body-font {
+	font-family: $body-font, Arial, sans-serif;	
+}
+
+@mixin body-font-serif {
+	font-family: $body-font-serif, Arial, sans-serif;	
+}
+@mixin title-font {
+	font-family: $title-font, 'Arial Narrow', Arial, sans-serif;
+	text-transform: uppercase;	
+	line-height: 1em;
+	font-weight: normal;
+}
+
+@mixin title-font-light {
+	font-family: $title-font, 'Arial Narrow', Arial, sans-serif;
+	line-height: 1em;
+	font-weight: 100;
+}

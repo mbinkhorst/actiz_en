@@ -1,0 +1,47 @@
+<%= Chick.Actiz.SubNavigation.render('het-netwerk', 2) %>
+
+<article class="content">
+
+	<div class="blocks">
+
+		<div class="p62">
+
+
+			<h2><%= trans('het-netwerk.evenementen.title') %></h2>
+
+			<ul class="events">
+				<% _.each(I18n.get('het-netwerk.evenementen.items'), function(item) { %>
+				<li>
+					<a href="<%= item.url %>" target="_blank">
+						<div class="image">
+							<img src="<%= item.image%>">
+						</div>
+						<div class="content">
+							<h3><%= item.date %></h3>
+							<h4><%= item.title %></h4>
+						</div>
+					</a>
+				</li>
+				<% }); %>
+			</ul>
+
+		</div>
+
+		<div class="p38">
+
+			<h2><%= trans('het-netwerk.evenementen.jouw-evenement.title') %></h2>
+
+			<div class="content">
+				<%= Chick.Actiz.Content.render('het-netwerk.evenementen.jouw-evenement.content') %>
+
+				<div class="buttons">
+					<a href="<%= trans('het-netwerk.evenementen.jouw-evenement.url') %>" class="tiny banner" target="_blank"><%= trans('het-netwerk.evenementen.jouw-evenement.button') %></a>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+</article>

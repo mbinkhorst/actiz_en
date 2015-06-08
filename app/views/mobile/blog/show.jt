@@ -1,0 +1,19 @@
+<section class="content<% if (post.get('author').isGuest()) { %> blue<% } %>">
+	
+	<header>
+		<h3><%= post.get('title') %></h3>
+		<a href="<%= post.get('author.urlMobile') %>" class="author <% if (post.get('author').isGuest()) { %> blue<% } %>"><%= post.get('author.fullname') %></a>
+	</header>
+	
+	<%= post.get('body') %>
+	
+	<footer class="share">
+		<h4><%= trans('praktijk.share.title') %></h4>
+		<ul>
+			<li><a href="#" data-share="linkedin"><span class="icon icon-linkedin-circle"></span></a></li>
+			<li><a href="#" data-share="twitter"><span class="icon icon-twitter-circle"></span></a></li>
+			<li><a href="#" data-share="facebook"><span class="icon icon-facebook-circle"></span></a></li>
+		</ul>
+	</footer>
+	<div id="disqus_thread" class="content"></div>
+</section>

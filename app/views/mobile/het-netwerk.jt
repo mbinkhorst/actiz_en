@@ -1,0 +1,24 @@
+<!--<section class="blue content">
+
+
+	<h2><%= trans('mobile.netwerk.intro.title') %></h2> 
+	<%= Chick.Actiz.Content.render('mobile.netwerk.intro.content') %>
+
+</section>-->
+
+<section class="image-links">
+	<ul>
+	<% _.each(I18n.get('het-netwerk.partners'), function(item) { %>
+		<li>
+			<a href="<%= item.url %>" target="_blank">
+				<div class="image">
+					<img src="<%= item.image%>">
+				</div>
+<!--				<div class="content">
+					<h3><%= item.title %></h3>
+				</div> -->
+			</a>
+		</li>
+	<% }); %>
+	</ul>
+</section>

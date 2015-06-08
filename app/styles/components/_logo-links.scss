@@ -1,0 +1,33 @@
+ul.logo-links {
+
+	display: block;
+	font-size: 0;
+
+	> li {
+
+		font-size: 16px;
+		margin: 0 18px 18px 0;
+
+		a { 
+			display: inline-block;
+
+			width: 160px;
+			height: 81px;
+
+			background: $white;
+
+			color: $black;
+
+		}
+
+		img {
+			width: 160px;
+			height: 81px;
+		}
+
+	}
+
+	&.three-per-row > li:nth-child(3n+3) { margin-right: 0; }
+	&.five-per-row > li:nth-child(5n+5) { margin-right: 0; }
+
+}

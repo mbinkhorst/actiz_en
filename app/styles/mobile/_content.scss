@@ -1,0 +1,243 @@
+section {
+
+	margin: $spacing 0;
+
+	&:first-child {
+		margin-top: 0;		
+	}
+
+}
+
+section.content {
+
+	padding: em(20);
+
+	h2,h3 {
+		font-size: em(24);
+		margin: 0 0 0.1em;
+		color: inherit;
+	}
+
+	p {
+		font-size: em(14);
+		margin: 0.5em 0;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		a {
+			color: $blue;
+		}
+
+	}
+
+
+	background: $white;
+	color: $mobile-black;
+
+
+
+	&.blue {
+
+		background: $blue;
+		color: $white;
+
+		h2,h3 {
+			color: $white;
+		}
+
+		p {
+			a {
+				color: $white;
+			}
+		}
+
+	}
+
+	&.blue-title {
+		h2 {
+			color: $blue;
+		}
+	}
+
+	&.newsletter.subscribe {
+
+		h2,h3 {
+			position: relative;
+			color: $blue;
+			&:before {
+				@extend .icon;
+				@extend .icon-mailmobile:before;
+				position: absolute;
+				left: -42px;
+				font-size: 1.23em;
+			}
+		}
+
+		padding-left: 50px;
+
+	}
+
+	&.form {
+
+		form {
+
+			margin: 1em 0 0;
+
+			input {
+				display: block;
+				width: 100%;	
+				color: $black;			
+			}
+			button {
+				display: block;
+				width: 100%;
+				text-align: right;
+				padding: 7px;				
+			}
+
+		}
+
+		&.blue {
+			form button {
+				background: $blue;
+				color: $white;
+			}
+			.result.success {
+				color: $white;
+			}
+		}
+
+		.result {
+
+			font-weight: bold;
+			&.error {
+				color: $red;
+			}
+			&.success {
+				color: $blue;
+			}
+
+		}
+
+	}
+
+
+}
+
+section.image {
+
+	img {
+		display: block;
+		width: 100%;
+	}
+
+}
+
+section.video {
+
+	iframe {
+		margin: 0;
+		display: block;
+	}
+
+}
+
+section.no-margin {
+
+	margin-bottom: 0;
+
+	& + section {
+		margin-top: 0;
+	}
+
+}
+
+section.image-links {
+
+	ul {
+
+		display: block;
+		font-size: 0;
+
+		> li {
+
+			font-size: 16px;
+
+			border-width: 0 5px 10px;
+			border-color: transparent;
+			border-style: solid;
+
+			&:nth-child(2n + 1) { border-left-width: 0; }
+			&:nth-child(2n + 2) { border-right-width: 0; }
+
+			width: 50%;
+			display: inline-block;
+			vertical-align: top;
+
+			img {
+				width: 100%;
+				display: block;
+			}
+
+			h3 {
+				color: $blue;
+				margin: 0;
+			}
+			.content {
+				padding: 5px 8px;
+				background: $white;
+			}
+			a {
+				text-decoration: none;
+			}
+
+			color: $blue;
+
+		}
+
+	}
+
+}
+
+section.paged {
+
+	.buttons {
+		margin: 1em 0 2em;
+		a {
+			color: $blue;
+		}
+		.left {
+			float: left;			
+		}
+		.right {
+			float: right;
+		}
+	}
+
+
+}
+
+section.faq {
+
+	h2 {
+		color: $blue;
+		margin-bottom: 0.5em;
+	}
+
+	li.faq {
+
+		h3 {
+			@include body-font-serif;
+			text-transform: none;
+		}
+
+		display: none;
+		&:first-child {
+			display: block;
+		}
+
+	}
+
+}

@@ -1,0 +1,51 @@
+@mixin blue-hover {
+
+	.no-touch & {
+
+		@include transition(color 200ms ease-in-out);
+		&:hover {
+			color: $blue;
+
+		}
+
+	}
+
+}
+@mixin blue-hover-bg {
+
+	.no-touch & {
+
+		@include transition(background-color 200ms ease-in-out);
+		&:hover {
+			background-color: $blue;
+		}
+
+	}
+
+}
+
+@mixin white-hover {
+
+	.no-touch & {
+
+		@include transition(color 200ms ease-in-out);
+		&:hover {
+			color: $white;
+
+		}
+
+	}
+
+}
+@mixin white-hover-bg {
+
+	.no-touch & {
+
+		@include transition(background-color 200ms ease-in-out);
+		&:hover {
+			background-color: $white;
+		}
+
+	}
+
+}

@@ -1,0 +1,17 @@
+<section class="newsletter subscribe form content">
+
+	<h2><%= trans('mobile.newsletter.title') %></h2>
+<!--	<p><%= Chick.Actiz.Content.render('mobile.newsletter.intro') %></p> -->
+
+	<form action="<%= Chick.app.backendUrl('/newsletter/subscribe') %>">
+		<input type="email" name="email" placeholder="<%= trans('newsletter.subscribe.form.email') %>">
+
+		<button type="submit"><%= trans('newsletter.subscribe.form.submit') %></button>
+	</form>
+			
+
+</section>
+
+<section class="image">
+	<img src="<%= Chick.url('/images/mobile/nieuwsbrief-banner.jpg') %>">
+</section>

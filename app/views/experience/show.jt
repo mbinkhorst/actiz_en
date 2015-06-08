@@ -1,0 +1,285 @@
+<header>
+<div id="seek"></div>
+	<div class="gamestate">
+
+		<ul class="clues">
+			<% for (var q = 0; q < _.size(hotspots); q++) { %>
+			<li title="<%= trans('experience.clues.alt', { index: q + 1 }) %>"><span class="circle"></span></li>
+			<% } %>
+		</ul>
+
+		<div class="videostate">
+			<div class="play"><span class="icon icon-Play"></span> <span class="time-left">03:00</span></div>
+			<div class="pause"><span class="icon icon-Pauze"></span> <span class="time-left">03:00</span></div>
+		</div>
+
+	</div>
+
+
+	<nav class="gameplay" data-position="x:center, anchor: center/center">
+		<ul>
+			<li class="hint">
+				<a href="#">
+					<span class="title"><%= trans('experience.navigation.i-want-a-hint') %></span>
+				</a>
+			</li>
+			<li class="start-quiz">
+				<a href="#">
+					<span class="icon icon-lamp0"></span>
+					<span class="title"><%= trans('experience.navigation.i-know') %></span>
+				</a>
+			</li>
+
+
+		</ul>
+	</nav>
+
+
+
+	<nav class="meta">
+		<ul>
+			<li class="help">
+				<a href="#">
+					<span class="icon icon-uitleg"></span>
+					<span class="title"><%= trans('experience.navigation.help') %></span>
+				</a>
+			</li>
+			<li class="dossier">
+				<a href="#">
+					<span class="icon icon-dossier"></span>
+					<span class="title"><%= trans('experience.navigation.dossier') %></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+
+</header>
+
+<nav class="tools">
+	<a href="#" class="toggle-fullscreen"><span class="icon-fullscreen"></span></a>
+</nav>
+<footer>
+
+	<div class="leave">
+		<div class="tooltip">
+			<%= trans('experience.leave.tooltip', { name: trans(translations + '.title') }) %>
+		</div>
+		<a href="<%= Chick.url('/') %>" class="arrow-button left"><%= trans('experience.buttons.back-to-site') %></a>
+	</div>
+
+
+<!-- 
+	<nav>
+		<ul>
+			<li><a href="#"><%= trans('experience.navigation.share') %></a></li>
+			<li><a href="#"><%= trans('experience.navigation.disclaimer') %></a></li>
+		</ul>
+	</nav>
+ -->
+
+</footer>
+
+<section class="case">
+
+	<div class="video">
+
+
+
+	</div>
+
+	<ul class="text-events">
+
+		<% if (events !== undefined) { _.each(events, function(ev, key) { if (ev.type === 'text') { %>
+		<li data-event="<%= key %>" data-position="center">
+			<%= trans(ev.text) %>
+		</li>
+		<% } }); } %>
+
+	</ul>
+
+
+	<div class="start-game" data-position="center">
+		<span class="icon icon-Play"></span>
+	</div>
+
+
+	<ul class="hotspots">
+		
+		<% _.each(hotspots, function(hotspot, index) { %>
+		<li data-hotspot="<%= index %>" data-position="x:<%= hotspot.topLeft.x %>, y:<%= hotspot.topLeft.y %>, anchor: left/top" data-size="width:<%= parseFloat(hotspot.bottomRight.x) - parseFloat(hotspot.topLeft.x) %>%,height:<%= parseFloat(hotspot.bottomRight.y) - parseFloat(hotspot.topLeft.y) %>%"<% if (hotspot.rotate !== undefined) {%> style="transform: rotate(<%= hotspot.rotate %>deg)"<% } %>>
+			<span class="glow">HOT</span>
+		</li>
+		<% }); %>
+
+	</ul>
+
+	
+	<div class="buttons">
+		<button class="banner tiny skip-intro" data-position="x:center"><%= trans('experience.buttons.skip-intro') %></button>
+
+		<button class="banner tiny back" data-position="x:center"><%= trans('experience.buttons.back') %></button>
+	</div>
+
+
+
+</section>
+
+<section class="help cover" data-track="help">
+
+	<article>
+		<ul>
+		<% _.each(trans('experience.help'), function(help) { %>
+			
+			<% if (help.hotspot === true) {
+				var spot = _.toArray(hotspots)[0];
+				help.x = (parseFloat(spot.topLeft.x) + (parseFloat(spot.bottomRight.x) - parseFloat(spot.topLeft.x)) / 2) + '%';
+				help.y = (parseFloat(spot.topLeft.y) + (parseFloat(spot.bottomRight.y) - parseFloat(spot.topLeft.y)) / 2) + '%';
+			} %>
+			<li data-position="x: <%= help.x %>, y: <%= help.y %>, anchor: <%= help.anchor %>" class="<%= help.align === undefined ? 'center' : help.align %><%= help.hotspot === true ? ' hotspot' : '' %>">
+				<% if (help.type === 'down') { %><p><%= help.text %></p><% } %>
+				<span class="icon <%= help.icon %>"<% if (help.rotate !== undefined) { %> style="transform: rotate(<%= help.rotate %>);"<% } %>></span>
+				<% if (help.type === 'up') { %><p><%= help.text %></p><% } %>
+			</li>
+		<% }); %>
+		</ul>
+
+		<ul class="hotspots">
+		
+			<% var hotspot = _.toArray(hotspots)[0]; %>
+			<li data-position="x:<%= hotspot.topLeft.x %>, y:<%= hotspot.topLeft.y %>, anchor: left/top" data-size="width:<%= parseFloat(hotspot.bottomRight.x) - parseFloat(hotspot.topLeft.x) %>%,height:<%= parseFloat(hotspot.bottomRight.y) - parseFloat(hotspot.topLeft.y) %>%"<% if (hotspot.rotate !== undefined) {%> style="transform: rotate(<%= hotspot.rotate %>deg)"<% } %>>
+				<span class="glow">HOT</span>
+			</li>
+
+		</ul>
+
+		<button class="small banner" data-position="x: center, y: 90%, anchor: center/bottom"><%= trans('experience.buttons.help-continue') %></button>
+
+
+	</article>
+
+</section>
+
+<section class="not-seen-dossier cover" data-track="not-seen-dossier">
+
+	<article data-position="center">
+
+		<h2><%= trans('experience.not-seen-dossier.title') %></h2>
+
+		<p><%= trans('experience.not-seen-dossier.content') %></p>
+
+		<a href="#" class="dossier"><span class="icon-dossier"></span><%= trans('experience.not-seen-dossier.view-dossier') %></a>
+
+	
+		<a href="#" class="close"><span class="icon-sluiten"></span></a>
+	</article>
+
+</section>
+
+<section class="game-over cover <%= key %>" data-track="game-over">
+
+	<article data-position="center">
+
+		<h2><%= trans('experience.game-over.title') %></h2>		
+		
+		<p>
+			<a href="#" class="restart arrow-button right"><%= trans('experience.buttons.retry') %></a>
+		</p>
+
+		<footer>
+
+			<ul>
+				<li><a href="<%= Chick.url('/') %>" class="banner tiny"><%= trans('experience.buttons.back-home') %></a></li>
+				<li><a href="<%= Chick.url('/experience') %>" class="banner tiny"><%= trans('experience.buttons.back-to-cases') %></a></li>
+			</ul>
+
+
+
+		</footer>
+
+
+	</article>
+
+</section>
+
+<section class="game-won cover" data-track="game-won">
+
+	<article data-position="center">
+
+		<h2><%= trans('experience.game-won.title') %></h2>		
+		
+		<h3>
+			<%= trans('experience.game-won.your-time') %> <span class="time-left"></span>
+		</h3>			
+		<h3>
+			<%= trans('experience.game-won.clues') %> <span class="clues-found"></span>
+		</h3>			
+		
+		<div class="share">
+			<h4><%= trans('experience.game-won.share.title') %></h4>
+			<ul>
+				<% _.each(I18n.get('experience.game-won.share.options'), function(item, key) { %>
+				<li>
+					<a href="#" class="social-share <%= key %>"><span class="icon <%= item.icon %>"></span></a>
+				</li>
+				<% }); %>
+			</ul>
+		</div>
+
+	</article>
+
+	<footer>
+
+		<ul>
+			<li><a href="<%= Chick.url('/') %>" class="arrow-button left"><%= trans('experience.buttons.back-home') %></a></li>
+			<li><a href="<%= Chick.url('/experience') %>" class="arrow-button left"><%= trans('experience.buttons.back-to-cases') %></a></li>				
+		</ul>
+
+
+
+	</footer>
+
+</section>
+
+<section class="paused cover" data-track="paused">
+
+	<article data-position="center">
+		<div class="banner">
+			<h2><%= trans('experience.paused.title') %></h2>
+		</div>
+		<p class="subtitle"><%= trans('experience.paused.click-to-continue') %></p>
+	</article>
+
+</section>
+
+
+<% _.each(questions, function(question, index) { %>
+
+<section class="question cover" data-question="<%= index %>" data-track="question-<%= index + 1 %>">
+
+	<article data-position="center">
+
+		<div class="banner">
+			<h2><%= index + 1 %>/<%= questions.length %> <%= trans(question.key) %></h2>
+		</div>
+
+		<ul class="answers">
+			<% _.each(trans(question.answers[0]), function(answer, index) { %>
+			<li>
+				<h3><%= String.fromCharCode(65 + index) %></h3>
+				<p><%= answer %></p>
+			</li>
+			<% }); %>
+		</ul>
+
+		<% if (index === 0) { %> 
+		<div class="buttons">
+			<a href="#" class="arrow-button left back"><%= trans('experience.buttons.back-to-situation') %></a>
+		</div>
+		<% } %>
+
+	</article>
+
+</section>
+
+<% }); %>

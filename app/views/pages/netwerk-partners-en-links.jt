@@ -1,0 +1,22 @@
+<%= Chick.Actiz.SubNavigation.render('het-netwerk', 1) %>
+
+<article class="content">
+
+	<ul class="links">
+		<% _.each(I18n.get('het-netwerk.partners'), function(item) { %>
+		<li>
+			<a href="<%= item.url %>" target="_blank">
+				<div class="image">
+					<img src="<%= item.image%>">
+				</div>
+				<div class="contentpartners">
+<!-- 					<h3><%= item.title %></h3> -->
+<!-- 					<h4><%= item.subtitle %></h4> -->
+				</div>
+			</a>
+		</li>
+		<% }); %>
+	</ul>
+
+
+</article>

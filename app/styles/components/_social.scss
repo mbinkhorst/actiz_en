@@ -1,0 +1,57 @@
+#main {
+	aside.social {
+
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin: ($page-margin + 2px);
+
+		ul {
+			margin: 0;
+
+			>li {
+
+				font-size: 0;
+				margin-right: 12px;
+
+				a {
+					text-decoration: none;
+					&:before {
+						font-size: 28px;
+					}
+
+					@include transition(color 250ms ease-in-out);
+					&.active {
+						color: $blue;
+					}
+					.no-touch &:hover {
+						color: $blue;
+					}
+				}
+
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+			}
+
+
+		}
+
+
+		div.newsletter {
+
+			margin: 5px 0 0 0;
+
+			position: absolute;
+			right: 0;
+			width: 340px;
+
+			
+
+		}
+
+	}
+
+}

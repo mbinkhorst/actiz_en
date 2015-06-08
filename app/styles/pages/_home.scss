@@ -1,0 +1,32 @@
+.view.pages-home {
+
+	@include background-image(image-url('gfx/background-home.jpg'));
+
+	header {
+		padding: 0;
+	}
+
+	h1 {
+
+		@include title-font;
+
+		margin: $page-margin;
+		line-height: 0.88em;
+
+	}
+
+	.banner {
+
+		max-width: em(320);
+		position: absolute;
+		left: $nav-left;
+
+		@include transform-origin(left center);
+
+	}
+
+
+
+
+
+}

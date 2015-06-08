@@ -1,0 +1,48 @@
+<section class="case-selector">
+
+	<% _.each(I18n.get('cases'), function(story, index) { %>
+
+	<article class="case">
+
+		<div class="container">
+
+			<img src="<%= story.background %>">
+
+			<div class="banner-container" data-position="y: 91%, anchor: center/bottom">
+			
+				<a href="<%= Chick.url('/experience/' + story.key) %>" class="link">
+				<div class="banner button <%= story.key %>" data-scale="width: 100%, max: 1.4">
+					<h1><%= story.title %></h1>
+					<p>
+						<%= trans('cases.' + index + '.content') %>
+					</p>
+				</div>
+				</a>
+
+			</div>
+
+		</div>
+
+	</article>
+
+	<% }); %>
+
+
+</section>
+
+<section class="intro cover">
+
+	<article data-position="x: center, y: 45%" data-scale="width: 45%">
+		<h2><%= trans('experience.intro.title') %></h2></div>
+		<p><%= trans('experience.intro.content') %></p>
+
+		<div class="buttons"><br>
+			<button class="small banner"><%= trans('experience.intro.button') %></button>
+		</div>
+
+	</article>
+
+</section>
+
+
+<a href="<%= Chick.url('/disclaimer.html') %>" target="_blank" class="disclaimer"><%= trans('experience.buttons.disclaimer') %></a>
