@@ -247,7 +247,7 @@ gulp.task('watch', ['connect'], function () {
 });
 
 gulp.task('build', ['jshint', 'json', 'sprite-base64', 'html', 'images', 'fonts', 'extras'], function () {
-	return gulp.src('dist/**/*').pipe(plugins.size({title: 'build', gzip: true}));
+	return gulp.src('dist/**/*').pipe(plugins.size({title: 'build', gzip: false}));
 });
 
 gulp.task('default', ['clean'], function () {

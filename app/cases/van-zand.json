@@ -1,6 +1,7 @@
 {
 
 	"video": "/cases/van-zand.mp4",
+	"caption": "/cases/van-zand.srt",
 	"poster": "/images/cases/van-zand/poster.jpg",
 	"key": "case-van-zand",
 	"translations": "experience.van-zand",

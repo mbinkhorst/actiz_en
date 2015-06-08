@@ -384,7 +384,8 @@
 
 		// Random server prefix
 		var servers = ['http://google.com', 'http://yahoo.com'],
-			videoPath = this.info.video;
+			videoPath = this.info.video,
+			captionPath = this.info.caption;
 		if (!Chick.app.isLocal) {
 		//	videoPath = servers[_.random(0, servers.length - 1)] + videoPath;
 		}
@@ -402,7 +403,19 @@
 			controls: false,
 
  			//primary: 'flash', 
-
+ 			
+    tracks: [{ 
+            file: captionPath,
+            kind: 'captions',
+            'default': true 
+        }],captions: {
+        color: '#cccc00',
+        fontSize: 14,
+        backgroundOpacity: 0,
+        edgeStyle: 'dropshadow'
+        
+    },
+        
 			skin: '/vendor/skins/bekle.xml',
 			
 			html5player: '/vendor/jwplayer.html5.js',
