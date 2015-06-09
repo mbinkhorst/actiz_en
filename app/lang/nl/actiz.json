@@ -91,7 +91,7 @@
         "<iframe width='470' height='264' src='https://www.youtube.com/embed/4D_Vv0VGYus' frameborder='0' allowfullscreen></iframe> Binnen de ouderenzorg liggen misschien wel de grootste uitdagingen. Ouderenzorg is nooit simpel en standaard. Bovendien neemt het aantal ouderen snel toe. Ouderen hebben vaak meervoudige problemen. Ook sociale aspecten spelen een grote rol. Daardoor loop je elke dag tegen complexe situaties aan. Situaties die bijna niemand kan overzien. Jij wel. <br><br>Als HBO-verpleegkundige speel je een centrale, leidende rol in de ouderenzorg. Jij coördineert de zorg thuis, stemt af met de familie en overlegt met de huisarts en andere collega’s in de zorg. Iedereen verwacht van jou dat jij problemen signaleert en aanpakt. Dat maakt het werk van HBO-verpleegkundige in de zorg thuis, wijkverpleging of in een verpleeghuis bijzonder boeiend. <br><br>Eerst zien, dan geloven, denk je nu misschien. Dat kan. Ontdek het zelf in <a href=\"/experience\">3 interactieve verhalen</a>. Of kijk en lees mee over de schouder van <a href=\"/praktijk\">mensen uit de praktijk</a>. En als je denkt dat je er al helemaal klaar voor bent of je bent benieuwd wat er nog meer bij komt kijken… <a href=\"/test-je-kennis\">Test je kennis</a>."
       ]
     },
-    "social": [
+    "social" : [
       {
         "caption" : "Daar zit meer achter",
         "icon" : "icon-linkedin",
@@ -238,8 +238,8 @@
       ]
     },
     "opleiding" : {
-      "title": "Lees meer over de opleiding HBO-Verpleegkunde op de 17 Hogescholen.",
-      "items": [
+      "title" : "Lees meer over de opleiding HBO-Verpleegkunde op de 17 Hogescholen.",
+      "items" : [
         {
           "url" : "http://www.han.nl/",
           "title" : "Hogeschool van Arnhem en Nijmegen",
@@ -328,7 +328,7 @@
       ]
     },
     "arbeidsmarkt" : {
-    "title" : "Voor meer informatie over de arbeidsmarkt en vacatures kun je terecht bij de 16 regionale werkgeversorganisaties. Op de ActiZ ledenpagina vind je een overzicht van zorgwerkgevers in de verpleging, verzorging en thuiszorg.",
+      "title" : "Voor meer informatie over de arbeidsmarkt en vacatures kun je terecht bij de 16 regionale werkgeversorganisaties. Op de ActiZ ledenpagina vind je een overzicht van zorgwerkgevers in de verpleging, verzorging en thuiszorg.",
       "links" : [
         {
           "url" : "http://www.regioplus.nl/deelnemers/care2care",
@@ -419,8 +419,8 @@
     },
     "docenten" : {
       "intro" : {
-        "title": "Docentenplein",
-        "content": [
+        "title" : "Docentenplein",
+        "content" : [
           "Vind hier suggesties en bronnen die je kunt gebruiken voor inspirerende lessen over ouderenzorg.",
           "<strong>Inspireer jouw collega docenten!</strong><br>Heb jij goeie tips, nuttige downloads, video’s of links over ouderenzorg? Mail ze naar <a href='mailto:campagneDZMA@actiz.nl'>campagneDZMA@actiz.nl</a>."
         ]
@@ -643,41 +643,41 @@
         "next" : "volgende"
       }
     },
-    "media": {
-      "intro": [
+    "media" : {
+      "intro" : [
         "We helpen je graag om het verhaal van HBO-verpleegkundige in de ouderenzorg zo goed mogelijk te vertellen. Dus... sta je binnenkort op een evenement?",
         "Vraag dan via <a href=\"mailto:campagneDZMAzma@actiz.nl\">campagneDZMA@actiz.nl</a> de handige roll-up banner aan. Bovendien hebben wij ook posters en teaserkaartjes (met onze social pagina's) beschikbaar."
       ],
-      "logo": {
-        "title": "Logo",
-        "button": "Download hier de ‘daar zit meer achter’ – logoset<br> (eps, jpg, png)."
+      "logo" : {
+        "title" : "Logo",
+        "button" : "Download hier de ‘daar zit meer achter’ – logoset<br> (eps, jpg, png)."
       },
-      "posters": {
-        "title": "Posters",
-        "button": "Download hier de posters."
+      "posters" : {
+        "title" : "Posters",
+        "button" : "Download hier de posters."
       },
-      "banners": {
-        "title": "Banners",
+      "banners" : {
+        "title" : "Banners",
         "subtitle" : "Download hier de banners van mevrouw van Zand, meneer Davids en meneer Pinas.",
-        "pinas": "Download hier de bannerset van meneer Pinas",
-        "davids": "Download hier de bannerset van meneer Davids",
-        "van-zand": "Download hier de bannerset van mevrouw van Zand"
+        "pinas" : "Download hier de bannerset van meneer Pinas",
+        "davids" : "Download hier de bannerset van meneer Davids",
+        "van-zand" : "Download hier de bannerset van mevrouw van Zand"
       },
-      "roll-up": {
-        "title": "Roll up banners",
-        "button": "Leen de handige roll-up banner.<br> Formaat: 150 x 220 cm."
+      "roll-up" : {
+        "title" : "Roll up banners",
+        "button" : "Leen de handige roll-up banner.<br> Formaat: 150 x 220 cm."
       },
-      "trailer": {
-        "title": "Trailer",
-        "button": "Download hier onze videotrailer"
+      "trailer" : {
+        "title" : "Trailer",
+        "button" : "Download hier onze videotrailer"
       },
-      "teaser-card": {
-        "title": "Teaserkaartje",
-        "button": "Download hier het teaserkaartje met onze social pagina’s."
+      "teaser-card" : {
+        "title" : "Teaserkaartje",
+        "button" : "Download hier het teaserkaartje met onze social pagina’s."
       },
-      "word": {
-        "title": "DOCUMENT",
-        "button": "Download hier een tekst over de campagne."
+      "word" : {
+        "title" : "DOCUMENT",
+        "button" : "Download hier een tekst over de campagne."
       }
     },
     "banners" : {
@@ -831,7 +831,8 @@
   "test-je-kennis" : {
     "intro" : {
       "title" : "Hoeveel weet jij al van zorg aan ouderen?",
-      "text" : [ "Het werk als HBO-verpleegkundige in de ouderenzorg is uitdagend. Kun jij het aan? Past het bij jou? Ontdek meer in deze korte test over wat je al weet, maar ook over wat er nog meer komt kijken bij het werken in de ouderenzorg. Laat je niet afschrikken. Misschien loop je hier fluitend doorheen. En anders...? Is er nog veel moois te leren en te ontdekken over de zorg aan ouderen. Let’s go! <br><br>Liever eerst even rondkijken?<br> Ontdek het zelf in <a href=\"/experience\">3 echte verhalen</a> uit de praktijk."
+      "text" : [
+        "Het werk als HBO-verpleegkundige in de ouderenzorg is uitdagend. Kun jij het aan? Past het bij jou? Ontdek meer in deze korte test over wat je al weet, maar ook over wat er nog meer komt kijken bij het werken in de ouderenzorg. Laat je niet afschrikken. Misschien loop je hier fluitend doorheen. En anders...? Is er nog veel moois te leren en te ontdekken over de zorg aan ouderen. Let’s go! <br><br>Liever eerst even rondkijken?<br> Ontdek het zelf in <a href=\"/experience\">3 echte verhalen</a> uit de praktijk."
       ],
       "button" : "Test je kennis!"
     },
@@ -1229,10 +1230,10 @@
       "city" : "Uit",
       "works-as" : "Werkt als",
       "trivia" : "Verder",
-      "links": "Te volgen via"
+      "links" : "Te volgen via"
     },
-    "share": {
-      "title": "Share"
+    "share" : {
+      "title" : "Share"
     },
     "mee-op-stage" : {
       "title" : "Neem je docent mee op stage!",
@@ -1275,8 +1276,8 @@
       "close" : "Sluit",
       "share" : "Deel deze experience",
       "continue" : "Ga verder",
-      "help-continue": "Klik om verder te gaan",
-      "disclaimer": "Disclaimer"
+      "help-continue" : "Klik om verder te gaan",
+      "disclaimer" : "Disclaimer"
     },
     "game-over" : {
       "title" : "Bijna goed! Maar je tijd zit er op."

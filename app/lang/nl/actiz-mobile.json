@@ -1,10 +1,10 @@
 {
-  "mobile": {
-    "navigation": [
+  "mobile" : {
+    "navigation" : [
       {
-        "caption": "Home",
-        "url": "/m",
-        "icon": "pijl_dik"
+        "caption" : "Home",
+        "url" : "/m",
+        "icon" : "pijl_dik"
       },
       {
         "caption" : "Daarom ouderenzorg",
@@ -27,9 +27,9 @@
         "icon" : "netwerk"
       },
       {
-        "caption": "Docent mee op stage",
-        "url": "/m/docent-mee-op-stage",
-        "icon": "docent"
+        "caption" : "Docent mee op stage",
+        "url" : "/m/docent-mee-op-stage",
+        "icon" : "docent"
       },
       {
         "caption" : "Nieuwsbrief",
@@ -37,63 +37,58 @@
         "icon" : "mailmobile"
       }
     ],
-
-    "home": {
-      "intro": {
-        "title": "Overzie jij de situatie?",
-        "content": [
+    "home" : {
+      "intro" : {
+        "title" : "Overzie jij de situatie?",
+        "content" : [
           "In de ouderenzorg zit vaak meer achter een situatie. Ontdek ’t zelf via de computer of tablet. Daar heb je 3 minuten om te ontdekken wat er écht aan de hand is. Luister goed naar het verhaal, kijk rond in de kamer en leg je oor te luisteren."
         ]
       }
     },
-
-    "experience": {
-      "intro": {
-        "title": "Overzie jij de situatie?",
-        "content": [
+    "experience" : {
+      "intro" : {
+        "title" : "Overzie jij de situatie?",
+        "content" : [
           "In de ouderenzorg zit vaak meer achter een situatie. Ontdek ’t zelf via de computer of tablet. Je hebt 3 minuten om te ontdekken wat er écht aan de hand is. Luister goed naar het verhaal, kijk rond in de kamer en leg je oor te luisteren."
         ]
       },
-      "linkmail": {
-        "title": "Doe de experience op pc of tablet",
-        "intro": [
+      "linkmail" : {
+        "title" : "Doe de experience op pc of tablet",
+        "intro" : [
           "Stuur mij een reminder"
         ],
-        "input": "Vul hier je e-mailadres in",
-        "button": "Versturen",
-        "success": "Er is een link verstuurd naar je e-mailadres."
+        "input" : "Vul hier je e-mailadres in",
+        "button" : "Versturen",
+        "success" : "Er is een link verstuurd naar je e-mailadres."
       }
     },
-
-    "daarom-ouderenzorg": {
-      "intro": {
-      "title" : "De ouderenzorg heeft HBO-verpleegkundigen nodig",
-      "content" : [
-        "Binnen de ouderenzorg liggen misschien wel de grootste uitdagingen. Ouderenzorg is nooit simpel en standaard. Bovendien neemt het aantal ouderen snel toe. Ouderen hebben vaak meervoudige problemen. Ook sociale aspecten spelen een grote rol. Daardoor loop je elke dag tegen complexe situaties aan. Situaties die bijna niemand kan overzien. Jij wel. <br><br>Als HBO-verpleegkundige speel je een centrale, leidende rol in de ouderenzorg. Jij coördineert de zorg thuis, stemt af met de familie en overlegt met de huisarts en andere collega’s in de zorg. Iedereen verwacht van jou dat jij problemen signaleert en aanpakt. Dat maakt het werk van HBO-verpleegkundige in de zorg thuis, wijkverpleging of in een verpleeghuis bijzonder boeiend.<br><br>Eerst zien, dan geloven, denk je nu misschien. Dat kan. Via de computer of tablet ontdek je het zelf in 3 interactieve verhalen. Of kijk en lees mee over de schouder van mensen uit de <a href='/m/praktijk'>praktijk</a>. En als je denkt dat je er al helemaal klaar voor bent of je bent benieuwd wat er nog meer bij komt kijken… Test je kennis via jouw computer of tablet op www.daarzitmeerachter.nl. Bang dat je dit vergeet? Stuur jezelf een <a href='/m/experience'>reminder</a>."
-      ]
+    "daarom-ouderenzorg" : {
+      "intro" : {
+        "title" : "De ouderenzorg heeft HBO-verpleegkundigen nodig",
+        "content" : [
+          "Binnen de ouderenzorg liggen misschien wel de grootste uitdagingen. Ouderenzorg is nooit simpel en standaard. Bovendien neemt het aantal ouderen snel toe. Ouderen hebben vaak meervoudige problemen. Ook sociale aspecten spelen een grote rol. Daardoor loop je elke dag tegen complexe situaties aan. Situaties die bijna niemand kan overzien. Jij wel. <br><br>Als HBO-verpleegkundige speel je een centrale, leidende rol in de ouderenzorg. Jij coördineert de zorg thuis, stemt af met de familie en overlegt met de huisarts en andere collega’s in de zorg. Iedereen verwacht van jou dat jij problemen signaleert en aanpakt. Dat maakt het werk van HBO-verpleegkundige in de zorg thuis, wijkverpleging of in een verpleeghuis bijzonder boeiend.<br><br>Eerst zien, dan geloven, denk je nu misschien. Dat kan. Via de computer of tablet ontdek je het zelf in 3 interactieve verhalen. Of kijk en lees mee over de schouder van mensen uit de <a href='/m/praktijk'>praktijk</a>. En als je denkt dat je er al helemaal klaar voor bent of je bent benieuwd wat er nog meer bij komt kijken… Test je kennis via jouw computer of tablet op www.daarzitmeerachter.nl. Bang dat je dit vergeet? Stuur jezelf een <a href='/m/experience'>reminder</a>."
+        ]
       },
-      "faq": {
-        "title": "FAQ"
+      "faq" : {
+        "title" : "FAQ"
       },
-      "docenten": {
-        "title": "Docenten platform",
-        "content": [
+      "docenten" : {
+        "title" : "Docenten platform",
+        "content" : [
           "Hier moet een tekst komen."
         ]
       }
     },
-
-    "netwerk": {
-      "intro": {
-        "title": "Partners &amp; links",
-        "content": [
+    "netwerk" : {
+      "intro" : {
+        "title" : "Partners &amp; links",
+        "content" : [
           "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
         ]
       }
     },
-
-    "docent-mee": {
-      "intro": {
+    "docent-mee" : {
+      "intro" : {
         "title" : "Neem je docent mee op stage!",
         "content" : [
           "De ouderenzorg is volop in beweging. Als stagiair zit je daar midden in. Laat je docent de praktijk van vandaag proeven en neem hem of haar mee op stage (<a href=\"https://twitter.com/hashtag/njdmos?f=realtime\" target='_blank'>#njdmos</a>) en maak hiervan een vlog van maximaal 5 minuten. Deel jouw vlog via <a href='https://twitter.com/Daarzitmeer8er'>Twitter</a>, <a href='https://www.facebook.com/daarzitmeerachter'>Facebook<a/> of <a href='https://www.linkedin.com/company/9305797?trk=tyah&trkInfo=idx%3A1-1-1%2CtarId%3A1426596005351%2Ctas%3Adaar+zit+meer+'>LinkedIn</a>. De meeste docenten hebben er veel zin in, die van jou zeker ook. Dus doen! Overleg het wel even met je stageplek.",
@@ -102,12 +97,11 @@
         ]
       }
     },
-
-    "newsletter": {
-      "title": "Op de hoogte blijven?",
-      "intro": "",
-      "input": "Vul hier je e-mailadres in",
-      "button": "Versturen"
+    "newsletter" : {
+      "title" : "Op de hoogte blijven?",
+      "intro" : "",
+      "input" : "Vul hier je e-mailadres in",
+      "button" : "Versturen"
     }
   }
 }
