@@ -409,7 +409,7 @@
             kind: 'captions',
             'default': true
         }],captions: {
-        color: '#FFFFFF',
+        color: '#"#FFFF00"',
         fontSize: 14,
        	fontfamily: 'Droid Sans',
         backgroundOpacity: 0,

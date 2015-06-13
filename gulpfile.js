@@ -139,9 +139,11 @@ gulp.task('extras', function () {
 
 
 	// Case videos
-	gulp.src('app/cases/**/*.mp4','app/cases/**/*.srt')
+	gulp.src('app/cases/**/*.mp4')
 		.pipe(gulp.dest('dist/cases'));
 
+	gulp.src('app/cases/**/*.srt')
+		.pipe(gulp.dest('dist/cases'));
 
 	// Documents and media
 	gulp.src([
