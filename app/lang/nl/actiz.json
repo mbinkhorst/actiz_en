@@ -1246,49 +1246,49 @@
   },
   "experience" : {
     "intro" : {
-      "title" : "Jij overziet, jij beslist",
-      "content" : "In de ouderenzorg zit vaak meer achter een situatie.<br>Je hebt 3 minuten om te ontdekken wat er écht aan de hand is. Luister goed naar het verhaal, kijk en klik rond in de kamer en leg je oor te luisteren.<br><br> <strong>Let op:</strong> zelfs de kleinste dingen <br>kunnen een belangrijke aanwijzing zijn. <br>Vraag om een hint als je het even niet weet. <br><br>Succes!",
-      "button" : "Ga verder"
+      "title" : "You have the overview,<br>you decide",
+      "content" : "When it comes to geriatric care, there is often more to a situation. You have 3 minutes to find out what is really going on. Listen carefully to the story, observe and click around the room and prick up your ears. <br><br> <strong>Please note: </strong>even the smallest of things could be an important clue. Ask for a hint if you get stuck.<br><br>Good luck!",
+      "button" : "Continue"
     },
     "clues" : {
       "alt" : "Clue :index"
     },
     "navigation" : {
-      "i-want-a-hint" : "Ik wil een hint",
-      "i-know" : "Ik weet het!",
-      "help" : "Uitleg",
-      "dossier" : "Dossier",
+      "i-want-a-hint" : "I need a hint",
+      "i-know" : "I know!",
+      "help" : "Explanation",
+      "dossier" : "File",
       "share" : "Share",
       "disclaimer" : "Disclaimer"
     },
     "leave" : {
-      "tooltip" : "Weet je zeker dat je :name wilt verlaten? Straks moet je opnieuw beginnen."
+      "tooltip" : "Are you sure you want to leave :name? You will have to start again from scratch."
     },
     "buttons" : {
-      "skip-intro" : "Bekend verhaal? Ga gelijk verder!",
-      "back" : "Ga terug",
-      "try-again" : "Probeer opnieuw",
-      "back-to-cases" : "Terug naar cases",
-      "back-to-situation" : "Terug naar de situatie",
-      "back-to-site" : "Terug naar de website",
-      "back-home" : "Terug naar home",
-      "retry" : "Probeer opnieuw",
-      "close" : "Sluit",
+      "skip-intro" : "Already seen this? Skip ahead!",
+      "back" : "Return to the situation",
+      "try-again" : "Try again",
+      "back-to-cases" : "Back to cases",
+      "back-to-situation" : "Back to the situation",
+      "back-to-site" : "Back to cases",
+      "back-home" : "Back to home",
+      "retry" : "Try again",
+      "close" : "Close",
       "share" : "Deel deze experience",
-      "continue" : "Ga verder",
-      "help-continue" : "Klik om verder te gaan",
+      "continue" : "Continue",
+      "help-continue" : "Click here to continue",
       "disclaimer" : "Disclaimer"
     },
     "game-over" : {
-      "title" : "Bijna goed! Maar je tijd zit er op."
+      "title" : "Close! But your time is up."
     },
     "game-won" : {
-      "title" : "Goed gedaan!",
-      "your-time" : "Je tijd:",
+      "title" : "Well done!",
+      "your-time" : "Your time:",
       "clues" : "Clues:",
       "share" : {
-        "link" : "http://www.daarzitmeerachter.nl",
-        "title" : "Deel dit & daag ook anderen uit",
+        "link" : "http://en.daarzitmeerachter.nl",
+        "title" : "Share it and challenge others as well",
         "options" : {
           "linkedin" : {
             "icon" : "icon-linkedin"
@@ -1303,62 +1303,62 @@
       }
     },
     "paused" : {
-      "title" : "Pauze",
-      "click-to-continue" : "Klik om verder te gaan"
+      "title" : "Paused",
+      "click-to-continue" : "Click to continue"
     },
     "van-zand" : {
-      "title" : "familie Van Zand",
+      "title" : "the Van Zand family",
       "question1" : {
-        "question" : "Wat doe je nu als eerste?",
+        "question" : "What’s the first thing you do?",
         "answers" : [
-          "In overleg met meneer en mevrouw een afspraak met de huisarts maken voor meneer zijn COPD.",
-          "In overleg met meneer en mevrouw een afspraak met de huisarts maken voor mevrouw haar zere arm.",
-          "Je ruimt het huis op."
+          "Make an appointment with the GP about Mr Van Zand's COPD in consultation with the couple.",
+          "Make an appointment with the GP about Mrs Van Zand’s painful arm in consultation with the couple.",
+          "Clear up the house."
         ]
       },
       "question2" : {
-        "question" : "Wat is het echte probleem?",
+        "question" : "What is the real problem?",
         "answers" : [
-          "De COPD van meneer.",
-          "De botontkalking van mevrouw.",
-          "Hun zelfredzaamheid."
+          "Mr Van Zand’s COPD.",
+          "Mrs Van Zand’s osteoporosis.",
+          "Their capacity to live independently. "
         ]
       },
       "question3" : {
-        "question" : "Wat is je plan voor de lange termijn?",
+        "question" : "What is your long-term plan?",
         "answers" : [
-          "Meneer aanmelden voor een verpleeghuis.",
-          "Mevrouw verbieden het huishouden te doen.",
-          "Zorgplan opstellen en de juiste zorgprofessionals inschakelen."
+          "Sign up Mr Van Zand for a nursing home.",
+          "Forbid Mrs Van Zand to do the housekeeping.",
+          "Draw up a care plan and involve the appropriate healthcare professionals."
         ]
       },
-      "ehbo" : "Het werk van een HBO-verpleegkundige is veelzijdig. Je bent niet alleen het aanspreekpunt,<br> maar bijvoorbeeld ook verantwoordelijk voor wondverzorging.",
-      "kalender" : "Als HBO-verpleegkundige ben je baas in eigen agenda.<br> Je plant zelf de afspraken met je cliënten in.",
-      "apparaat" : "Ouderen hebben vaak meerdere aandoeningen die vaak met elkaar te maken hebben.",
+      "ehbo" : "A registered nurse’ work is varied. You’re not just the first point of contact but you’re also responsible for dressing wounds, for instance.",
+      "kalender" : "As a registered nurse you manage your own diary.<br>You plan your own appointments with your clients.",
+      "apparaat" : "Elderly people frequently have multiple conditions, which are often related to one another.",
       "pictures" : [
         "images/cases/van-zand/profile1.jpg",
         "images/cases/van-zand/profile2.jpg"
       ],
       "dossier" : {
-        "title" : "Dossier Familie van Zand",
+        "title" : "Family Van Zand file",
         "paragraphs" : [
           {
-            "title" : "Familie van Zand",
-            "text" : "Meneer (81 jaar) en mevrouw Van Zand (79 jaar) wonen al 40 jaar samen in hetzelfde huis. Iedereen in de buurt kennen ze dan ook goed. Hun zoon woont al die jaren al in New York, waardoor meneer en mevrouw van Zand erg op zichzelf zijn. Mevrouw van Zand verzorgt haar man, die last heeft van reuma en COPD. Zelf heeft ze ernstige botontkalking. Mevrouw Van Zand doet de dingen graag zelf en kan eigenwijs zijn. Ze zorgt er voor dat meneer van Zand zijn medicijnen krijgt, houdt het huis schoon en zet elke avond het eten op tafel. Het stel, maar vooral mevrouw van Zand, accepteert zelden hulp in huis. De verpleegkundige komt een keer per week langs en controleert dan gelijk de medicatie-inname."
+            "title" : "Family van Zand",
+            "text" : "Mr Van Zand (81 years old) and Mrs Van Zand (79 years old) have been living together in the same house for 40 years, so everybody in the neighbourhood knows them well. With their son living in New York for the same number of years, Mr and Mrs Van Zand have become quite self-sufficient. Mrs Van Zand takes care of her husband, who is suffering from rheumatism and COPD.  Mrs Van Zand suffers from severe osteoporosis. Mrs Van Zand likes to do things herself and can be quite stubborn. She makes sure Mr Van Zand takes his medication, she does the housekeeping and cooks a meal every day. The couple, but mostly Mrs Van Zand, hardly ever accept any home assistance. The nursing officer visits once a week and checks whether the medication is being taken properly."
           }
         ]
       },
       "plan" : {
-        "title" : "Plan voor het vervolg",
+        "title" : "Follow-up Plan",
         "content" : [
-          "Meneer en mevrouw Van Zand hebben blijvend extra hulp in het huishouden nodig. Samen met hen kijk je naar de mogelijkheden en stel je het plan op. Je staat in elk geval stil bij wat zij belangrijk vinden en hoe hun netwerk eruit ziet.",
-          "Denk bij het opstellen van het plan ook aan:",
+          "Mr and Mrs Van Zand permanently need extra help in the home with the housekeeping.  Discuss the various options with them and draw up a plan together. Whatever you do, take note of what they consider important and find out more about their network.",
+          "Bear the following in mind when drawing up a plan:",
           [
-            "Een risicoanalyse in huis: de kans op vallen;",
-            "De botontkalking van mevrouw Van Zand",
-            "De mogelijkheden om extra huishoudelijke hulp, familie en buren in te schakelen",
-            "De inzet van hulpmiddelen",
-            "Signalering: inplannen van bezoeken en evaluatiemomenten"
+            "A risk analysis of the home; risk of falling.",
+            "Mrs Van Zand’s osteoporosis.",
+            "The options for extra help with the housekeeping; involve family and neighbours.",
+            "Make use of aids.",
+            "Monitoring: plan visits and evaluation moments. "
           ]
         ]
       },
@@ -1368,47 +1368,47 @@
       }
     },
     "pinas" : {
-      "title" : "meneer Pinas",
+      "title" : "mister Pinas",
       "question1" : {
-        "question" : "Wat doe je als eerste?",
+        "question" : "What’s the first thing you do?",
         "answers" : [
-          "De huisarts waarschuwen.",
-          "De apotheek bellen.",
-          "Vertrouwen winnen."
+          "Notify the GP",
+          "Call the pharmacy",
+          "Win trust"
         ]
       },
       "question2" : {
-        "question" : "Wat mankeert meneer Pinas?",
+        "question" : "What’s wrong with mister Pinas?",
         "answers" : [
-          "Zijn dementie is acuut verergerd. Je belt de huisarts.",
-          "Hij heeft mogelijk een delier. Je belt de huisarts.",
-          "Hij heeft last van bijwerkingen van zijn medicatie. Je neemt contact op met de apotheker."
+          "His dementia has rapidly deteriorated. You call the GP.",
+          "He may be suffering from a delirium. You call the GP.",
+          "He’s suffering from side-effects of his medication. You contact the pharmacy."
         ]
       },
       "question3" : {
-        "question" : "Wat is je plan voor het vervolg?",
+        "question" : "What follow-up plan do you have?",
         "answers" : [
-          "Meneer Pinas is de tijd kwijt, je laat de buurvrouw een klok kopen.",
-          "In overleg met de huisarts laat je meneer Pinas opnemen.",
-          "Je stelt een zorgplan op om hem de komende dagen te monitoren."
+          "Mister Pinas has lost his sense of time, you ask the neighbour to buy a clock.",
+          "After consulting the GP you have Mr Pinas admitted to hospital. ",
+          "You draw up a care plan to monitor him over the next few days. "
         ]
       },
-      "foto-vrouw" : "Oudere mensen hebben veel levenservaring. Ze vertellen je vaak de mooiste verhalen.",
-      "telefoon" : "Jij overziet, jij beslist. Dus ook of gespecialiseerde zorg nodig is en wie je daarvoor inschakelt. ",
+      "foto-vrouw" : "Elderly people have a lot of life experience. They can often tell you the most beautiful stories.",
+      "telefoon" : "You have the overview, you decide. So this includes whether specialised care is required and who to approach for it.",
       "pictures" : [
         "images/cases/pinas/profile.jpg"
       ],
       "plan" : {
-        "title" : "Plan voor het vervolg",
+        "title" : "Follow-up plan",
         "content" : [
-          "Meneer Pinas heeft een verhoogde kans op delier. Hoe voorkom je dat? Je stelt samen met hem een plan op. Daarbij kijk je naar wat hij belangrijk vindt en hoe zijn netwerk eruit ziet.",
-          "Denk bij het opstellen van het plan ook aan:",
+          "Mister Pinas has an increased risk of delirium. How can you prevent this? Draw up a plan together with Mr Pinas. Take into account what is important to him and find out more about his network.",
+          "Think of the following when drawing up the plan:",
           [
-            "Aandacht voor regelmaat en dagritme, zoals slimme planning zorgmomenten, afspraken met de buurvrouw en dagbesteding",
-            "Maaltijdvoorziening",
-            "Signalering: inplannen van bezoeken en evaluatiemomenten",
-            "De mogelijkheid om extra hulp in te schakelen van familie en buren of thuishulp",
-            "De mogelijkheid om professionele huishoudelijke hulp in te schakelen"
+            "Focus on regularity and daily rhythm such as clever planning of care moments, agreements with the neighbour and a day programme.\nFocus on regularity and daily rhythm such as clever planning of care moments, agreements with the neighbour and a day programme.",
+            "Provision of meals.",
+            "Alerts: planning of visits and evaluation moments.  ",
+            "The possibility to request further help from family, neighbours or home assistance.",
+            "The possibility to seek professional domestic assistance."
           ]
         ]
       },
@@ -1418,55 +1418,55 @@
       }
     },
     "davids" : {
-      "title" : "meneer Davids",
+      "title" : "mister Davids",
       "question1" : {
-        "question" : "Wat zit hier achter?",
+        "question" : "What is behind all this?",
         "answers" : [
-          "Meneer Davids heeft last van zijn pijnstillers.",
-          "Meneer Davids heeft een hypo.",
-          "Meneer Davids heeft een hyper."
+          "Mister Davids’ painkillers are causing him discomfort.",
+          "Mister Davids is suffering from hypoglycaemia.",
+          "Mister Davids is hyperglycaemic."
         ]
       },
       "question2" : {
-        "question" : "Wat doe je nu?",
+        "question" : "What do you do now?",
         "answers" : [
-          "Je geeft hem wat druivensuiker of een boterham plus ranja.",
-          "Je geeft hem een insuline shot.",
-          "Je geeft hem meer pijnstillers."
+          "You give him dextrose or a sandwich and lemonade.",
+          "You give him a shot of insulin.",
+          "You give him more painkillers."
         ]
       },
       "question3" : {
-        "question" : "Hoe kunnen we dit in de toekomst voorkomen?",
+        "question" : "How can we prevent this from happening in the future?",
         "answers" : [
-          "Gebakjes van de afdeling verbannen.",
-          "In overleg met meneer en de hoofdbehandelaar observeren of hij zelf nog kan meten.",
-          "Meneer Davids krachtig toespreken om goed op te letten."
+          "Banning cakes from the ward.",
+          "Talk to mister Davids and observe with the main carer if he is still capable of measuring his blood sugar levels himself.",
+          "Have a serious talk with mister Davids and tell him to pay more attention."
         ]
       },
-      "kaart-txt" : "Jij bent de spil tussen familie, arts en cliënt. Je luistert, overlegt en beslist.",
-      "foto-txt" : "Als HBO-verpleegkundige werk je samen met huisartsen, specialisten en de familie.",
+      "kaart-txt" : "You’re the linchpin between family, doctor and client. You listen, discuss and decide.",
+      "foto-txt" : "As a registered nurse you work together with GPs, specialists and the family.",
       "pictures" : [
         "images/cases/davids/profile.jpg"
       ],
       "dossier" : {
-        "title" : "Meneer Davids",
+        "title" : "Mister Davids",
         "paragraphs" : [
           {
-            "title" : "Dossier meneer Davids",
-            "text" : "Meneer Davids (87 jaar) is een goedgehumeurde man. Zijn vrouw is drie jaar geleden overleden; de vier kinderen en negen kleinkinderen ziet hij regelmatig. Onlangs is meneer Davids geopereerd aan zijn heup. Inmiddels is hij ontslagen uit het ziekenhuis en ligt hij op de revalidatie-afdeling in het verpleeghuis. Hij gebruikt diverse pijnstillers. Daarnaast lijdt meneer Davids aan ouderdomssuiker (diabetes type 2) en is hij insulineafhankelijk. Meneer Davids controleert zelf regelmatig zijn bloedsuiker. De waarden van zijn bloedsuiker noteert hij in zijn schriftje."
+            "title" : "Mister Davids’ File",
+            "text" : "Mister Davids (87 years old) is a cheerful person. His wife passed away three years ago; He frequently sees the four children and nine grandchildren. Mister Davids recently had hip surgery. He has meanwhile been discharged from hospital and is convalescing in a nursing home. He’s on several sorts of painkillers. On top of this, Mr Davids has been diagnosed with age-related diabetes (diabetes type II) and he is dependent on insulin. Mr Davids regularly checks his blood sugar levels. He writes down the measurements in a diary. "
           }
         ]
       },
       "plan" : {
-        "title" : "Plan voor het vervolg",
+        "title" : "Follow-up Plan",
         "content" : [
-          "Kan meneer Davids in de toekomst nog zelf zijn diabetes reguleren? Bespreek eerst met hem wat er is gebeurd: zijn meting is beïnvloed door de zoetigheid van de tompouce. Vervolgens bekijk je samen met meneer Davids en zijn hoofdbehandelaar of observatie zinvol is.",
-          "Tijdens de observatie kan gekeken worden naar:",
+          "Will Mister Davids still be capable of controlling his diabetes by himself in the future? First, discuss with him what happened: his measurements were biased by the sugar inside the pudding cake. Then, together with mister Davids and his main carer, decide whether it would be useful to observe him.",
+          "During the observation you could focus on:",
           [
-            "De bloedsuikerwaarde en het spuiten van de insuline",
-            "De informatiebehoefte bij meneer Davids",
-            "Aanleren van de juiste methode om de bloedsuikerwaarde te meten",
-            "Samen met meneer Davids en de hoofdbehandelaar maak je hierover afspraken en stel je hierover een plan op."
+            "Blood sugar levels and injecting insulin.",
+            "Mister Davids’ information requirements.",
+            "Giving instructions on measuring blood sugar levels correctly.",
+            "Making agreements with mister Davids and the main carer and formulating them in a plan."
           ]
         ]
       },
@@ -1497,7 +1497,7 @@
         "x" : "100px",
         "y" : "75px",
         "anchor" : "center/top",
-        "text" : "De aanwijzingen in deze situatie.<br>Hoeveel heb jij er al gevonden?",
+        "text" : "The clues in this situation.<br>How many have you found so far? ",
         "icon" : "icon-pijl_clues",
         "type" : "up"
       },
@@ -1506,7 +1506,7 @@
         "y" : "75px",
         "rotate" : "-60deg",
         "anchor" : "center/top",
-        "text" : "De tijd tikt. Je hebt hooguit 3 minuten.<br>Als je het weet, stopt de tijd.",
+        "text" : "Time is ticking away. You have a maximum of 3 minutes.<br>When you know, the clock stops.",
         "icon" : "icon-pijl_tijd",
         "type" : "up"
       },
@@ -1516,7 +1516,7 @@
         "rotate" : "20deg",
         "anchor" : "center/top",
         "align" : "center",
-        "text" : "Zie je het even niet? We geven je graag een hint.",
+        "text" : "Getting stuck? We’re happy to give you a hint.",
         "icon" : "icon-pijl_hints",
         "type" : "up"
       },
@@ -1526,7 +1526,7 @@
         "rotate" : "0deg",
         "anchor" : "left/top",
         "align" : "left",
-        "text" : "Opgelost?<br>Kies je antwoord.",
+        "text" : "Solved it?<br>Select your answer. ",
         "icon" : "icon-pijl_weet",
         "type" : "up"
       },
@@ -1536,7 +1536,7 @@
         "rotate" : "-10deg",
         "anchor" : "center/top",
         "align" : "center",
-        "text" : "Hier ben je nu.",
+        "text" : "You’re here.",
         "icon" : "icon-pijl_tijd",
         "type" : "up"
       },
@@ -1546,7 +1546,7 @@
         "rotate" : "-30deg",
         "anchor" : "center/top",
         "align" : "center",
-        "text" : "In het dossier lees je meer over de cliënt in deze situatie.",
+        "text" : "Read more about the client in the file",
         "icon" : "icon-pijl_dossier",
         "type" : "up"
       },
@@ -1555,7 +1555,7 @@
         "y" : "-75px",
         "anchor" : "left/bottom",
         "align" : "left",
-        "text" : "Klaar? Hier kun je terug naar de site.",
+        "text" : "Ready? Here you can return to the site",
         "icon" : "icon-pijl_menu",
         "type" : "down"
       },
@@ -1564,7 +1564,7 @@
         "rotate" : "31deg",
         "anchor" : "center/bottom",
         "align" : "center",
-        "text" : "Hier valt meer te ontdekken",
+        "text" : "Here is more to explore",
         "icon" : "icon-pijl_spot",
         "type" : "down"
       }
@@ -1572,22 +1572,22 @@
   },
   "cases" : [
     {
-      "title" : "De boodschappen van meneer Pinas",
-      "content" : "<span>Wat een koelkast je kan vertellen</span>",
+      "title" : "Mister Pinas’ groceries",
+      "content" : "<span>What a fridge can tell you</span>",
       "key" : "pinas",
       "background" : "images/cases/pinas/background.jpg",
       "thumbnail" : "images/cases/pinas/thumb.jpg"
     },
     {
-      "title" : "Op de koffie bij meneer Davids",
-      "content" : "<span>Je krijgt het niet op een schoteltje</span>",
+      "title" : "Having coffee with mister Davids",
+      "content" : "<span>You’re not given a saucer</span>",
       "key" : "davids",
       "background" : "images/cases/davids/background.jpg",
       "thumbnail" : "images/cases/davids/thumb.jpg"
     },
     {
-      "title" : "Het huishouden van de familie Van Zand",
-      "content" : "<span>Een woonkamer waar meer achter zit</span>",
+      "title" : "The family Van Zand’s household",
+      "content" : "<span>A living room containing more<br>than meets the eye</span>",
       "key" : "van-zand",
       "background" : "images/cases/van-zand/background.jpg",
       "thumbnail" : "images/cases/van-zand/thumb.jpg"

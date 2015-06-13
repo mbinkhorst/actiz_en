@@ -1,8 +1,8 @@
 'use strict';
-(function(jw) { 
+(function(jw) {
 
 	function Case($element, info, aspectRatio) {
-		
+
 		// Localize
 		var self = this;
 		this.info = info;
@@ -42,7 +42,7 @@
 
 		this.$btnPlay = $element.find('.gamestate .play');
 		this.$btnPause = $element.find('.gamestate .pause').hide();
-		
+
 		this.$btnHelp = $element.find('nav .help');
 		this.$btnDossier = $element.find('nav .dossier');
 
@@ -50,7 +50,7 @@
 
 		this.$btnToggleFullscreen = $element.find('.toggle-fullscreen')
 			.toggle(window.screenfull.enabled);
-		
+
 
 		this.$btnStartGame = $element.find('.start-game');
 
@@ -62,7 +62,7 @@
 		this.hotspotsViewed = [];
 		this.hintsViewed = [];
 		this.questionsAnsweredCorrectly = 0;
-		
+
 		this.activeEvents = [];
 
 
@@ -73,13 +73,13 @@
 			// Store it
 			localStorage['hasSeenCase' + Chick.app.router.lastRequest.uri] = true;
 			this.$btnSkipIntro.remove();
-			
-		} 
+
+		}
 
 
 		// Initial state
 		this.__setInitialState();
-		
+
 		// Setup events
 		this.__setupListeners();
 
@@ -94,7 +94,7 @@
 		/*this.$element.on('mousedown', function(e) {
 
 			console.log('You clicked at:');
-			console.log('"x": "' + (Math.round((e.clientX / self.$hotspots.outerWidth()) * 10000) / 100) + '%",\n' + 
+			console.log('"x": "' + (Math.round((e.clientX / self.$hotspots.outerWidth()) * 10000) / 100) + '%",\n' +
 				'"y": "' + (Math.round((e.clientY / self.$hotspots.outerHeight()) * 10000) / 100) + '%"');
 		});*/
 
@@ -106,7 +106,7 @@
 
 		// Add periodic class to start-quiz button
 		var toggleStartQuiz = function() {
-			
+
 			var animQueue = ['#42b7d0', '#ffffff', '#42b7d0', '#ffffff'],
 				showNext = function() {
 					var c = animQueue.shift();
@@ -120,10 +120,10 @@
 				};
 			showNext();
 
-			
+
 		};
 		window.setInterval(function() {
-			toggleStartQuiz();			
+			toggleStartQuiz();
 		}, 15000);
 
 		// Start it.
@@ -184,7 +184,7 @@
 		// I want a hint.
 		this.$btnHint.on('click', function(e) {
 
-			// Get hint.			
+			// Get hint.
 			e.preventDefault();
 			self.showHint();
 
@@ -192,7 +192,7 @@
 
 		// Fullscreen.
 		if (window.screenfull.enabled) {
-		
+
 			// Listen to button
 			this.$btnToggleFullscreen.on('click', function(e) {
 				e.preventDefault();
@@ -220,7 +220,7 @@
 				// No cheating!
 				self.lastMainPosition = self.player.getPosition();
 				self.gotoScene(self.info.flow.noCheating);
-		
+
 			// Not yet seen the dossier?
 			} else if (self.hasSeenDossier !== true) {
 
@@ -228,7 +228,7 @@
 				self.__toggleNotSeenDossier();
 
 			} else {
-				self.startQuiz();				
+				self.startQuiz();
 			}
 
 		});
@@ -285,7 +285,7 @@
 
 		// Skip intro
 		this.$btnSkipIntro.on('click', function(e) {
-			
+
 			if (window._gaq) { window._gaq.push(['_trackEvent', 'case-skip-intro']); }
 
 			self.gotoScene(self.info.flow.skipIntro);
@@ -354,18 +354,18 @@
 				window._gaq.push(['_trackEvent', 'scene-' + this.scene.key, 'Shared-FB']);
 				// Create the link
 				url = 'http://www.facebook.com/sharer/sharer.php?p[url]=' + link;
-				window.open(url, 'share-facebook', 'width=600,height=400,left=100,top=100,toolbar=no');			
+				window.open(url, 'share-facebook', 'width=600,height=400,left=100,top=100,toolbar=no');
 
 			} else if ($btn.is('.linkedin')) {
 				window._gaq.push(['_trackEvent', 'scene-' + this.scene.key, 'Shared-LinkedIN']);
 				// Create the link
 				url = 'https://www.linkedin.com/shareArticle?mini=true&url=' + link;
-				window.open(url, 'share-linkedin', 'width=600,height=400,left=100,top=100,toolbar=no');			
+				window.open(url, 'share-linkedin', 'width=600,height=400,left=100,top=100,toolbar=no');
 
 			} else if ($btn.is('.twitter')) {
 				window._gaq.push(['_trackEvent', 'scene-' + this.scene.key, 'Shared-Twitter']);
 				url = 'http://twitter.com/share?text=' + I18n.get(node + '.twitter-message', data) + '&url=' + link;
-				window.open(url, 'share-twitter', 'width=600,height=400,left=100,top=100,toolbar=no');			
+				window.open(url, 'share-twitter', 'width=600,height=400,left=100,top=100,toolbar=no');
 
 
 			}
@@ -389,43 +389,44 @@
 		if (!Chick.app.isLocal) {
 		//	videoPath = servers[_.random(0, servers.length - 1)] + videoPath;
 		}
-		
+
 		var self = this,
 		options = {
 
 			file: videoPath,
 			image: Modernizr.touch ? this.info.poster : undefined,
 
-			width: '100%',		
+			width: '100%',
 			aspectratio: this.aspectRatio.join(':'),
-			
+
 			autostart: !Modernizr.touch,
 			controls: false,
 
- 			//primary: 'flash', 
- 			
-    tracks: [{ 
+ 			//primary: 'flash',
+
+    tracks: [{
             file: captionPath,
             kind: 'captions',
-            'default': true 
+            'default': true
         }],captions: {
-        color: '#cccc00',
+        color: '#FFFFFF',
         fontSize: 14,
+       	fontfamily: 'Droid Sans',
         backgroundOpacity: 0,
         edgeStyle: 'dropshadow'
-        
+
     },
-        
+
 			skin: '/vendor/skins/bekle.xml',
-			
+
 			html5player: '/vendor/jwplayer.html5.js',
 			flashplayer: '/vendor/jwplayer.flash.swf'
 		};
 
 		// Create jwplayer
 		this.player = jw('case-video').setup(options)
-	
-			
+
+
 		// When we are playing.
 		.onTime(function(e) {
 
@@ -493,7 +494,7 @@
 
 			// Show time in the player.
 			if (self.currentScene.key === self.info.flow.main) {
-		
+
 				self.__updateTime();
 
 			}
@@ -513,7 +514,7 @@
 
 		// When a seek (gotoScene) has succeeded
 		.onSeek(function(e) {
-			
+
 			// Only show the menu for the main scene
 			self.__toggleMenu(self.currentScene.key === self.info.flow.main);
 
@@ -526,10 +527,10 @@
 
 			// Only show intro button for intro
 			self.__toggleSkipIntroButton(self.currentScene.key === self.info.flow.intro);
-							
+
 			// Update time in the player, in mainloop, coming from wrong answer to question1
 			if (self.currentScene.key === self.info.flow.main) self.__updateTime();
-			
+
 			// First time to main scene?
 			if (self.currentScene.key === self.info.flow.main && self.mainLoopStarted === undefined) {
 
@@ -540,7 +541,7 @@
 
 				// Toggle hotspots depening on main scene or not
 				self.__toggleHotspots(self.currentScene.key === self.info.flow.main);
-				
+
 			}
 
 		})
@@ -548,7 +549,7 @@
 
 		// When we start playing.
 		.onPlay(function(e) {
-			
+
 			// First time?
 			if (self.__initialized === false) {
 				self.__initialized = true;
@@ -564,7 +565,7 @@
 
 
 	Case.prototype.__onSceneEnd = function(scene) {
-		
+
 		// Scene completed track./
 		if (window._gaq) {
 			window._gaq.push(['_trackEvent', 'scene-' + scene.key, 'ended']);
@@ -625,9 +626,9 @@
 
 				// added michel
 				if (this.currentQuestion.index === 0 && this.currentQuestion.scenes.wrong === scene.key){
-					
+
 					// if q1 is wrong, goto lastMainPosition
-					this.gotoScene(this.info.flow.main, this.lastMainPosition);					
+					this.gotoScene(this.info.flow.main, this.lastMainPosition);
 					return;
 
 				} else {
@@ -636,7 +637,7 @@
 					this.gotoQuestion();
 					return;
 				}
-				
+
 			}
 
 		}
@@ -703,12 +704,12 @@
 			mins = '' + Math.floor(secs / 60);
 		secs = '' + (secs % 60);
 		deciSecs = '' + (deciSecs - (mins * 600) - (secs * 10));
-		
+
 		if (secs.length === 1) secs = '0' + secs;
 		if (mins.length === 1) mins = '0' + mins;
-		
+
 		var randomnumber = Math.floor(Math.random() * (9 - 1 + 1) ) << 0;
-		
+
 		// Apply.
 		this.$timeLeft.text(mins + ':' + secs + ':' + deciSecs + randomnumber);
 
@@ -735,9 +736,9 @@
 					ev.$element.hide();
 
 				} else {
-				
+
 					TweenLite.to(ev.$element, 0.25, {
-						y: -20, 
+						y: -20,
 						opacity: 0,
 						ease: Quad.easeIn,
 						onComplete: function() {
@@ -753,7 +754,7 @@
 
 			// Add to active events
 			this.activeEvents.push(key);
-			
+
 			// Text?
 			if (ev.type === 'text') {
 
@@ -770,8 +771,8 @@
 
 
 			}
-			
-			
+
+
 		}
 
 
@@ -792,7 +793,7 @@
 			y: show === false ? 100 : 0,
 			ease: Quad.easeInOut
 		});
-		
+
 	};
 
 	Case.prototype.__toggleBackButton = function(show, delay) {
@@ -803,7 +804,7 @@
 
 		// Fade it.
 		if (show) {
-			
+
 			// Show it.
 			this.$btnBack.position({
 				opacity: 0
@@ -831,7 +832,7 @@
 
 		// Fade it.
 		if (show) {
-		
+
 			// Show it.
 			this.$btnSkipIntro.position({
 				opacity: 0
@@ -860,10 +861,10 @@
 		// Show the hotspots and position them
 		this.$hotspots.toggle(show);
 		if (show !== false)	Chick.app.flow.positioner.apply(this.$hotspots);
-		
+
 		// Show animation?
 		if (show !== false && showAnimation === true && Modernizr.touch === false) {
-			
+
 			// Show intro animation (for non-touch only)
 			var elements = [];
 			this.$hotspots.find('[data-hotspot]').each(function() {
@@ -919,7 +920,7 @@
 
 		// Already converted?
 		if (this.info.events[key].key === undefined) {
-			
+
 			// Basics
 			this.info.events[key].key = key;
 			this.info.events[key].startsAt = this.__convertToSeconds(this.info.events[key].startsAt);
@@ -970,7 +971,7 @@
 			TweenLite.to($screen, 0.4, {
 				opacity: 0,
 				onComplete: function() {
-					$screen.hide();					
+					$screen.hide();
 				}
 			});
 
@@ -986,7 +987,7 @@
 			TweenLite.to($screen, 0.5, {
 				opacity: 1
 			});
-			
+
 			// Store it.
 			this.$currentScreen = $screen;
 
@@ -1006,7 +1007,7 @@
 
 		// Main toggle
 		this.__toggleScreen(this.$notSeenDossierScreen, show);
-		
+
 		// Showing?
 		if (show !== false) {
 
@@ -1195,7 +1196,7 @@
 		if (typeof hotspot === 'string') hotspot = this.__getHotspot(hotspot);
 
 		// Show the back button
-		this.__toggleBackButton(true, 2);		
+		this.__toggleBackButton(true, 2);
 
 		// Set to seen.
 		hotspot.$button.addClass('seen');
@@ -1231,7 +1232,7 @@
 		if (this.hintsViewed.length === this.info.hints.length) return;
 
 		// Remember current position
-		this.lastMainPosition = this.player.getPosition();		
+		this.lastMainPosition = this.player.getPosition();
 
 		// Get first non-viewed hint
 		var index;
@@ -1251,7 +1252,7 @@
 		// Show it.
 		var hint = this.info.hints[index];
 		this.gotoScene(hint.scene);
-		
+
 		// Update shown hints.
 		this.__updateHintsIcon();
 
@@ -1265,14 +1266,14 @@
 
 		// Show game over screen
 		this.__toggleScreen(this.$gameOverScreen);
-	
+
 	};
 
 	Case.prototype.showGameWon = function() {
 
 		// Show game over screen
 		this.__toggleScreen(this.$gameWonScreen);
-		
+
 	};
 
 	Case.prototype.startQuiz = function() {
@@ -1478,7 +1479,7 @@
 					onComplete: function() {
 
 						$dossier.hide();
-						
+
 					}
 				});
 
@@ -1494,7 +1495,7 @@
 
 
 		});
-		
+
 	};
 
 	Case.prototype.showPlan = function() {
@@ -1541,7 +1542,7 @@
 					onComplete: function() {
 
 						$dossier.hide();
-						
+
 					}
 				});
 
@@ -1554,7 +1555,7 @@
 
 
 		});
-		
+
 	};
 
 

@@ -2,6 +2,7 @@
 
 .jwcaptions {
 // 	border: 1px solid white;
+
 	bottom:	100px!important;
 }
 
@@ -100,7 +101,7 @@
 					@include transition(all 500ms ease-in);
 					bottom: 70px;
 					opacity: 1;
-					
+
 				}
 			}
 
@@ -111,8 +112,8 @@
 	}
 
 	>header {
-		
-		z-index: 101;		
+
+		z-index: 101;
 		top: 0;
 		bottom: auto;
 
@@ -196,7 +197,7 @@
 						@extend .icon-Pauze:before;
 					}
 					.pause:hover .icon-Pauze:before {
-						@extend .icon-Play:before;							
+						@extend .icon-Play:before;
 					}
 				}
 
@@ -217,13 +218,13 @@
 
 			ul > li {
 				a {
-					
+
 					.title {
-						
+
 					}
 
 					.icon {
-						font-size: 1.25em;						
+						font-size: 1.25em;
 					}
 
 
@@ -253,7 +254,7 @@
 
 					}
 
-					
+
 
 					.no-touch & {
 						a:hover {
@@ -289,7 +290,7 @@
 				}
 			}
 
-			
+
 		}
 
 	}
@@ -306,7 +307,7 @@
 
 		> .video {
 
-	
+
 
 		}
 
@@ -327,7 +328,7 @@
 			}
 
 			position: absolute;
-			
+
 
 				font-size: 5em;
 				text-decoration: none;
@@ -335,7 +336,7 @@
 				border-radius: 50%;
 				display: inline-block;
 				padding: 0.5em;
-			
+
 		}
 
 		.text-events {
@@ -353,10 +354,10 @@
 				position: absolute;
 				font-weight: bold;
 				font-size: em(60px);
-				
+
 				width: 900px;
 				top: 150px;
-			
+
 				text-shadow: 3px 3px rgba($black, 0.5);
 
 // 				max-width: 800px;
@@ -381,7 +382,7 @@
 			padding-bottom: (9 / 16) * 100%;
 
 			@include user-select(none);
-		
+
 			>li {
 				position: absolute;
 
@@ -393,16 +394,16 @@
 				min-height: 80px;
 				background: rgba(#fff,0.0);
 
-				
 
 
-				overflow:visible; 
-				background-position: center; 
-				border: 0px solid #FF0000;	
+
+				overflow:visible;
+				background-position: center;
+				border: 0px solid #FF0000;
 
 
-				span { 
-					font-size: 0; 
+				span {
+					font-size: 0;
 					background: image-url('gfx/hotspot-sprite-white.png') no-repeat 0 0;
 					background-position: 0 0;
 
@@ -427,7 +428,7 @@
 					}
 
 					@include animation(hotspot 550ms steps(3) infinite alternate-reverse);
-					
+
 				}
 
 				.touch & {
@@ -446,7 +447,7 @@
 
 			}
 
-			
+
 		}
 
 	}
@@ -461,14 +462,14 @@
 			height: 100%;
 			content: '';
 			display: inline-block;
-			
+
 			background: $black-transparent-darker;
 			z-index: 1;
 		}
 
 		article {
 			position: absolute;
-			z-index: 2;			
+			z-index: 2;
 		}
 
 		position: absolute;
@@ -545,7 +546,7 @@
 			text-align: center;
 
 			h2 {
-				font-size: em(48);				
+				font-size: em(48);
 				margin: 0 0 1em;
 			}
 
@@ -637,9 +638,9 @@
 			}
 
 			> p .arrow-button {
-				
+
 				margin: 0 0 2.5em;
-				
+
 				@include body-font-serif;
 				font-size: em(36);
 				text-transform: none;
@@ -655,7 +656,7 @@
 				p {
 					@include title-font;
 					font-size: em(28px);
-					margin: 0.5em 0;							
+					margin: 0.5em 0;
 					a {
 						font-size: 1em;
 					}
@@ -761,7 +762,7 @@
 
 			.answers {
 				margin: 32px 0;
-				
+
 				>* {
 					display: inline-block;
 
@@ -790,7 +791,7 @@
 					}
 
 					p {
-						line-height: 24px;						
+						line-height: 24px;
 					}
 
 					.no-touch & {
@@ -849,7 +850,7 @@
 						img {
 							border: 12px solid $white;
 							width: 277px + 24px;
-							height: 270px + 24px;						
+							height: 270px + 24px;
 						}
 
 						box-shadow: 0 0 5px rgba($black, 0.3);
@@ -880,7 +881,7 @@
 
 
 				.text {
-				
+
 					padding: 5px 20px 0 437px;
 
 					overflow: auto;
@@ -898,7 +899,7 @@
 
 					font-size: 1em;
 					line-height: 1.25;
-				
+
 					h3, h4 {
 
 						font-size: 1em;

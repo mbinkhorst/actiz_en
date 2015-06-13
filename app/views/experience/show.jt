@@ -65,11 +65,11 @@
 		<div class="tooltip">
 			<%= trans('experience.leave.tooltip', { name: trans(translations + '.title') }) %>
 		</div>
-		<a href="<%= Chick.url('/') %>" class="arrow-button left"><%= trans('experience.buttons.back-to-site') %></a>
+		<a href="<%= Chick.url('/experience') %>" class="arrow-button left"><%= trans('experience.buttons.back-to-site') %></a>
 	</div>
 
 
-<!-- 
+<!--
 	<nav>
 		<ul>
 			<li><a href="#"><%= trans('experience.navigation.share') %></a></li>
@@ -105,7 +105,7 @@
 
 
 	<ul class="hotspots">
-		
+
 		<% _.each(hotspots, function(hotspot, index) { %>
 		<li data-hotspot="<%= index %>" data-position="x:<%= hotspot.topLeft.x %>, y:<%= hotspot.topLeft.y %>, anchor: left/top" data-size="width:<%= parseFloat(hotspot.bottomRight.x) - parseFloat(hotspot.topLeft.x) %>%,height:<%= parseFloat(hotspot.bottomRight.y) - parseFloat(hotspot.topLeft.y) %>%"<% if (hotspot.rotate !== undefined) {%> style="transform: rotate(<%= hotspot.rotate %>deg)"<% } %>>
 			<span class="glow">HOT</span>
@@ -114,7 +114,7 @@
 
 	</ul>
 
-	
+
 	<div class="buttons">
 		<button class="banner tiny skip-intro" data-position="x:center"><%= trans('experience.buttons.skip-intro') %></button>
 
@@ -130,7 +130,7 @@
 	<article>
 		<ul>
 		<% _.each(trans('experience.help'), function(help) { %>
-			
+
 			<% if (help.hotspot === true) {
 				var spot = _.toArray(hotspots)[0];
 				help.x = (parseFloat(spot.topLeft.x) + (parseFloat(spot.bottomRight.x) - parseFloat(spot.topLeft.x)) / 2) + '%';
@@ -145,7 +145,7 @@
 		</ul>
 
 		<ul class="hotspots">
-		
+
 			<% var hotspot = _.toArray(hotspots)[0]; %>
 			<li data-position="x:<%= hotspot.topLeft.x %>, y:<%= hotspot.topLeft.y %>, anchor: left/top" data-size="width:<%= parseFloat(hotspot.bottomRight.x) - parseFloat(hotspot.topLeft.x) %>%,height:<%= parseFloat(hotspot.bottomRight.y) - parseFloat(hotspot.topLeft.y) %>%"<% if (hotspot.rotate !== undefined) {%> style="transform: rotate(<%= hotspot.rotate %>deg)"<% } %>>
 				<span class="glow">HOT</span>
@@ -170,7 +170,7 @@
 
 		<a href="#" class="dossier"><span class="icon-dossier"></span><%= trans('experience.not-seen-dossier.view-dossier') %></a>
 
-	
+
 		<a href="#" class="close"><span class="icon-sluiten"></span></a>
 	</article>
 
@@ -180,8 +180,8 @@
 
 	<article data-position="center">
 
-		<h2><%= trans('experience.game-over.title') %></h2>		
-		
+		<h2><%= trans('experience.game-over.title') %></h2>
+
 		<p>
 			<a href="#" class="restart arrow-button right"><%= trans('experience.buttons.retry') %></a>
 		</p>
@@ -206,15 +206,15 @@
 
 	<article data-position="center">
 
-		<h2><%= trans('experience.game-won.title') %></h2>		
-		
+		<h2><%= trans('experience.game-won.title') %></h2>
+
 		<h3>
 			<%= trans('experience.game-won.your-time') %> <span class="time-left"></span>
-		</h3>			
+		</h3>
 		<h3>
 			<%= trans('experience.game-won.clues') %> <span class="clues-found"></span>
-		</h3>			
-		
+		</h3>
+
 		<div class="share">
 			<h4><%= trans('experience.game-won.share.title') %></h4>
 			<ul>
@@ -232,7 +232,7 @@
 
 		<ul>
 			<li><a href="<%= Chick.url('/') %>" class="arrow-button left"><%= trans('experience.buttons.back-home') %></a></li>
-			<li><a href="<%= Chick.url('/experience') %>" class="arrow-button left"><%= trans('experience.buttons.back-to-cases') %></a></li>				
+			<li><a href="<%= Chick.url('/experience') %>" class="arrow-button left"><%= trans('experience.buttons.back-to-cases') %></a></li>
 		</ul>
 
 
@@ -272,7 +272,7 @@
 			<% }); %>
 		</ul>
 
-		<% if (index === 0) { %> 
+		<% if (index === 0) { %>
 		<div class="buttons">
 			<a href="#" class="arrow-button left back"><%= trans('experience.buttons.back-to-situation') %></a>
 		</div>

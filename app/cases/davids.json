@@ -1,6 +1,7 @@
 {
 
 	"video": "/cases/davids.mp4",
+	"caption": "/cases/davids.srt",
 	"poster": "/images/cases/davids/poster.jpg",
 	"key": "case-davids",
 	"translations": "experience.davids",
@@ -8,7 +9,7 @@
 	"gameDuration": 180,
 
 	"intro": "intro",
-		
+
 	"flow": {
 		"intro": "intro",
 		"skipIntro": "intro-part2",
@@ -31,7 +32,7 @@
 			"startsAt": "5m54",
 			"endsAt": "5m57"
 		},
-		
+
 		"foto-txt-overlay": {
 			"type": "text",
 			"text": "experience.davids.foto-txt",
@@ -54,7 +55,7 @@
 				"y": "66.25%"
 			}
 		},
-		
+
 		"koffie": {
 			"scene": "koffie",
 			"topLeft": {
@@ -66,10 +67,10 @@
 				"y": "58.96%"
 			}
 		},
-		
+
 		"eten": {
 			"scene": "eten",
-			"topLeft": {			
+			"topLeft": {
 				"x": "43.58%",
 				"y": "55.04%"
 			},
@@ -81,7 +82,7 @@
 
 		"handen": {
 			"scene": "handen",
-			"topLeft": {			
+			"topLeft": {
 				"x": "21.28%",
 				"y": "51.28%"
 			},
@@ -90,10 +91,10 @@
 				"y": "64.99%"
 			}
 		},
-		
+
 		"man": {
 			"scene": "gesprek-man",
-			"topLeft": {			
+			"topLeft": {
 				"x": "26.03%",
 				"y": "29.13%"
 			},
@@ -117,7 +118,7 @@
 
 		"kaart-txt": {
 			"scene": "kaart-txt",
-			"topLeft": {			
+			"topLeft": {
 				"x": "7.64%",
 				"y": "26.33%"
 			},
@@ -138,10 +139,10 @@
 				"y": "80.39%"
 			}
 		},
-		
+
 		"foto": {
 			"scene": "foto-txt",
-			"topLeft": {			
+			"topLeft": {
 				"x": "15.21%",
 				"y": "10.05%"
 			},
@@ -173,7 +174,7 @@
 	],
 
 	"questions": [
-		
+
 		{
 			"key": "experience.davids.question1.question",
 			"answers": ["experience.davids.question1.answers", 1],
@@ -256,11 +257,11 @@
 			"startsAt": "5m16",
 			"endsAt": "5m27.500"
 		},
-		
+
 		"koffie": {
 			"startsAt": "5m30",
 			"endsAt": "5m37"
-		},		
+		},
 
 		"ballon": {
 			"startsAt": "5m39",
@@ -271,7 +272,7 @@
 			"startsAt": "5m47",
 			"endsAt": "5m58"
 		},
-		
+
 		"foto-txt": {
 			"startsAt": "6m09",
 			"endsAt": "6m17"

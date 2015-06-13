@@ -5,7 +5,7 @@
 
 	> .case {
 
-	
+
 		position: absolute;
 		top: 0;
 		height: 100%;
@@ -21,27 +21,27 @@
 				@include transform-origin(center bottom);
 				opacity: 0;
 
-				
+
 				text-align: left;
-				
+
 				margin-bottom: $nav-height;
 
 				span {
 					text-decoration: none;
 				}
-				
+
 			}
 				.pinas {
 					width: 460px;
 				}
-				
+
 				.davids {
-					width: 455px;
+					width: 495px;
 				}
-				
+
 				.van-zand {
 					width: 520px;
-				}				
+				}
 
 		}
 

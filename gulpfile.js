@@ -1,7 +1,7 @@
 /* jshint node:true */
 'use strict';
 
-  
+
 // generated on 2015-02-05 using generator-gulp-webapp 0.2.0
 var gulp = require('gulp'),
 	plugins = require('gulp-load-plugins')(),
@@ -35,7 +35,7 @@ gulp.task('sprite-base64', function() {
 
 // SASS
 gulp.task('styles', function () {
-	
+
 
 	return gulp.src([
 			'app/styles/main.scss',
@@ -50,7 +50,7 @@ gulp.task('styles', function () {
 		.pipe(plugins.autoprefixer({browsers: ['last 1 version']}))
 		.pipe(gulp.dest('.tmp/styles'))
 		.on('error', console.error.bind(console));
-		
+
 });
 
 // JS Hint linting
@@ -133,23 +133,23 @@ gulp.task('extras', function () {
 	}).pipe(gulp.dest('dist'));
 
 
-	// JWplayer 
+	// JWplayer
 	gulp.src(['app/vendor/**'])
 		.pipe(gulp.dest('dist/vendor'));
 
 
 	// Case videos
-	gulp.src('app/cases/**/*.mp4')
+	gulp.src('app/cases/**/*.mp4','app/cases/**/*.srt')
 		.pipe(gulp.dest('dist/cases'));
 
 
 	// Documents and media
-	gulp.src([	
+	gulp.src([
 		'app/documents/**'
 	], {
 		dot: true
 	}).pipe(gulp.dest('dist/documents'));
-	gulp.src([	
+	gulp.src([
 		'app/media/**'
 	], {
 		dot: true
@@ -177,7 +177,7 @@ gulp.task('connect', ['styles'], function () {
 	var serveIndex = require('serve-index');
 	var modRewrite = require('connect-modrewrite');
 	var app = require('connect')()
-		
+
 		.use(modRewrite([
 			'^/m$ /mobile.html [L]',
 			'^/m/[^\.]*$ /mobile.html [L]',
@@ -191,7 +191,7 @@ gulp.task('connect', ['styles'], function () {
 		// paths to bower_components should be relative to the current file
 		// e.g. in app/index.php you should use ../bower_components
 		.use('/bower_components', serveStatic('bower_components'))
-		
+
 
 		.use(serveIndex('app'));
 
