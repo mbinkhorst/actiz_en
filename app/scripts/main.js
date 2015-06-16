@@ -144,7 +144,7 @@ function detectIE() {
 		};
 
 		app.wwwUrl = function(uri) {
-			return (isLocal ? 'http://demo.daarzitmeerachter.nl' : 'http://' + window.location.hostname) + uri;
+			return (isLocal ? 'http://en.daarzitmeerachter.nl' : 'http://' + window.location.hostname) + uri;
 		};
 
 

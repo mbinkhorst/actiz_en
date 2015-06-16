@@ -1,7 +1,7 @@
 {
   "navigation" : [
     {
-      "caption" : "Daarom ouderenzorg",
+      "caption" : "Daarom ouderenzorg-EN",
       "url" : "/daarom-ouderenzorg/hbo-v",
       "icon" : "HBO-V"
     },
@@ -1488,9 +1488,9 @@
       }
     },
     "not-seen-dossier" : {
-      "title" : "Je weet het?",
-      "content" : "In de ouderenzorg wordt niet gegokt en mag je alleen een beslissing nemen nadat je het dossier hebt bekeken.",
-      "view-dossier" : "Bekijk nu het dossier"
+      "title" : "Do you really know?",
+      "content" : "There is no guessing in geriatric care and you can only decide after having consulted the file.",
+      "view-dossier" : "Consult the file now."
     },
     "help" : [
       {

@@ -118,7 +118,7 @@
 	<div class="buttons">
 		<button class="banner tiny skip-intro" data-position="x:center"><%= trans('experience.buttons.skip-intro') %></button>
 
-		<button class="banner tiny back" data-position="x:center"><%= trans('experience.buttons.back') %></button>
+		<button class="banner tiny back" data-position="x:center,y: 97%"><%= trans('experience.buttons.back') %></button>
 	</div>
 
 
