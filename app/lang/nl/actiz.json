@@ -1,27 +1,27 @@
 {
   "navigation" : [
     {
-      "caption" : "Daarom ouderenzorg-EN",
+      "caption" : "Geriatric care",
       "url" : "/daarom-ouderenzorg/hbo-v",
       "icon" : "HBO-V"
     },
     {
-      "caption" : "Doe de experience",
+      "caption" : "Experience",
       "url" : "/experience",
       "icon" : "Experience"
     },
     {
-      "caption" : "Kijk in de praktijk",
+      "caption" : "Stories geriatric care",
       "url" : "/praktijk",
       "icon" : "praktijk"
     },
     {
-      "caption" : "Test je kennis",
+      "caption" : "Test your skills",
       "url" : "/test-je-kennis",
       "icon" : "quickscan"
     },
     {
-      "caption" : "Het netwerk",
+      "caption" : "Network",
       "url" : "/het-netwerk/testimonials",
       "icon" : "netwerk"
     }
